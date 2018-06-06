@@ -1,4 +1,4 @@
-﻿Log file open, 06/06/18 15:37:52
+﻿Log file open, 06/06/18 15:41:15
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,12 +7,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: DrunkFighting
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-1345225695) SRandInit(-1345225695).
+LogInit: Display: RandInit(-649123345) SRandInit(-649123345).
 LogInit: Read version file with build ID '3944462'
 LogInit: Overriding engine version to CL 4033788, compatible CL 3944462
 LogInit: Registered custom module enumerator with build ID '3944462'
 LogTaskGraph: Started task graph with 5 named threads and 17 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.234778
+LogStats: Stats thread started at 0.246653
 LogD3D11RHI: Aftermath initialized
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
@@ -168,7 +168,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  1.739s to configure plugins.
+LogStreaming: Display: Took  1.716s to configure plugins.
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -219,326 +219,339 @@ LogInit: Branch Name: ++UE4+Release-4.19
 LogInit: Command Line: -EpicPortal 
 LogInit: Base Directory: F:/jeux/fortnite/UE_4.19/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
-LogStreaming: Display: Took  0.000s to delete old logs.
+LogStreaming: Display: Took  0.001s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.06.06-13.37.55:295][  0]LogInit: Selected Device Profile: [Windows]
-[2018.06.06-13.37.55:295][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.06.06-13.37.55:314][  0]LogInit: Computer: PC-TANGUY
-[2018.06.06-13.37.55:314][  0]LogInit: User: seb
-[2018.06.06-13.37.55:314][  0]LogInit: CPU Page size=4096, Cores=3
-[2018.06.06-13.37.55:314][  0]LogInit: High frequency timer resolution =3.441083 MHz
-[2018.06.06-13.37.55:315][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
-[2018.06.06-13.37.55:315][  0]LogMemory: Platform Memory Stats for Windows
-[2018.06.06-13.37.55:315][  0]LogMemory: Process Physical Memory: 275.61 MB used, 275.61 MB peak
-[2018.06.06-13.37.55:315][  0]LogMemory: Process Virtual Memory: 273.45 MB used, 273.45 MB peak
-[2018.06.06-13.37.55:315][  0]LogMemory: Physical Memory: 3772.53 MB used,  4400.90 MB free, 8173.43 MB total
-[2018.06.06-13.37.55:315][  0]LogMemory: Virtual Memory: 645.61 MB used,  4400.90 MB free, 8388608.00 MB total
-[2018.06.06-13.37.55:357][  0]LogInit: Using OS detected language (fr-FR).
-[2018.06.06-13.37.55:357][  0]LogInit: Using OS detected locale (fr-FR).
-[2018.06.06-13.37.55:363][  0]LogTextLocalizationManager: No localization for 'fr-FR' exists, so 'en' will be used for the language.
-[2018.06.06-13.37.56:009][  0]LogStreaming: Display: Took  0.652s to EndInitTextLocalization.
-[2018.06.06-13.37.56:010][  0]LogWindows: Failed to load 'shcore.dll' (GetLastError=126)
-[2018.06.06-13.37.56:010][  0]LogWindows: File 'shcore.dll' does not exist
-[2018.06.06-13.37.56:010][  0]LogInit: Setting process to DPI aware
-[2018.06.06-13.37.56:013][  0]LogWindows: Failed to load 'shcore.dll' (GetLastError=126)
-[2018.06.06-13.37.56:013][  0]LogWindows: File 'shcore.dll' does not exist
-[2018.06.06-13.37.56:014][  0]LogInit: Setting process to DPI aware
-[2018.06.06-13.37.56:047][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.06.06-13.37.56:047][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.06.06-13.37.56:360][  0]LogD3D11RHI: D3D11 adapters:
-[2018.06.06-13.37.57:015][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
-[2018.06.06-13.37.57:015][  0]LogD3D11RHI:       4008/0/3830 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.06.06-13.37.57:015][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.06.06-13.37.57:024][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.06.06-13.37.57:024][  0]LogD3D11RHI:     GPU DeviceId: 0x1c82 (for the marketing name, search the web for "GPU Device Id")
-[2018.06.06-13.37.57:024][  0]LogWindows: EnumDisplayDevices:
-[2018.06.06-13.37.57:025][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1050 Ti' (P:1 D:1)
-[2018.06.06-13.37.57:025][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
-[2018.06.06-13.37.57:026][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
-[2018.06.06-13.37.57:026][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
-[2018.06.06-13.37.57:027][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
-[2018.06.06-13.37.57:027][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
-[2018.06.06-13.37.57:027][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
-[2018.06.06-13.37.57:028][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2018.06.06-13.37.57:028][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
-[2018.06.06-13.37.57:028][  0]LogD3D11RHI:   Driver Version: 382.05 (internal:22.21.13.8205, unified:382.05)
-[2018.06.06-13.37.57:028][  0]LogD3D11RHI:      Driver Date: 5-1-2017
-[2018.06.06-13.37.57:028][  0]LogRHI: Texture pool is 2806 MB (70% of 4008 MB)
-[2018.06.06-13.37.57:597][  0]LogD3D11RHI: [Aftermath] Aftermath enabled but failed to initialize
-[2018.06.06-13.37.57:597][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
-[2018.06.06-13.37.57:597][  0]LogD3D11RHI: Async texture creation enabled
-[2018.06.06-13.37.57:649][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.06.06-13.37.57:699][  0]LogShaderCompilers: Guid format shader working directory is 1 characters bigger than the processId version (C:/Users/seb/Documents/GitHub/DrunkFighting/Intermediate/Shaders/WorkingDirectory/2576/).
-[2018.06.06-13.37.57:699][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/seb/AppData/Local/Temp/UnrealShaderWorkingDir/1B71626F457A4A0658193484261E88F5/'.
-[2018.06.06-13.37.58:021][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.06.06-13.37.58:043][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.06.06-13.37.58:065][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.06.06-13.37.58:087][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.06.06-13.37.58:110][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.06.06-13.37.58:133][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.06.06-13.37.58:155][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.06.06-13.37.58:181][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.06.06-13.37.58:195][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.06.06-13.37.58:219][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.06.06-13.37.58:246][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.06.06-13.37.58:274][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.06.06-13.37.58:299][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
-[2018.06.06-13.37.58:328][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.06.06-13.37.58:353][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.06.06-13.37.58:394][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.06.06-13.37.58:394][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.06.06-13.37.58:415][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.06.06-13.37.58:416][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.06.06-13.37.58:461][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.06.06-13.37.58:480][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.06.06-13.37.58:500][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.06.06-13.37.58:521][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.06.06-13.37.58:541][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.06.06-13.37.58:561][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.06.06-13.37.58:562][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.06.06-13.37.58:640][  0]LogWindows: Failed to load '../../../Engine/Binaries/ThirdParty/QualComm/Win64/TextureConverter.dll' (GetLastError=126)
-[2018.06.06-13.37.58:641][  0]LogWindows:   Missing import: MSVCR100.dll
-[2018.06.06-13.37.58:641][  0]LogWindows:   Missing import: MSVCP100.dll
-[2018.06.06-13.37.58:641][  0]LogWindows:   Looked in: ../../../Engine/Binaries/Win64
-[2018.06.06-13.37.58:641][  0]LogWindows:   Looked in: C:/Users/seb/Documents/GitHub/DrunkFighting/Binaries/Win64
-[2018.06.06-13.37.58:641][  0]LogWindows:   Looked in: C:\Users\seb\Documents\GitHub\DrunkFighting\Binaries\Win64
-[2018.06.06-13.37.58:641][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\2D\Paper2D\Binaries\Win64
-[2018.06.06-13.37.58:641][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Blendables\LightPropagationVolume\Binaries\Win64
-[2018.06.06-13.37.58:641][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Developer\CLionSourceCodeAccess\Binaries\Win64
-[2018.06.06-13.37.58:641][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Developer\CodeLiteSourceCodeAccess\Binaries\Win64
-[2018.06.06-13.37.58:641][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Developer\GitSourceControl\Binaries\Win64
-[2018.06.06-13.37.58:641][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Developer\KDevelopSourceCodeAccess\Binaries\Win64
-[2018.06.06-13.37.58:641][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Developer\NullSourceCodeAccess\Binaries\Win64
-[2018.06.06-13.37.58:641][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Developer\PerforceSourceControl\Binaries\Win64
-[2018.06.06-13.37.58:641][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Developer\SubversionSourceControl\Binaries\Win64
-[2018.06.06-13.37.58:641][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Developer\UObjectPlugin\Binaries\Win64
-[2018.06.06-13.37.58:641][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Developer\VisualStudioCodeSourceCodeAccess\Binaries\Win64
-[2018.06.06-13.37.58:641][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Developer\VisualStudioSourceCodeAccess\Binaries\Win64
-[2018.06.06-13.37.58:641][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Developer\XCodeSourceCodeAccess\Binaries\Win64
-[2018.06.06-13.37.58:641][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Editor\AssetManagerEditor\Binaries\Win64
-[2018.06.06-13.37.58:641][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Editor\CryptoKeys\Binaries\Win64
-[2018.06.06-13.37.58:641][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Editor\DataValidation\Binaries\Win64
-[2018.06.06-13.37.58:641][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Editor\FacialAnimation\Binaries\Win64
-[2018.06.06-13.37.58:641][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Editor\GameplayTagsEditor\Binaries\Win64
-[2018.06.06-13.37.58:641][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Editor\MobileLauncherProfileWizard\Binaries\Win64
-[2018.06.06-13.37.58:641][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Editor\PluginBrowser\Binaries\Win64
-[2018.06.06-13.37.58:641][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Editor\SpeedTreeImporter\Binaries\Win64
-[2018.06.06-13.37.58:641][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Enterprise\DatasmithContent\Binaries\Win64
-[2018.06.06-13.37.58:641][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Experimental\AlembicImporter\Binaries\Win64
-[2018.06.06-13.37.58:641][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Experimental\CharacterAI\Binaries\Win64
-[2018.06.06-13.37.58:641][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Experimental\HTML5Networking\Binaries\Win64
-[2018.06.06-13.37.58:641][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Media\AndroidMedia\Binaries\Win64
-[2018.06.06-13.37.58:641][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Media\AvfMedia\Binaries\Win64
-[2018.06.06-13.37.58:641][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Media\ImgMedia\Binaries\Win64
-[2018.06.06-13.37.58:641][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Media\LinearTimecode\Binaries\Win64
-[2018.06.06-13.37.58:641][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Media\MediaCompositing\Binaries\Win64
-[2018.06.06-13.37.58:641][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Media\MediaPlayerEditor\Binaries\Win64
-[2018.06.06-13.37.58:641][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Media\WmfMedia\Binaries\Win64
-[2018.06.06-13.37.58:641][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Messaging\TcpMessaging\Binaries\Win64
-[2018.06.06-13.37.58:641][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Messaging\UdpMessaging\Binaries\Win64
-[2018.06.06-13.37.58:641][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\MovieScene\ActorSequence\Binaries\Win64
-[2018.06.06-13.37.58:641][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\MovieScene\LevelSequenceEditor\Binaries\Win64
-[2018.06.06-13.37.58:641][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\MovieScene\MatineeToLevelSequence\Binaries\Win64
-[2018.06.06-13.37.58:641][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\NetcodeUnitTest\NetcodeUnitTest\Binaries\Win64
-[2018.06.06-13.37.58:641][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\NetcodeUnitTest\NUTUnrealEngine4\Binaries\Win64
-[2018.06.06-13.37.58:641][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Online\Android\OnlineSubsystemGooglePlay\Binaries\Win64
-[2018.06.06-13.37.58:642][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Online\OnlineSubsystem\Binaries\Win64
-[2018.06.06-13.37.58:642][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Runtime\AndroidPermission\Binaries\Win64
-[2018.06.06-13.37.58:642][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Online\IOS\OnlineSubsystemIOS\Binaries\Win64
-[2018.06.06-13.37.58:642][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Online\OnlineSubsystemNull\Binaries\Win64
-[2018.06.06-13.37.58:642][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Online\OnlineSubsystemUtils\Binaries\Win64
-[2018.06.06-13.37.58:642][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Runtime\AndroidDeviceProfileSelector\Binaries\Win64
-[2018.06.06-13.37.58:642][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Runtime\AndroidMoviePlayer\Binaries\Win64
-[2018.06.06-13.37.58:642][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Runtime\AppleARKit\Binaries\Win64
-[2018.06.06-13.37.58:642][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Runtime\ProceduralMeshComponent\Binaries\Win64
-[2018.06.06-13.37.58:642][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Animation\LiveLink\Binaries\Win64
-[2018.06.06-13.37.58:642][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Runtime\AppleMoviePlayer\Binaries\Win64
-[2018.06.06-13.37.58:642][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Runtime\ArchVisCharacter\Binaries\Win64
-[2018.06.06-13.37.58:642][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Runtime\AudioCapture\Binaries\Win64
-[2018.06.06-13.37.58:642][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Runtime\CableComponent\Binaries\Win64
-[2018.06.06-13.37.58:642][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Runtime\CustomMeshComponent\Binaries\Win64
-[2018.06.06-13.37.58:642][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Runtime\ExampleDeviceProfileSelector\Binaries\Win64
-[2018.06.06-13.37.58:642][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Runtime\GoogleCloudMessaging\Binaries\Win64
-[2018.06.06-13.37.58:642][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Runtime\ImmediatePhysics\Binaries\Win64
-[2018.06.06-13.37.58:642][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Runtime\IOSDeviceProfileSelector\Binaries\Win64
-[2018.06.06-13.37.58:642][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Runtime\LinuxDeviceProfileSelector\Binaries\Win64
-[2018.06.06-13.37.58:642][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Runtime\LocationServicesBPLibrary\Binaries\Win64
-[2018.06.06-13.37.58:642][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Runtime\MobilePatchingUtils\Binaries\Win64
-[2018.06.06-13.37.58:642][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Runtime\Oculus\OculusVR\Binaries\Win64
-[2018.06.06-13.37.58:642][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Runtime\PhysXVehicles\Binaries\Win64
-[2018.06.06-13.37.58:642][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Runtime\RuntimePhysXCooking\Binaries\Win64
-[2018.06.06-13.37.58:642][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Runtime\Steam\SteamVR\Binaries\Win64
-[2018.06.06-13.37.58:642][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Runtime\WindowsMoviePlayer\Binaries\Win64
-[2018.06.06-13.37.58:645][  0]LogWindows: Failed to load '../../../Engine/Binaries/ThirdParty/QualComm/Win64/TextureConverter.dll' (GetLastError=126)
-[2018.06.06-13.37.58:645][  0]LogWindows:   Missing import: MSVCR100.dll
-[2018.06.06-13.37.58:645][  0]LogWindows:   Missing import: MSVCP100.dll
-[2018.06.06-13.37.58:645][  0]LogWindows:   Looked in: ../../../Engine/Binaries/Win64
-[2018.06.06-13.37.58:645][  0]LogWindows:   Looked in: C:/Users/seb/Documents/GitHub/DrunkFighting/Binaries/Win64
-[2018.06.06-13.37.58:645][  0]LogWindows:   Looked in: C:\Users\seb\Documents\GitHub\DrunkFighting\Binaries\Win64
-[2018.06.06-13.37.58:645][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\2D\Paper2D\Binaries\Win64
-[2018.06.06-13.37.58:645][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Blendables\LightPropagationVolume\Binaries\Win64
-[2018.06.06-13.37.58:645][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Developer\CLionSourceCodeAccess\Binaries\Win64
-[2018.06.06-13.37.58:645][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Developer\CodeLiteSourceCodeAccess\Binaries\Win64
-[2018.06.06-13.37.58:645][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Developer\GitSourceControl\Binaries\Win64
-[2018.06.06-13.37.58:645][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Developer\KDevelopSourceCodeAccess\Binaries\Win64
-[2018.06.06-13.37.58:645][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Developer\NullSourceCodeAccess\Binaries\Win64
-[2018.06.06-13.37.58:645][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Developer\PerforceSourceControl\Binaries\Win64
-[2018.06.06-13.37.58:646][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Developer\SubversionSourceControl\Binaries\Win64
-[2018.06.06-13.37.58:646][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Developer\UObjectPlugin\Binaries\Win64
-[2018.06.06-13.37.58:646][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Developer\VisualStudioCodeSourceCodeAccess\Binaries\Win64
-[2018.06.06-13.37.58:646][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Developer\VisualStudioSourceCodeAccess\Binaries\Win64
-[2018.06.06-13.37.58:646][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Developer\XCodeSourceCodeAccess\Binaries\Win64
-[2018.06.06-13.37.58:646][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Editor\AssetManagerEditor\Binaries\Win64
-[2018.06.06-13.37.58:646][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Editor\CryptoKeys\Binaries\Win64
-[2018.06.06-13.37.58:646][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Editor\DataValidation\Binaries\Win64
-[2018.06.06-13.37.58:646][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Editor\FacialAnimation\Binaries\Win64
-[2018.06.06-13.37.58:646][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Editor\GameplayTagsEditor\Binaries\Win64
-[2018.06.06-13.37.58:646][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Editor\MobileLauncherProfileWizard\Binaries\Win64
-[2018.06.06-13.37.58:646][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Editor\PluginBrowser\Binaries\Win64
-[2018.06.06-13.37.58:646][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Editor\SpeedTreeImporter\Binaries\Win64
-[2018.06.06-13.37.58:646][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Enterprise\DatasmithContent\Binaries\Win64
-[2018.06.06-13.37.58:646][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Experimental\AlembicImporter\Binaries\Win64
-[2018.06.06-13.37.58:646][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Experimental\CharacterAI\Binaries\Win64
-[2018.06.06-13.37.58:646][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Experimental\HTML5Networking\Binaries\Win64
-[2018.06.06-13.37.58:646][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Media\AndroidMedia\Binaries\Win64
-[2018.06.06-13.37.58:646][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Media\AvfMedia\Binaries\Win64
-[2018.06.06-13.37.58:646][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Media\ImgMedia\Binaries\Win64
-[2018.06.06-13.37.58:646][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Media\LinearTimecode\Binaries\Win64
-[2018.06.06-13.37.58:646][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Media\MediaCompositing\Binaries\Win64
-[2018.06.06-13.37.58:646][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Media\MediaPlayerEditor\Binaries\Win64
-[2018.06.06-13.37.58:646][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Media\WmfMedia\Binaries\Win64
-[2018.06.06-13.37.58:646][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Messaging\TcpMessaging\Binaries\Win64
-[2018.06.06-13.37.58:646][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Messaging\UdpMessaging\Binaries\Win64
-[2018.06.06-13.37.58:646][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\MovieScene\ActorSequence\Binaries\Win64
-[2018.06.06-13.37.58:646][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\MovieScene\LevelSequenceEditor\Binaries\Win64
-[2018.06.06-13.37.58:646][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\MovieScene\MatineeToLevelSequence\Binaries\Win64
-[2018.06.06-13.37.58:646][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\NetcodeUnitTest\NetcodeUnitTest\Binaries\Win64
-[2018.06.06-13.37.58:646][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\NetcodeUnitTest\NUTUnrealEngine4\Binaries\Win64
-[2018.06.06-13.37.58:646][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Online\Android\OnlineSubsystemGooglePlay\Binaries\Win64
-[2018.06.06-13.37.58:646][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Online\OnlineSubsystem\Binaries\Win64
-[2018.06.06-13.37.58:646][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Runtime\AndroidPermission\Binaries\Win64
-[2018.06.06-13.37.58:646][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Online\IOS\OnlineSubsystemIOS\Binaries\Win64
-[2018.06.06-13.37.58:646][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Online\OnlineSubsystemNull\Binaries\Win64
-[2018.06.06-13.37.58:646][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Online\OnlineSubsystemUtils\Binaries\Win64
-[2018.06.06-13.37.58:646][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Runtime\AndroidDeviceProfileSelector\Binaries\Win64
-[2018.06.06-13.37.58:646][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Runtime\AndroidMoviePlayer\Binaries\Win64
-[2018.06.06-13.37.58:646][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Runtime\AppleARKit\Binaries\Win64
-[2018.06.06-13.37.58:646][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Runtime\ProceduralMeshComponent\Binaries\Win64
-[2018.06.06-13.37.58:646][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Animation\LiveLink\Binaries\Win64
-[2018.06.06-13.37.58:646][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Runtime\AppleMoviePlayer\Binaries\Win64
-[2018.06.06-13.37.58:646][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Runtime\ArchVisCharacter\Binaries\Win64
-[2018.06.06-13.37.58:646][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Runtime\AudioCapture\Binaries\Win64
-[2018.06.06-13.37.58:646][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Runtime\CableComponent\Binaries\Win64
-[2018.06.06-13.37.58:646][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Runtime\CustomMeshComponent\Binaries\Win64
-[2018.06.06-13.37.58:646][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Runtime\ExampleDeviceProfileSelector\Binaries\Win64
-[2018.06.06-13.37.58:646][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Runtime\GoogleCloudMessaging\Binaries\Win64
-[2018.06.06-13.37.58:646][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Runtime\ImmediatePhysics\Binaries\Win64
-[2018.06.06-13.37.58:646][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Runtime\IOSDeviceProfileSelector\Binaries\Win64
-[2018.06.06-13.37.58:646][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Runtime\LinuxDeviceProfileSelector\Binaries\Win64
-[2018.06.06-13.37.58:646][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Runtime\LocationServicesBPLibrary\Binaries\Win64
-[2018.06.06-13.37.58:646][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Runtime\MobilePatchingUtils\Binaries\Win64
-[2018.06.06-13.37.58:646][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Runtime\Oculus\OculusVR\Binaries\Win64
-[2018.06.06-13.37.58:646][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Runtime\PhysXVehicles\Binaries\Win64
-[2018.06.06-13.37.58:646][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Runtime\RuntimePhysXCooking\Binaries\Win64
-[2018.06.06-13.37.58:647][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Runtime\Steam\SteamVR\Binaries\Win64
-[2018.06.06-13.37.58:647][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Runtime\WindowsMoviePlayer\Binaries\Win64
-[2018.06.06-13.37.58:724][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.06.06-13.37.58:724][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.06.06-13.37.58:724][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.06.06-13.37.59:821][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.06.06-13.38.00:028][  0]LogDerivedDataCache: Loaded boot cache 0.21s 74MB C:/Users/seb/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2018.06.06-13.38.00:028][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/seb/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
-[2018.06.06-13.38.00:029][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/seb/Documents/GitHub/DrunkFighting/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.06.06-13.38.00:029][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.06.06-13.38.00:029][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/seb/Documents/GitHub/DrunkFighting/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.06.06-13.38.00:029][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.06.06-13.38.00:056][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.06.06-13.38.00:068][  0]LogDerivedDataCache: Using Local data cache path C:/Users/seb/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.06.06-13.38.00:068][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2018.06.06-13.38.00:068][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2018.06.06-13.38.00:088][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.06.06-13.38.00:089][  0]LogSlate: Using Freetype 2.6.0
-[2018.06.06-13.38.00:089][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.06.06-13.38.00:089][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.06.06-13.38.00:273][  0]LogAssetRegistry: FAssetRegistry took 0.0265 seconds to start up
-[2018.06.06-13.38.00:926][  0]LogInit: Selected Device Profile: [Windows]
-[2018.06.06-13.38.01:175][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.06.06-13.38.01:179][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.06.06-13.38.01:179][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.06.06-13.38.01:179][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.06.06-13.38.01:179][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.06.06-13.38.01:180][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.06.06-13.38.01:234][  0]LogNetVersion: DrunkFighting , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 958242841)
-[2018.06.06-13.38.01:939][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 1 prioritized culture(s) in 0.064649 seconds
-[2018.06.06-13.38.01:947][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
-[2018.06.06-13.38.01:947][  0]LogUObjectAllocator: 7314304 out of 0 bytes used by permanent object pool.
-[2018.06.06-13.38.01:947][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.06.06-13.38.04:746][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.06.06-13.38.04:784][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.06.06-13.38.05:292][  0]SourceControl: Source control is disabled
-[2018.06.06-13.38.05:292][  0]SourceControl: Source control is disabled
-[2018.06.06-13.38.05:320][  0]SourceControl: Source control is disabled
-[2018.06.06-13.38.05:347][  0]SourceControl: Source control is disabled
-[2018.06.06-13.38.06:081][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.06.06-13.38.06:467][  0]LogOcInput: OculusInput pre-init called
-[2018.06.06-13.38.06:626][  0]LogEngine: Initializing Engine...
-[2018.06.06-13.38.06:627][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.06.06-13.38.06:629][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.06.06-13.38.06:629][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.06.06-13.38.06:978][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.06.06-13.38.07:059][  0]LogInit: XAudio2 using 'Haut-parleurs (2- Razer Surround Audio Controller)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
-[2018.06.06-13.38.07:072][  0]LogInit: FAudioDevice initialized.
-[2018.06.06-13.38.07:210][  0]LogDerivedDataCache: Saved boot cache 0.14s 74MB C:/Users/seb/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2018.06.06-13.38.07:243][  0]LogInit: Texture streaming: Enabled
-[2018.06.06-13.38.07:268][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.06.06-13.38.07:285][  0]LogInit: Transaction tracking system initialized
-[2018.06.06-13.38.07:318][  0]BlueprintLog: New page: Editor Load
-[2018.06.06-13.38.07:421][  0]LocalizationService: Localization service is disabled
-[2018.06.06-13.38.07:584][  0]LogConsoleResponse: Display: 
-[2018.06.06-13.38.07:814][  0]LogAutoReimportManager: Warning: Unable to watch directory C:/Users/seb/Documents/GitHub/DrunkFighting/Content/ as it doesn't exist.
-[2018.06.06-13.38.07:814][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.06.06-13.38.07:814][  0]LogCook: Display: Mobile HDR setting 1
-[2018.06.06-13.38.07:814][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.06.06-13.38.07:814][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.06.06-13.38.07:814][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.06.06-13.38.08:515][  0]SourceControl: Source control is disabled
-[2018.06.06-13.38.08:516][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.06.06-13.38.08:516][  0]LightingResults: New page: Lighting Build
-[2018.06.06-13.38.08:522][  0]MapCheck: New page: Map Check
-[2018.06.06-13.38.08:522][  0]LightingResults: New page: Lighting Build
-[2018.06.06-13.38.08:866][  0]LogAIModule: Creating AISystem for world Untitled_1
-[2018.06.06-13.38.08:878][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.06.06-13.38.08:906][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.06.06-13.38.08:988][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 81,804ms to complete.
-[2018.06.06-13.38.08:988][  0]LogFileHelpers: Loading map 'Template_Default' took 0.472
-[2018.06.06-13.38.09:167][  0]LogCollectionManager: Loaded 0 collections in 0.002516 seconds
-[2018.06.06-13.38.09:215][  0]LogFileCache: Scanning file cache for directory 'C:/Users/seb/Documents/GitHub/DrunkFighting/Saved/Collections/' took 0.01s
-[2018.06.06-13.38.09:215][  0]LogFileCache: Scanning file cache for directory 'C:/Users/seb/Documents/GitHub/DrunkFighting/Content/Developers/seb/Collections/' took 0.01s
-[2018.06.06-13.38.09:215][  0]LogFileCache: Scanning file cache for directory 'C:/Users/seb/Documents/GitHub/DrunkFighting/Content/Collections/' took 0.01s
-[2018.06.06-13.38.09:215][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.06.06-13.38.09:235][  0]LogContentBrowser: Native class hierarchy populated in 0.0194 seconds. Added 2452 classes and 558 folders.
-[2018.06.06-13.38.09:245][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2018.06.06-13.38.09:330][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2018.06.06-13.38.09:337][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
-[2018.06.06-13.38.11:131][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2018.06.06-13.38.11:225][  0]LogSlate: Took 0.000361 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.06.06-13.38.12:132][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.DrunkFighting
-[2018.06.06-13.38.12:132][  0]LogTemp: CWD: F:\jeux\fortnite\UE_4.19\Engine\Binaries\DotNET\IOS
-[2018.06.06-13.38.12:132][  0]LogTemp: Initial Dir: F:\jeux\fortnite\UE_4.19
-[2018.06.06-13.38.12:132][  0]LogTemp: Env CWD: F:\jeux\fortnite\UE_4.19\Engine\Binaries\DotNET\IOS
-[2018.06.06-13.38.12:132][  0]LogTemp: BranchPath = PC-TANGUY/F/jeux/fortnite/UE_4.19/Engine/Binaries --- GameBranchPath = PC-TANGUY/F/jeux/fortnite/UE_4.19/Engine/Binaries
-[2018.06.06-13.38.12:132][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\seb\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2018.06.06-13.38.12:132][  0]LogSlate: Took 0.000566 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.06.06-13.38.12:141][  0]LogSlate: Took 0.000437 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.06.06-13.38.12:382][  0]LogRenderer: Reallocating scene render targets to support 960x644 Format 10 NumSamples 1 (Frame:1).
-[2018.06.06-13.38.12:581][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2018.06.06-13.38.12:581][  0]LogLoad: (Engine Initialization) Total time: 21.08 seconds
-[2018.06.06-13.38.12:581][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.06.06-13.38.12:949][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.06.06-13.38.13:597][  2]LogAssetRegistry: Asset discovery search completed in 13.3435 seconds
-[2018.06.06-13.38.13:599][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.06.06-13.38.13:599][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000064 seconds (updated 0 objects)
-[2018.06.06-13.38.17:662][360]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.06-13.38.17:761][369]LogActorFactory: Actor Factory created Cube
-[2018.06.06-13.38.18:296][421]LogActorFactory: Actor Factory created Cube
+[2018.06.06-13.41.17:351][  0]LogInit: Selected Device Profile: [Windows]
+[2018.06.06-13.41.17:351][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.06.06-13.41.17:364][  0]LogInit: Computer: PC-TANGUY
+[2018.06.06-13.41.17:364][  0]LogInit: User: seb
+[2018.06.06-13.41.17:364][  0]LogInit: CPU Page size=4096, Cores=3
+[2018.06.06-13.41.17:364][  0]LogInit: High frequency timer resolution =3.441083 MHz
+[2018.06.06-13.41.17:365][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2018.06.06-13.41.17:365][  0]LogMemory: Platform Memory Stats for Windows
+[2018.06.06-13.41.17:365][  0]LogMemory: Process Physical Memory: 275.58 MB used, 275.58 MB peak
+[2018.06.06-13.41.17:365][  0]LogMemory: Process Virtual Memory: 273.42 MB used, 273.42 MB peak
+[2018.06.06-13.41.17:365][  0]LogMemory: Physical Memory: 3805.91 MB used,  4367.52 MB free, 8173.43 MB total
+[2018.06.06-13.41.17:365][  0]LogMemory: Virtual Memory: 645.61 MB used,  4367.52 MB free, 8388608.00 MB total
+[2018.06.06-13.41.17:400][  0]LogInit: Using OS detected language (fr-FR).
+[2018.06.06-13.41.17:400][  0]LogInit: Using OS detected locale (fr-FR).
+[2018.06.06-13.41.17:405][  0]LogTextLocalizationManager: No localization for 'fr-FR' exists, so 'en' will be used for the language.
+[2018.06.06-13.41.17:995][  0]LogStreaming: Display: Took  0.595s to EndInitTextLocalization.
+[2018.06.06-13.41.17:995][  0]LogWindows: Failed to load 'shcore.dll' (GetLastError=126)
+[2018.06.06-13.41.17:995][  0]LogWindows: File 'shcore.dll' does not exist
+[2018.06.06-13.41.17:996][  0]LogInit: Setting process to DPI aware
+[2018.06.06-13.41.17:998][  0]LogWindows: Failed to load 'shcore.dll' (GetLastError=126)
+[2018.06.06-13.41.17:998][  0]LogWindows: File 'shcore.dll' does not exist
+[2018.06.06-13.41.17:999][  0]LogInit: Setting process to DPI aware
+[2018.06.06-13.41.18:031][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.06.06-13.41.18:031][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.06.06-13.41.18:337][  0]LogD3D11RHI: D3D11 adapters:
+[2018.06.06-13.41.18:918][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
+[2018.06.06-13.41.18:918][  0]LogD3D11RHI:       4008/0/3830 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.06.06-13.41.18:918][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.06.06-13.41.18:926][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.06.06-13.41.18:927][  0]LogD3D11RHI:     GPU DeviceId: 0x1c82 (for the marketing name, search the web for "GPU Device Id")
+[2018.06.06-13.41.18:927][  0]LogWindows: EnumDisplayDevices:
+[2018.06.06-13.41.18:927][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1050 Ti' (P:1 D:1)
+[2018.06.06-13.41.18:927][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2018.06.06-13.41.18:928][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2018.06.06-13.41.18:928][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2018.06.06-13.41.18:928][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
+[2018.06.06-13.41.18:929][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2018.06.06-13.41.18:929][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
+[2018.06.06-13.41.18:929][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2018.06.06-13.41.18:929][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
+[2018.06.06-13.41.18:929][  0]LogD3D11RHI:   Driver Version: 382.05 (internal:22.21.13.8205, unified:382.05)
+[2018.06.06-13.41.18:929][  0]LogD3D11RHI:      Driver Date: 5-1-2017
+[2018.06.06-13.41.18:929][  0]LogRHI: Texture pool is 2806 MB (70% of 4008 MB)
+[2018.06.06-13.41.19:696][  0]LogD3D11RHI: [Aftermath] Aftermath enabled but failed to initialize
+[2018.06.06-13.41.19:696][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.06.06-13.41.19:696][  0]LogD3D11RHI: Async texture creation enabled
+[2018.06.06-13.41.19:762][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.06.06-13.41.19:821][  0]LogShaderCompilers: Guid format shader working directory is 1 characters bigger than the processId version (C:/Users/seb/Documents/GitHub/DrunkFighting/Intermediate/Shaders/WorkingDirectory/7316/).
+[2018.06.06-13.41.19:821][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/seb/AppData/Local/Temp/UnrealShaderWorkingDir/4CBF558749339897BD67F1968F95A883/'.
+[2018.06.06-13.41.20:172][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.06.06-13.41.20:200][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.06.06-13.41.20:229][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.06.06-13.41.20:260][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.06.06-13.41.20:291][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.06.06-13.41.20:316][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.06.06-13.41.20:343][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.06.06-13.41.20:368][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.06.06-13.41.20:380][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.06.06-13.41.20:400][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.06.06-13.41.20:421][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.06.06-13.41.20:440][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.06.06-13.41.20:460][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2018.06.06-13.41.20:480][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.06.06-13.41.20:500][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.06.06-13.41.20:540][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.06.06-13.41.20:541][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.06.06-13.41.20:561][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.06.06-13.41.20:562][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.06.06-13.41.20:608][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.06.06-13.41.20:628][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.06.06-13.41.20:647][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.06.06-13.41.20:668][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.06.06-13.41.20:688][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.06.06-13.41.20:710][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.06.06-13.41.20:710][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.06.06-13.41.20:789][  0]LogWindows: Failed to load '../../../Engine/Binaries/ThirdParty/QualComm/Win64/TextureConverter.dll' (GetLastError=126)
+[2018.06.06-13.41.20:789][  0]LogWindows:   Missing import: MSVCR100.dll
+[2018.06.06-13.41.20:789][  0]LogWindows:   Missing import: MSVCP100.dll
+[2018.06.06-13.41.20:789][  0]LogWindows:   Looked in: ../../../Engine/Binaries/Win64
+[2018.06.06-13.41.20:790][  0]LogWindows:   Looked in: C:/Users/seb/Documents/GitHub/DrunkFighting/Binaries/Win64
+[2018.06.06-13.41.20:790][  0]LogWindows:   Looked in: C:\Users\seb\Documents\GitHub\DrunkFighting\Binaries\Win64
+[2018.06.06-13.41.20:790][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\2D\Paper2D\Binaries\Win64
+[2018.06.06-13.41.20:790][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Blendables\LightPropagationVolume\Binaries\Win64
+[2018.06.06-13.41.20:790][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Developer\CLionSourceCodeAccess\Binaries\Win64
+[2018.06.06-13.41.20:790][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Developer\CodeLiteSourceCodeAccess\Binaries\Win64
+[2018.06.06-13.41.20:790][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Developer\GitSourceControl\Binaries\Win64
+[2018.06.06-13.41.20:790][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Developer\KDevelopSourceCodeAccess\Binaries\Win64
+[2018.06.06-13.41.20:790][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Developer\NullSourceCodeAccess\Binaries\Win64
+[2018.06.06-13.41.20:790][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Developer\PerforceSourceControl\Binaries\Win64
+[2018.06.06-13.41.20:790][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Developer\SubversionSourceControl\Binaries\Win64
+[2018.06.06-13.41.20:790][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Developer\UObjectPlugin\Binaries\Win64
+[2018.06.06-13.41.20:790][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Developer\VisualStudioCodeSourceCodeAccess\Binaries\Win64
+[2018.06.06-13.41.20:790][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Developer\VisualStudioSourceCodeAccess\Binaries\Win64
+[2018.06.06-13.41.20:790][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Developer\XCodeSourceCodeAccess\Binaries\Win64
+[2018.06.06-13.41.20:790][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Editor\AssetManagerEditor\Binaries\Win64
+[2018.06.06-13.41.20:790][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Editor\CryptoKeys\Binaries\Win64
+[2018.06.06-13.41.20:790][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Editor\DataValidation\Binaries\Win64
+[2018.06.06-13.41.20:790][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Editor\FacialAnimation\Binaries\Win64
+[2018.06.06-13.41.20:790][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Editor\GameplayTagsEditor\Binaries\Win64
+[2018.06.06-13.41.20:790][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Editor\MobileLauncherProfileWizard\Binaries\Win64
+[2018.06.06-13.41.20:790][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Editor\PluginBrowser\Binaries\Win64
+[2018.06.06-13.41.20:790][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Editor\SpeedTreeImporter\Binaries\Win64
+[2018.06.06-13.41.20:790][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Enterprise\DatasmithContent\Binaries\Win64
+[2018.06.06-13.41.20:790][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Experimental\AlembicImporter\Binaries\Win64
+[2018.06.06-13.41.20:790][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Experimental\CharacterAI\Binaries\Win64
+[2018.06.06-13.41.20:790][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Experimental\HTML5Networking\Binaries\Win64
+[2018.06.06-13.41.20:790][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Media\AndroidMedia\Binaries\Win64
+[2018.06.06-13.41.20:790][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Media\AvfMedia\Binaries\Win64
+[2018.06.06-13.41.20:790][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Media\ImgMedia\Binaries\Win64
+[2018.06.06-13.41.20:790][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Media\LinearTimecode\Binaries\Win64
+[2018.06.06-13.41.20:790][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Media\MediaCompositing\Binaries\Win64
+[2018.06.06-13.41.20:790][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Media\MediaPlayerEditor\Binaries\Win64
+[2018.06.06-13.41.20:790][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Media\WmfMedia\Binaries\Win64
+[2018.06.06-13.41.20:790][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Messaging\TcpMessaging\Binaries\Win64
+[2018.06.06-13.41.20:790][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Messaging\UdpMessaging\Binaries\Win64
+[2018.06.06-13.41.20:790][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\MovieScene\ActorSequence\Binaries\Win64
+[2018.06.06-13.41.20:790][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\MovieScene\LevelSequenceEditor\Binaries\Win64
+[2018.06.06-13.41.20:790][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\MovieScene\MatineeToLevelSequence\Binaries\Win64
+[2018.06.06-13.41.20:790][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\NetcodeUnitTest\NetcodeUnitTest\Binaries\Win64
+[2018.06.06-13.41.20:790][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\NetcodeUnitTest\NUTUnrealEngine4\Binaries\Win64
+[2018.06.06-13.41.20:790][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Online\Android\OnlineSubsystemGooglePlay\Binaries\Win64
+[2018.06.06-13.41.20:790][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Online\OnlineSubsystem\Binaries\Win64
+[2018.06.06-13.41.20:790][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Runtime\AndroidPermission\Binaries\Win64
+[2018.06.06-13.41.20:790][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Online\IOS\OnlineSubsystemIOS\Binaries\Win64
+[2018.06.06-13.41.20:790][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Online\OnlineSubsystemNull\Binaries\Win64
+[2018.06.06-13.41.20:790][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Online\OnlineSubsystemUtils\Binaries\Win64
+[2018.06.06-13.41.20:790][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Runtime\AndroidDeviceProfileSelector\Binaries\Win64
+[2018.06.06-13.41.20:790][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Runtime\AndroidMoviePlayer\Binaries\Win64
+[2018.06.06-13.41.20:790][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Runtime\AppleARKit\Binaries\Win64
+[2018.06.06-13.41.20:790][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Runtime\ProceduralMeshComponent\Binaries\Win64
+[2018.06.06-13.41.20:791][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Animation\LiveLink\Binaries\Win64
+[2018.06.06-13.41.20:791][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Runtime\AppleMoviePlayer\Binaries\Win64
+[2018.06.06-13.41.20:791][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Runtime\ArchVisCharacter\Binaries\Win64
+[2018.06.06-13.41.20:791][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Runtime\AudioCapture\Binaries\Win64
+[2018.06.06-13.41.20:791][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Runtime\CableComponent\Binaries\Win64
+[2018.06.06-13.41.20:791][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Runtime\CustomMeshComponent\Binaries\Win64
+[2018.06.06-13.41.20:791][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Runtime\ExampleDeviceProfileSelector\Binaries\Win64
+[2018.06.06-13.41.20:791][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Runtime\GoogleCloudMessaging\Binaries\Win64
+[2018.06.06-13.41.20:791][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Runtime\ImmediatePhysics\Binaries\Win64
+[2018.06.06-13.41.20:791][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Runtime\IOSDeviceProfileSelector\Binaries\Win64
+[2018.06.06-13.41.20:791][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Runtime\LinuxDeviceProfileSelector\Binaries\Win64
+[2018.06.06-13.41.20:791][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Runtime\LocationServicesBPLibrary\Binaries\Win64
+[2018.06.06-13.41.20:791][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Runtime\MobilePatchingUtils\Binaries\Win64
+[2018.06.06-13.41.20:791][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Runtime\Oculus\OculusVR\Binaries\Win64
+[2018.06.06-13.41.20:791][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Runtime\PhysXVehicles\Binaries\Win64
+[2018.06.06-13.41.20:791][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Runtime\RuntimePhysXCooking\Binaries\Win64
+[2018.06.06-13.41.20:791][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Runtime\Steam\SteamVR\Binaries\Win64
+[2018.06.06-13.41.20:791][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Runtime\WindowsMoviePlayer\Binaries\Win64
+[2018.06.06-13.41.20:794][  0]LogWindows: Failed to load '../../../Engine/Binaries/ThirdParty/QualComm/Win64/TextureConverter.dll' (GetLastError=126)
+[2018.06.06-13.41.20:794][  0]LogWindows:   Missing import: MSVCR100.dll
+[2018.06.06-13.41.20:794][  0]LogWindows:   Missing import: MSVCP100.dll
+[2018.06.06-13.41.20:794][  0]LogWindows:   Looked in: ../../../Engine/Binaries/Win64
+[2018.06.06-13.41.20:794][  0]LogWindows:   Looked in: C:/Users/seb/Documents/GitHub/DrunkFighting/Binaries/Win64
+[2018.06.06-13.41.20:794][  0]LogWindows:   Looked in: C:\Users\seb\Documents\GitHub\DrunkFighting\Binaries\Win64
+[2018.06.06-13.41.20:794][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\2D\Paper2D\Binaries\Win64
+[2018.06.06-13.41.20:794][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Blendables\LightPropagationVolume\Binaries\Win64
+[2018.06.06-13.41.20:794][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Developer\CLionSourceCodeAccess\Binaries\Win64
+[2018.06.06-13.41.20:794][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Developer\CodeLiteSourceCodeAccess\Binaries\Win64
+[2018.06.06-13.41.20:794][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Developer\GitSourceControl\Binaries\Win64
+[2018.06.06-13.41.20:794][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Developer\KDevelopSourceCodeAccess\Binaries\Win64
+[2018.06.06-13.41.20:794][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Developer\NullSourceCodeAccess\Binaries\Win64
+[2018.06.06-13.41.20:794][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Developer\PerforceSourceControl\Binaries\Win64
+[2018.06.06-13.41.20:794][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Developer\SubversionSourceControl\Binaries\Win64
+[2018.06.06-13.41.20:794][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Developer\UObjectPlugin\Binaries\Win64
+[2018.06.06-13.41.20:794][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Developer\VisualStudioCodeSourceCodeAccess\Binaries\Win64
+[2018.06.06-13.41.20:794][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Developer\VisualStudioSourceCodeAccess\Binaries\Win64
+[2018.06.06-13.41.20:794][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Developer\XCodeSourceCodeAccess\Binaries\Win64
+[2018.06.06-13.41.20:794][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Editor\AssetManagerEditor\Binaries\Win64
+[2018.06.06-13.41.20:794][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Editor\CryptoKeys\Binaries\Win64
+[2018.06.06-13.41.20:794][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Editor\DataValidation\Binaries\Win64
+[2018.06.06-13.41.20:795][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Editor\FacialAnimation\Binaries\Win64
+[2018.06.06-13.41.20:795][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Editor\GameplayTagsEditor\Binaries\Win64
+[2018.06.06-13.41.20:795][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Editor\MobileLauncherProfileWizard\Binaries\Win64
+[2018.06.06-13.41.20:795][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Editor\PluginBrowser\Binaries\Win64
+[2018.06.06-13.41.20:795][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Editor\SpeedTreeImporter\Binaries\Win64
+[2018.06.06-13.41.20:795][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Enterprise\DatasmithContent\Binaries\Win64
+[2018.06.06-13.41.20:795][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Experimental\AlembicImporter\Binaries\Win64
+[2018.06.06-13.41.20:795][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Experimental\CharacterAI\Binaries\Win64
+[2018.06.06-13.41.20:795][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Experimental\HTML5Networking\Binaries\Win64
+[2018.06.06-13.41.20:795][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Media\AndroidMedia\Binaries\Win64
+[2018.06.06-13.41.20:795][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Media\AvfMedia\Binaries\Win64
+[2018.06.06-13.41.20:795][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Media\ImgMedia\Binaries\Win64
+[2018.06.06-13.41.20:795][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Media\LinearTimecode\Binaries\Win64
+[2018.06.06-13.41.20:795][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Media\MediaCompositing\Binaries\Win64
+[2018.06.06-13.41.20:795][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Media\MediaPlayerEditor\Binaries\Win64
+[2018.06.06-13.41.20:795][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Media\WmfMedia\Binaries\Win64
+[2018.06.06-13.41.20:795][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Messaging\TcpMessaging\Binaries\Win64
+[2018.06.06-13.41.20:795][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Messaging\UdpMessaging\Binaries\Win64
+[2018.06.06-13.41.20:795][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\MovieScene\ActorSequence\Binaries\Win64
+[2018.06.06-13.41.20:795][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\MovieScene\LevelSequenceEditor\Binaries\Win64
+[2018.06.06-13.41.20:795][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\MovieScene\MatineeToLevelSequence\Binaries\Win64
+[2018.06.06-13.41.20:795][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\NetcodeUnitTest\NetcodeUnitTest\Binaries\Win64
+[2018.06.06-13.41.20:795][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\NetcodeUnitTest\NUTUnrealEngine4\Binaries\Win64
+[2018.06.06-13.41.20:795][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Online\Android\OnlineSubsystemGooglePlay\Binaries\Win64
+[2018.06.06-13.41.20:795][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Online\OnlineSubsystem\Binaries\Win64
+[2018.06.06-13.41.20:795][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Runtime\AndroidPermission\Binaries\Win64
+[2018.06.06-13.41.20:795][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Online\IOS\OnlineSubsystemIOS\Binaries\Win64
+[2018.06.06-13.41.20:795][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Online\OnlineSubsystemNull\Binaries\Win64
+[2018.06.06-13.41.20:795][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Online\OnlineSubsystemUtils\Binaries\Win64
+[2018.06.06-13.41.20:795][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Runtime\AndroidDeviceProfileSelector\Binaries\Win64
+[2018.06.06-13.41.20:795][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Runtime\AndroidMoviePlayer\Binaries\Win64
+[2018.06.06-13.41.20:795][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Runtime\AppleARKit\Binaries\Win64
+[2018.06.06-13.41.20:795][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Runtime\ProceduralMeshComponent\Binaries\Win64
+[2018.06.06-13.41.20:795][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Animation\LiveLink\Binaries\Win64
+[2018.06.06-13.41.20:795][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Runtime\AppleMoviePlayer\Binaries\Win64
+[2018.06.06-13.41.20:795][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Runtime\ArchVisCharacter\Binaries\Win64
+[2018.06.06-13.41.20:795][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Runtime\AudioCapture\Binaries\Win64
+[2018.06.06-13.41.20:795][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Runtime\CableComponent\Binaries\Win64
+[2018.06.06-13.41.20:795][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Runtime\CustomMeshComponent\Binaries\Win64
+[2018.06.06-13.41.20:795][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Runtime\ExampleDeviceProfileSelector\Binaries\Win64
+[2018.06.06-13.41.20:795][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Runtime\GoogleCloudMessaging\Binaries\Win64
+[2018.06.06-13.41.20:795][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Runtime\ImmediatePhysics\Binaries\Win64
+[2018.06.06-13.41.20:795][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Runtime\IOSDeviceProfileSelector\Binaries\Win64
+[2018.06.06-13.41.20:795][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Runtime\LinuxDeviceProfileSelector\Binaries\Win64
+[2018.06.06-13.41.20:795][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Runtime\LocationServicesBPLibrary\Binaries\Win64
+[2018.06.06-13.41.20:795][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Runtime\MobilePatchingUtils\Binaries\Win64
+[2018.06.06-13.41.20:795][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Runtime\Oculus\OculusVR\Binaries\Win64
+[2018.06.06-13.41.20:795][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Runtime\PhysXVehicles\Binaries\Win64
+[2018.06.06-13.41.20:795][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Runtime\RuntimePhysXCooking\Binaries\Win64
+[2018.06.06-13.41.20:795][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Runtime\Steam\SteamVR\Binaries\Win64
+[2018.06.06-13.41.20:796][  0]LogWindows:   Looked in: F:\jeux\fortnite\UE_4.19\Engine\Plugins\Runtime\WindowsMoviePlayer\Binaries\Win64
+[2018.06.06-13.41.20:883][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.06.06-13.41.20:883][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.06.06-13.41.20:883][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.06.06-13.41.22:031][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.06.06-13.41.22:194][  0]LogDerivedDataCache: Loaded boot cache 0.16s 74MB C:/Users/seb/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.06.06-13.41.22:194][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/seb/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2018.06.06-13.41.22:194][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/seb/Documents/GitHub/DrunkFighting/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.06.06-13.41.22:194][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.06.06-13.41.22:194][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/seb/Documents/GitHub/DrunkFighting/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.06.06-13.41.22:195][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.06.06-13.41.22:228][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.06.06-13.41.22:241][  0]LogDerivedDataCache: Using Local data cache path C:/Users/seb/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.06.06-13.41.22:241][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.06.06-13.41.22:241][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.06.06-13.41.22:266][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.06.06-13.41.22:266][  0]LogSlate: Using Freetype 2.6.0
+[2018.06.06-13.41.22:267][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.06.06-13.41.22:267][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.06.06-13.41.22:472][  0]LogAssetRegistry: FAssetRegistry took 0.0331 seconds to start up
+[2018.06.06-13.41.23:203][  0]LogInit: Selected Device Profile: [Windows]
+[2018.06.06-13.41.23:333][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.06.06-13.41.23:336][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.06.06-13.41.23:336][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.06.06-13.41.23:336][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.06.06-13.41.23:336][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.06.06-13.41.23:336][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.06.06-13.41.23:519][  0]LogNetVersion: DrunkFighting , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 958242841)
+[2018.06.06-13.41.24:175][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 1 prioritized culture(s) in 0.055853 seconds
+[2018.06.06-13.41.24:184][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2018.06.06-13.41.24:184][  0]LogUObjectAllocator: 7314312 out of 0 bytes used by permanent object pool.
+[2018.06.06-13.41.24:184][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.06.06-13.41.26:658][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.06.06-13.41.26:697][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.06.06-13.41.27:203][  0]SourceControl: Source control is disabled
+[2018.06.06-13.41.27:203][  0]SourceControl: Source control is disabled
+[2018.06.06-13.41.27:231][  0]SourceControl: Source control is disabled
+[2018.06.06-13.41.27:262][  0]SourceControl: Source control is disabled
+[2018.06.06-13.41.27:968][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.06.06-13.41.28:354][  0]LogOcInput: OculusInput pre-init called
+[2018.06.06-13.41.28:516][  0]LogEngine: Initializing Engine...
+[2018.06.06-13.41.28:518][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.06.06-13.41.28:520][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.06.06-13.41.28:520][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.06.06-13.41.28:890][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.06.06-13.41.28:971][  0]LogInit: XAudio2 using 'Haut-parleurs (2- Razer Surround Audio Controller)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.06.06-13.41.28:984][  0]LogInit: FAudioDevice initialized.
+[2018.06.06-13.41.29:181][  0]LogDerivedDataCache: Saved boot cache 0.20s 74MB C:/Users/seb/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.06.06-13.41.29:215][  0]LogInit: Texture streaming: Enabled
+[2018.06.06-13.41.29:241][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.06.06-13.41.29:256][  0]LogInit: Transaction tracking system initialized
+[2018.06.06-13.41.29:289][  0]BlueprintLog: New page: Editor Load
+[2018.06.06-13.41.29:391][  0]LocalizationService: Localization service is disabled
+[2018.06.06-13.41.29:570][  0]LogConsoleResponse: Display: 
+[2018.06.06-13.41.29:831][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.06.06-13.41.29:831][  0]LogCook: Display: Mobile HDR setting 1
+[2018.06.06-13.41.29:831][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.06.06-13.41.29:831][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.06.06-13.41.29:831][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.06.06-13.41.30:339][  0]LogFileCache: Scanning file cache for directory 'C:/Users/seb/Documents/GitHub/DrunkFighting/Content/' took 0.01s
+[2018.06.06-13.41.30:442][  0]SourceControl: Source control is disabled
+[2018.06.06-13.41.30:442][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.06.06-13.41.30:443][  0]LightingResults: New page: Lighting Build
+[2018.06.06-13.41.30:447][  0]MapCheck: New page: Map Check
+[2018.06.06-13.41.30:447][  0]LightingResults: New page: Lighting Build
+[2018.06.06-13.41.30:718][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2018.06.06-13.41.30:727][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.06.06-13.41.30:749][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.06.06-13.41.30:824][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 74,941ms to complete.
+[2018.06.06-13.41.30:824][  0]LogFileHelpers: Loading map 'Template_Default' took 0.382
+[2018.06.06-13.41.30:999][  0]LogCollectionManager: Loaded 0 collections in 0.004740 seconds
+[2018.06.06-13.41.31:043][  0]LogFileCache: Scanning file cache for directory 'C:/Users/seb/Documents/GitHub/DrunkFighting/Saved/Collections/' took 0.01s
+[2018.06.06-13.41.31:043][  0]LogFileCache: Scanning file cache for directory 'C:/Users/seb/Documents/GitHub/DrunkFighting/Content/Developers/seb/Collections/' took 0.01s
+[2018.06.06-13.41.31:043][  0]LogFileCache: Scanning file cache for directory 'C:/Users/seb/Documents/GitHub/DrunkFighting/Content/Collections/' took 0.01s
+[2018.06.06-13.41.31:043][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.06.06-13.41.31:060][  0]LogContentBrowser: Native class hierarchy populated in 0.0169 seconds. Added 2452 classes and 558 folders.
+[2018.06.06-13.41.31:070][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.06.06-13.41.31:146][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.06.06-13.41.31:153][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.06.06-13.41.32:817][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.06.06-13.41.32:914][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.DrunkFighting
+[2018.06.06-13.41.32:914][  0]LogTemp: CWD: F:\jeux\fortnite\UE_4.19\Engine\Binaries\DotNET\IOS
+[2018.06.06-13.41.32:914][  0]LogTemp: Initial Dir: F:\jeux\fortnite\UE_4.19
+[2018.06.06-13.41.32:914][  0]LogTemp: Env CWD: F:\jeux\fortnite\UE_4.19\Engine\Binaries\DotNET\IOS
+[2018.06.06-13.41.32:914][  0]LogTemp: BranchPath = PC-TANGUY/F/jeux/fortnite/UE_4.19/Engine/Binaries --- GameBranchPath = PC-TANGUY/F/jeux/fortnite/UE_4.19/Engine/Binaries
+[2018.06.06-13.41.32:914][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\seb\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.06.06-13.41.32:914][  0]LogSlate: Took 0.000594 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.06.06-13.41.33:929][  0]LogSlate: Took 0.000739 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.06.06-13.41.33:938][  0]LogSlate: Took 0.000672 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.06.06-13.41.34:191][  0]LogRenderer: Reallocating scene render targets to support 960x644 Format 10 NumSamples 1 (Frame:1).
+[2018.06.06-13.41.34:395][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.06.06-13.41.34:395][  0]LogLoad: (Engine Initialization) Total time: 20.62 seconds
+[2018.06.06-13.41.34:395][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.06.06-13.41.34:763][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.06.06-13.41.34:919][  2]LogAssetRegistry: Asset discovery search completed in 12.4687 seconds
+[2018.06.06-13.41.34:922][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.06.06-13.41.34:922][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000064 seconds (updated 0 objects)
+[2018.06.06-13.51.08:873][738]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.06-13.51.09:032][754]LogActorFactory: Actor Factory created Cube
+[2018.06.06-13.51.09:469][797]LogActorFactory: Actor Factory created Cube
+[2018.06.06-13.51.10:922][925]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.06-13.51.11:083][940]LogActorFactory: Actor Factory created Cube
+[2018.06.06-13.51.11:634][984]LogActorFactory: Actor Factory created Cube
+[2018.06.06-13.51.16:444][429]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.06-13.51.18:107][436]LogSlate: Window 'Save Content' being destroyed
+[2018.06.06-13.51.18:132][436]LogSlate: Took 0.000708 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.06.06-13.51.28:724][436]LogSlate: Window 'Save Level As' being destroyed
+[2018.06.06-13.51.28:864][436]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/level1" FILE="C:/Users/seb/Documents/GitHub/DrunkFighting/Content/Maps/level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.06.06-13.51.28:937][436]LogSavePackage: Save=49.69ms
+[2018.06.06-13.51.28:937][436]LogSavePackage: Moving 'C:/Users/seb/Documents/GitHub/DrunkFighting/Saved/level1933CAC1A49EDDF66433B749ACF6ABACC.tmp' to 'C:/Users/seb/Documents/GitHub/DrunkFighting/Content/Maps/level1.umap'
+[2018.06.06-13.51.29:028][436]LogSavePackage: Display: Finished SavePackage C:/Users/seb/Documents/GitHub/DrunkFighting/Content/Maps/level1.umap
+[2018.06.06-13.51.29:188][436]LogFileHelpers: Saving map 'level1' took 0.456
+[2018.06.06-13.51.29:227][438]LogSlate: Took 0.000349 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
