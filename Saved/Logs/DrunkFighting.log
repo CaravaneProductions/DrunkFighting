@@ -1,4 +1,4 @@
-﻿Log file open, 06/09/18 11:10:03
+﻿Log file open, 06/09/18 14:01:32
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,12 +7,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: DrunkFighting
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-92354265) SRandInit(-92354265).
+LogInit: Display: RandInit(1382405981) SRandInit(1382405981).
 LogInit: Read version file with build ID '3944462'
 LogInit: Overriding engine version to CL 4033788, compatible CL 3944462
 LogInit: Registered custom module enumerator with build ID '3944462'
 LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 4.255546
+LogStats: Stats thread started at 6.142167
 LogD3D11RHI: Aftermath initialized
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
@@ -168,7 +168,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  4.448s to configure plugins.
+LogStreaming: Display: Took  5.281s to configure plugins.
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -219,609 +219,378 @@ LogInit: Branch Name: ++UE4+Release-4.19
 LogInit: Command Line:  
 LogInit: Base Directory: D:/Programmes/Epic Game/UnrealEngine/UE_4.19/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
-LogStreaming: Display: Took  0.031s to delete old logs.
+LogStreaming: Display: Took  0.033s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.06.09-09.10.10:191][  0]LogInit: Selected Device Profile: [Windows]
-[2018.06.09-09.10.10:191][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.06.09-09.10.10:393][  0]LogInit: Computer: INGATAN
-[2018.06.09-09.10.10:393][  0]LogInit: User: zeros
-[2018.06.09-09.10.10:393][  0]LogInit: CPU Page size=4096, Cores=2
-[2018.06.09-09.10.10:393][  0]LogInit: High frequency timer resolution =2.648438 MHz
-[2018.06.09-09.10.10:402][  0]LogMemory: Memory total: Physical=5.9GB (6GB approx)
-[2018.06.09-09.10.10:402][  0]LogMemory: Platform Memory Stats for Windows
-[2018.06.09-09.10.10:402][  0]LogMemory: Process Physical Memory: 272.97 MB used, 272.97 MB peak
-[2018.06.09-09.10.10:402][  0]LogMemory: Process Virtual Memory: 269.82 MB used, 269.82 MB peak
-[2018.06.09-09.10.10:402][  0]LogMemory: Physical Memory: 5393.89 MB used,  630.64 MB free, 6024.54 MB total
-[2018.06.09-09.10.10:402][  0]LogMemory: Virtual Memory: 4780.91 MB used,  630.64 MB free, 134217728.00 MB total
-[2018.06.09-09.10.11:719][  0]LogInit: Using OS detected language (fr-FR).
-[2018.06.09-09.10.11:719][  0]LogInit: Using OS detected locale (fr-FR).
-[2018.06.09-09.10.11:962][  0]LogTextLocalizationManager: No localization for 'fr-FR' exists, so 'en' will be used for the language.
-[2018.06.09-09.10.12:876][  0]LogStreaming: Display: Took  1.113s to EndInitTextLocalization.
-[2018.06.09-09.10.12:899][  0]LogInit: Setting process to per monitor DPI aware
-[2018.06.09-09.10.13:945][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.06.09-09.10.13:945][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.06.09-09.10.18:034][  0]LogD3D11RHI: D3D11 adapters:
-[2018.06.09-09.10.18:099][  0]LogD3D11RHI:    0. 'NVIDIA GeForce 940MX' (Feature Level 11_0)
-[2018.06.09-09.10.18:099][  0]LogD3D11RHI:       2020/0/3012 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2018.06.09-09.10.18:117][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 620' (Feature Level 11_0)
-[2018.06.09-09.10.18:117][  0]LogD3D11RHI:       128/0/3012 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2018.06.09-09.10.18:120][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.06.09-09.10.18:120][  0]LogD3D11RHI:       0/0/3012 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.06.09-09.10.18:120][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.06.09-09.10.18:197][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.06.09-09.10.18:197][  0]LogD3D11RHI:     GPU DeviceId: 0x134d (for the marketing name, search the web for "GPU Device Id")
-[2018.06.09-09.10.18:197][  0]LogWindows: EnumDisplayDevices:
-[2018.06.09-09.10.18:197][  0]LogWindows:    0. 'Intel(R) HD Graphics 620' (P:0 D:1)
-[2018.06.09-09.10.18:197][  0]LogWindows:    1. 'Intel(R) HD Graphics 620' (P:1 D:1)
-[2018.06.09-09.10.18:197][  0]LogWindows:    2. 'Intel(R) HD Graphics 620' (P:0 D:0)
-[2018.06.09-09.10.18:197][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.06.09-09.10.18:197][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce 940MX
-[2018.06.09-09.10.18:197][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.06.09-09.10.18:197][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.06.09-09.10.18:198][  0]LogRHI: Texture pool is 1414 MB (70% of 2020 MB)
-[2018.06.09-09.10.18:257][  0]LogD3D11RHI: [Aftermath] Aftermath enabled but failed to initialize
-[2018.06.09-09.10.18:257][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
-[2018.06.09-09.10.18:258][  0]LogD3D11RHI: Async texture creation enabled
-[2018.06.09-09.10.18:611][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.06.09-09.10.18:784][  0]LogShaderCompilers: Guid format shader working directory is -23 characters bigger than the processId version (../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Intermediate/Shaders/WorkingDirectory/48260/).
-[2018.06.09-09.10.18:797][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/zeros/AppData/Local/Temp/UnrealShaderWorkingDir/120E324A4E789B41931809978EC99BE4/'.
-[2018.06.09-09.10.20:893][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.06.09-09.10.20:907][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.06.09-09.10.20:922][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.06.09-09.10.20:939][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.06.09-09.10.20:980][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.06.09-09.10.20:995][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.06.09-09.10.21:013][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.06.09-09.10.21:027][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.06.09-09.10.21:045][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.06.09-09.10.21:058][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.06.09-09.10.21:071][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.06.09-09.10.21:084][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.06.09-09.10.21:097][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
-[2018.06.09-09.10.21:110][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.06.09-09.10.21:123][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.06.09-09.10.21:149][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.06.09-09.10.21:149][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.06.09-09.10.21:167][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.06.09-09.10.21:172][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.06.09-09.10.21:304][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.06.09-09.10.21:329][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.06.09-09.10.21:343][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.06.09-09.10.21:354][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.06.09-09.10.21:367][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.06.09-09.10.21:403][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.06.09-09.10.21:403][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.06.09-09.10.22:726][  0]LogXGEController: Cleaning working directory: C:/Users/zeros/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2018.06.09-09.10.22:727][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.06.09-09.10.22:738][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.06.09-09.10.22:738][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.06.09-09.10.27:441][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.06.09-09.10.27:780][  0]LogDerivedDataCache: Loaded boot cache 0.34s 74MB C:/Users/zeros/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2018.06.09-09.10.27:780][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/zeros/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
-[2018.06.09-09.10.27:805][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.06.09-09.10.27:805][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.06.09-09.10.27:805][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.06.09-09.10.27:805][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.06.09-09.10.27:920][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.06.09-09.10.27:933][  0]LogDerivedDataCache: Using Local data cache path C:/Users/zeros/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.06.09-09.10.27:933][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2018.06.09-09.10.27:933][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2018.06.09-09.10.28:036][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.06.09-09.10.28:090][  0]LogSlate: Using Freetype 2.6.0
-[2018.06.09-09.10.28:226][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.06.09-09.10.28:226][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.06.09-09.10.41:817][  0]LogAssetRegistry: FAssetRegistry took 0.0287 seconds to start up
-[2018.06.09-09.10.48:939][  0]LogInit: Selected Device Profile: [Windows]
-[2018.06.09-09.10.51:563][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.06.09-09.10.51:609][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.06.09-09.10.51:654][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.06.09-09.10.51:654][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.06.09-09.10.51:654][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.06.09-09.10.51:654][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.06.09-09.10.52:717][  0]LogNetVersion: DrunkFighting , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 958242841)
-[2018.06.09-09.11.00:658][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 1 prioritized culture(s) in 0.182892 seconds
-[2018.06.09-09.11.00:707][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
-[2018.06.09-09.11.00:707][  0]LogUObjectAllocator: 7314312 out of 0 bytes used by permanent object pool.
-[2018.06.09-09.11.00:707][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.06.09-09.11.31:481][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.06.09-09.11.31:573][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.06.09-09.11.33:560][  0]SourceControl: Source control is disabled
-[2018.06.09-09.11.33:576][  0]SourceControl: Source control is disabled
-[2018.06.09-09.11.33:665][  0]SourceControl: Source control is disabled
-[2018.06.09-09.11.33:711][  0]SourceControl: Source control is disabled
-[2018.06.09-09.11.35:876][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.06.09-09.11.36:290][  0]LogOcInput: OculusInput pre-init called
-[2018.06.09-09.11.37:745][  0]LogEngine: Initializing Engine...
-[2018.06.09-09.11.37:942][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.06.09-09.11.38:083][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.06.09-09.11.38:085][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.001 s
-[2018.06.09-09.11.41:619][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.06.09-09.11.42:644][  0]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.06.09-09.11.43:533][  0]LogInit: FAudioDevice initialized.
-[2018.06.09-09.11.44:133][  0]LogDerivedDataCache: Saved boot cache 0.46s 74MB C:/Users/zeros/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2018.06.09-09.11.44:162][  0]LogInit: Texture streaming: Enabled
-[2018.06.09-09.11.44:567][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.06.09-09.11.45:331][  0]LogInit: Transaction tracking system initialized
-[2018.06.09-09.11.46:142][  0]BlueprintLog: New page: Editor Load
-[2018.06.09-09.11.48:822][  0]LocalizationService: Localization service is disabled
-[2018.06.09-09.11.50:619][  0]LogLinker: Warning: Can't find file '/Game/ThirdPersonBP/ThirdPersonOverview'
-[2018.06.09-09.11.50:629][  0]LogLinker: Warning: Can't find file '/Game/ThirdPersonBP/ThirdPersonOverview'
-[2018.06.09-09.11.50:630][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/ThirdPersonBP/ThirdPersonOverview.ThirdPersonOverview_C'
-[2018.06.09-09.11.51:724][  0]LogConsoleResponse: Display: 
-[2018.06.09-09.11.58:099][  0]LogFileCache: Scanning file cache for directory 'D:/Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/' took 0.10s
-[2018.06.09-09.11.58:099][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.06.09-09.11.58:099][  0]LogCook: Display: Mobile HDR setting 1
-[2018.06.09-09.11.58:135][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.06.09-09.11.58:135][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.06.09-09.11.58:135][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.06.09-09.12.02:898][  0]SourceControl: Source control is disabled
-[2018.06.09-09.12.02:972][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.06.09-09.12.03:060][  0]LightingResults: New page: Lighting Build
-[2018.06.09-09.12.03:322][  0]MapCheck: New page: Map Check
-[2018.06.09-09.12.03:322][  0]LightingResults: New page: Lighting Build
-[2018.06.09-09.12.06:250][  0]LogAIModule: Creating AISystem for world Untitled_1
-[2018.06.09-09.12.07:174][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.06.09-09.12.07:395][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.06.09-09.12.07:666][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 270,498ms to complete.
-[2018.06.09-09.12.07:666][  0]LogFileHelpers: Loading map 'Template_Default' took 4.733
-[2018.06.09-09.12.15:305][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.DrunkFighting
-[2018.06.09-09.12.15:305][  0]LogTemp: CWD: D:\Programmes\Epic Game\UnrealEngine\UE_4.19\Engine\Binaries\DotNET\IOS
-[2018.06.09-09.12.15:305][  0]LogTemp: Initial Dir: D:\Programmes\Epic Game\UnrealEngine\UE_4.19
-[2018.06.09-09.12.15:305][  0]LogTemp: Env CWD: D:\Programmes\Epic Game\UnrealEngine\UE_4.19\Engine\Binaries\DotNET\IOS
-[2018.06.09-09.12.15:305][  0]LogTemp: BranchPath = INGATAN/D/Programmes/Epic Game/UnrealEngine/UE_4.19/Engine/Binaries --- GameBranchPath = INGATAN/D/Programmes/Epic Game/UnrealEngine/UE_4.19/Engine/Binaries
-[2018.06.09-09.12.15:305][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\zeros\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2018.06.09-09.12.15:305][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2018.06.09-09.12.16:891][  0]LogCollectionManager: Loaded 0 collections in 0.001926 seconds
-[2018.06.09-09.12.17:253][  0]LogFileCache: Scanning file cache for directory 'D:/Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/Collections/' took 0.01s
-[2018.06.09-09.12.17:253][  0]LogFileCache: Scanning file cache for directory 'D:/Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Developers/zeros/Collections/' took 0.01s
-[2018.06.09-09.12.17:253][  0]LogFileCache: Scanning file cache for directory 'D:/Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Collections/' took 0.01s
-[2018.06.09-09.12.17:253][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.06.09-09.12.17:308][  0]LogContentBrowser: Native class hierarchy populated in 0.0381 seconds. Added 2452 classes and 558 folders.
-[2018.06.09-09.12.17:488][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2018.06.09-09.12.19:030][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2018.06.09-09.12.19:146][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2018.06.09-09.12.20:691][  0]LogSlate: Took 0.049056 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.06.09-09.12.20:777][  0]LogSlate: Took 0.032657 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.06.09-09.12.20:936][  0]LogSlate: Took 0.042172 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.06.09-09.12.22:246][  0]LogRenderer: Reallocating scene render targets to support 928x472 Format 10 NumSamples 1 (Frame:1).
-[2018.06.09-09.12.24:601][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2018.06.09-09.12.24:601][  0]LogLoad: (Engine Initialization) Total time: 162.08 seconds
-[2018.06.09-09.12.24:601][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.06.09-09.12.26:137][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.06.09-09.12.28:359][  4]LogAssetRegistry: Asset discovery search completed in 106.5654 seconds
-[2018.06.09-09.12.28:407][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2018.06.09-09.12.28:407][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.018978 seconds (updated 0 objects)
-[2018.06.09-09.12.30:947][ 11]LogSlate: Took 0.025606 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.06.09-09.18.33:375][ 99]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.09-09.19.38:532][434]LogSlate: Took 0.010413 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.06.09-09.19.38:796][434]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../../Ordinateur/Stuffs/GameProjects - Ressources/DrunkFighting/Personnages/Run/SpriteSheet_PersonnageBase_Run.psd)
-[2018.06.09-09.19.39:041][434]LogTexture: Display: Building textures: SpriteSheet_PersonnageBase_Run (AutoDXT, 1920X1080)
-[2018.06.09-09.20.24:782][684]LogSlate: Took 0.024311 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.06.09-09.21.01:440][447]LogSlate: Window 'Extract sprites' being destroyed
-[2018.06.09-09.21.04:892][541]LogSlate: Window 'Delete Assets' being destroyed
-[2018.06.09-09.22.10:520][875]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../../Ordinateur/Stuffs/GameProjects - Ressources/DrunkFighting/Personnages/Run/SpriteSheet_PersonnageBase_Run.psd)
-[2018.06.09-09.22.10:568][875]LogTexture: Display: Building textures: SpriteSheet_PersonnageBase_Run (AutoDXT, 1920X1080)
-[2018.06.09-09.23.34:369][274]LogSlate: Window 'Extract sprites' being destroyed
-[2018.06.09-09.23.41:659][503]LogSlate: Window 'Delete Assets' being destroyed
-[2018.06.09-09.23.44:536][567]LogSlate: Window 'Save Content' being destroyed
-[2018.06.09-09.23.45:134][567]LogSavePackage: Save=385.19ms
-[2018.06.09-09.23.45:134][567]LogSavePackage: Moving '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/SpriteSheet_PersonnageBase_RunCE04C33744035ECD490DB9B9B64892EA.tmp' to '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Characters/CharacterBase/SpriteSheet_PersonnageBase_Run.uasset'
-[2018.06.09-09.23.45:161][567]LogSavePackage: Display: Finished SavePackage ../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Characters/CharacterBase/SpriteSheet_PersonnageBase_Run.uasset
-[2018.06.09-09.23.45:218][567]LogSavePackage: Save=23.40ms
-[2018.06.09-09.23.45:218][567]LogSavePackage: Moving '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/SpriteSheet_PersonnageBase_Run_S16C4BF4948B38509B6281696F33B0C69.tmp' to '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Characters/CharacterBase/SpriteSheet_PersonnageBase_Run_Sprite_0.uasset'
-[2018.06.09-09.23.45:225][567]LogSavePackage: Display: Finished SavePackage ../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Characters/CharacterBase/SpriteSheet_PersonnageBase_Run_Sprite_0.uasset
-[2018.06.09-09.23.45:321][567]LogSavePackage: Save=59.43ms
-[2018.06.09-09.23.45:321][567]LogSavePackage: Moving '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/SpriteSheet_PersonnageBase_Run_SF523E7D14155F8BFEBCDEA94C5C07B57.tmp' to '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Characters/CharacterBase/SpriteSheet_PersonnageBase_Run_Sprite_1.uasset'
-[2018.06.09-09.23.45:329][567]LogSavePackage: Display: Finished SavePackage ../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Characters/CharacterBase/SpriteSheet_PersonnageBase_Run_Sprite_1.uasset
-[2018.06.09-09.23.45:376][567]LogSavePackage: Save=18.76ms
-[2018.06.09-09.23.45:377][567]LogSavePackage: Moving '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/SpriteSheet_PersonnageBase_Run_S2E7B5A904418CC36369363998D890619.tmp' to '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Characters/CharacterBase/SpriteSheet_PersonnageBase_Run_Sprite_10.uasset'
-[2018.06.09-09.23.45:390][567]LogSavePackage: Display: Finished SavePackage ../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Characters/CharacterBase/SpriteSheet_PersonnageBase_Run_Sprite_10.uasset
-[2018.06.09-09.23.45:438][567]LogSavePackage: Save=21.34ms
-[2018.06.09-09.23.45:438][567]LogSavePackage: Moving '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/SpriteSheet_PersonnageBase_Run_S7DFE98A548DF661AF2874AB6182D09C7.tmp' to '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Characters/CharacterBase/SpriteSheet_PersonnageBase_Run_Sprite_11.uasset'
-[2018.06.09-09.23.45:447][567]LogSavePackage: Display: Finished SavePackage ../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Characters/CharacterBase/SpriteSheet_PersonnageBase_Run_Sprite_11.uasset
-[2018.06.09-09.23.45:503][567]LogSavePackage: Save=19.47ms
-[2018.06.09-09.23.45:503][567]LogSavePackage: Moving '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/SpriteSheet_PersonnageBase_Run_S3B0058C145A59FF9C204DE9820988F97.tmp' to '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Characters/CharacterBase/SpriteSheet_PersonnageBase_Run_Sprite_2.uasset'
-[2018.06.09-09.23.45:510][567]LogSavePackage: Display: Finished SavePackage ../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Characters/CharacterBase/SpriteSheet_PersonnageBase_Run_Sprite_2.uasset
-[2018.06.09-09.23.45:567][567]LogSavePackage: Save=21.45ms
-[2018.06.09-09.23.45:567][567]LogSavePackage: Moving '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/SpriteSheet_PersonnageBase_Run_S10779F0847D419D8D3D7DCA3D7B535A2.tmp' to '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Characters/CharacterBase/SpriteSheet_PersonnageBase_Run_Sprite_3.uasset'
-[2018.06.09-09.23.45:574][567]LogSavePackage: Display: Finished SavePackage ../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Characters/CharacterBase/SpriteSheet_PersonnageBase_Run_Sprite_3.uasset
-[2018.06.09-09.23.45:631][567]LogSavePackage: Save=22.99ms
-[2018.06.09-09.23.45:631][567]LogSavePackage: Moving '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/SpriteSheet_PersonnageBase_Run_S506EF4144C826316FD14D48FDFE38065.tmp' to '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Characters/CharacterBase/SpriteSheet_PersonnageBase_Run_Sprite_4.uasset'
-[2018.06.09-09.23.45:638][567]LogSavePackage: Display: Finished SavePackage ../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Characters/CharacterBase/SpriteSheet_PersonnageBase_Run_Sprite_4.uasset
-[2018.06.09-09.23.45:695][567]LogSavePackage: Save=22.51ms
-[2018.06.09-09.23.45:695][567]LogSavePackage: Moving '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/SpriteSheet_PersonnageBase_Run_SEE2976C1464C032CA361529D2CC68B8F.tmp' to '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Characters/CharacterBase/SpriteSheet_PersonnageBase_Run_Sprite_5.uasset'
-[2018.06.09-09.23.45:703][567]LogSavePackage: Display: Finished SavePackage ../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Characters/CharacterBase/SpriteSheet_PersonnageBase_Run_Sprite_5.uasset
-[2018.06.09-09.23.45:755][567]LogSavePackage: Save=17.09ms
-[2018.06.09-09.23.45:756][567]LogSavePackage: Moving '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/SpriteSheet_PersonnageBase_Run_SCE101DE04F553270D113CA972B4C50AA.tmp' to '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Characters/CharacterBase/SpriteSheet_PersonnageBase_Run_Sprite_7.uasset'
-[2018.06.09-09.23.45:770][567]LogSavePackage: Display: Finished SavePackage ../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Characters/CharacterBase/SpriteSheet_PersonnageBase_Run_Sprite_7.uasset
-[2018.06.09-09.23.45:826][567]LogSavePackage: Save=23.24ms
-[2018.06.09-09.23.45:826][567]LogSavePackage: Moving '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/SpriteSheet_PersonnageBase_Run_SF09EC43D4D80E520C9BF27A1F893F1CE.tmp' to '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Characters/CharacterBase/SpriteSheet_PersonnageBase_Run_Sprite_8.uasset'
-[2018.06.09-09.23.45:836][567]LogSavePackage: Display: Finished SavePackage ../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Characters/CharacterBase/SpriteSheet_PersonnageBase_Run_Sprite_8.uasset
-[2018.06.09-09.23.45:916][567]LogSavePackage: Save=20.05ms
-[2018.06.09-09.23.45:916][567]LogSavePackage: Moving '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/SpriteSheet_PersonnageBase_Run_S3D0F287D460E5F417D389F9306C5FD9B.tmp' to '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Characters/CharacterBase/SpriteSheet_PersonnageBase_Run_Sprite_9.uasset'
-[2018.06.09-09.23.45:926][567]LogSavePackage: Display: Finished SavePackage ../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Characters/CharacterBase/SpriteSheet_PersonnageBase_Run_Sprite_9.uasset
-[2018.06.09-09.23.59:647][201]LogSavePackage: Save=125.15ms
-[2018.06.09-09.23.59:647][201]LogSavePackage: Moving '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/SpriteSheet_PersonnageBase_RunD46D1A3448B50DF2BF312394A4EBF80D.tmp' to '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run.uasset'
-[2018.06.09-09.23.59:657][201]LogSavePackage: Display: Finished SavePackage ../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run.uasset
-[2018.06.09-09.23.59:717][201]LogSavePackage: Save=25.83ms
-[2018.06.09-09.23.59:718][201]LogSavePackage: Moving '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/SpriteSheet_PersonnageBase_Run_S18DA182546660678A9D9568BD48CD39E.tmp' to '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_0.uasset'
-[2018.06.09-09.23.59:726][201]LogSavePackage: Display: Finished SavePackage ../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_0.uasset
-[2018.06.09-09.23.59:816][201]LogSavePackage: Save=19.23ms
-[2018.06.09-09.23.59:816][201]LogSavePackage: Moving '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/SpriteSheet_PersonnageBase_Run_SA86C71D947AA53158BEB58818C4D6AC1.tmp' to '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_1.uasset'
-[2018.06.09-09.23.59:823][201]LogSavePackage: Display: Finished SavePackage ../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_1.uasset
-[2018.06.09-09.23.59:883][201]LogSavePackage: Save=23.93ms
-[2018.06.09-09.23.59:883][201]LogSavePackage: Moving '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/SpriteSheet_PersonnageBase_Run_S7A71B2E94D432F2061C3FF94C3DC9D94.tmp' to '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_2.uasset'
-[2018.06.09-09.23.59:893][201]LogSavePackage: Display: Finished SavePackage ../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_2.uasset
-[2018.06.09-09.23.59:954][201]LogSavePackage: Save=24.30ms
-[2018.06.09-09.23.59:954][201]LogSavePackage: Moving '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/SpriteSheet_PersonnageBase_Run_S60937A96422D8E22F9F6D49F78846117.tmp' to '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_3.uasset'
-[2018.06.09-09.23.59:962][201]LogSavePackage: Display: Finished SavePackage ../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_3.uasset
-[2018.06.09-09.24.00:024][201]LogSavePackage: Save=24.97ms
-[2018.06.09-09.24.00:024][201]LogSavePackage: Moving '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/SpriteSheet_PersonnageBase_Run_SC334C164443AC869A92E37B77FAA289E.tmp' to '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_4.uasset'
-[2018.06.09-09.24.00:034][201]LogSavePackage: Display: Finished SavePackage ../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_4.uasset
-[2018.06.09-09.24.00:122][201]LogSavePackage: Save=46.72ms
-[2018.06.09-09.24.00:122][201]LogSavePackage: Moving '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/SpriteSheet_PersonnageBase_Run_S71727D274F8555D5C12089A89DF68617.tmp' to '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_5.uasset'
-[2018.06.09-09.24.00:129][201]LogSavePackage: Display: Finished SavePackage ../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_5.uasset
-[2018.06.09-09.24.00:183][201]LogSavePackage: Save=18.77ms
-[2018.06.09-09.24.00:184][201]LogSavePackage: Moving '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/SpriteSheet_PersonnageBase_Run_S4E50CE8A435E1A099F07C682B698DD17.tmp' to '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_7.uasset'
-[2018.06.09-09.24.00:191][201]LogSavePackage: Display: Finished SavePackage ../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_7.uasset
-[2018.06.09-09.24.00:253][201]LogSavePackage: Save=24.26ms
-[2018.06.09-09.24.00:253][201]LogSavePackage: Moving '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/SpriteSheet_PersonnageBase_Run_S87CA4B8749536F3C8464EEA4835DBA9D.tmp' to '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_8.uasset'
-[2018.06.09-09.24.00:261][201]LogSavePackage: Display: Finished SavePackage ../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_8.uasset
-[2018.06.09-09.24.00:319][201]LogSavePackage: Save=23.23ms
-[2018.06.09-09.24.00:319][201]LogSavePackage: Moving '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/SpriteSheet_PersonnageBase_Run_S1EACD0B244BC1DA97649079C782B26D4.tmp' to '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_9.uasset'
-[2018.06.09-09.24.00:329][201]LogSavePackage: Display: Finished SavePackage ../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_9.uasset
-[2018.06.09-09.24.00:380][201]LogSavePackage: Save=21.86ms
-[2018.06.09-09.24.00:380][201]LogSavePackage: Moving '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/SpriteSheet_PersonnageBase_Run_S0B5CBC1A4D08F700936666A7F02DDBA9.tmp' to '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_10.uasset'
-[2018.06.09-09.24.00:389][201]LogSavePackage: Display: Finished SavePackage ../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_10.uasset
-[2018.06.09-09.24.00:442][201]LogSavePackage: Save=23.79ms
-[2018.06.09-09.24.00:443][201]LogSavePackage: Moving '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/SpriteSheet_PersonnageBase_Run_S95EF823A4C51C4E8716E2CA5FF33794E.tmp' to '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_11.uasset'
-[2018.06.09-09.24.00:452][201]LogSavePackage: Display: Finished SavePackage ../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_11.uasset
-[2018.06.09-09.24.09:685][600]LogSavePackage: Save=29.58ms
-[2018.06.09-09.24.09:685][600]LogSavePackage: Moving '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/CharacterBase_IdleE7DB9CC24B0C2F55C1680B88BAE6395B.tmp' to '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Characters/CharacterBase/Idle/CharacterBase_Idle.uasset'
-[2018.06.09-09.24.09:697][600]LogSavePackage: Display: Finished SavePackage ../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Characters/CharacterBase/Idle/CharacterBase_Idle.uasset
-[2018.06.09-09.24.09:799][600]LogSavePackage: Save=62.99ms
-[2018.06.09-09.24.09:799][600]LogSavePackage: Moving '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/SpriteSheet_PersonnageBase_IdleV07C0EB1D40B820A95DFF76899936057B.tmp' to '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Characters/CharacterBase/Idle/SpriteSheet_PersonnageBase_IdleV2.uasset'
-[2018.06.09-09.24.09:809][600]LogSavePackage: Display: Finished SavePackage ../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Characters/CharacterBase/Idle/SpriteSheet_PersonnageBase_IdleV2.uasset
-[2018.06.09-09.24.09:868][600]LogSavePackage: Save=22.24ms
-[2018.06.09-09.24.09:868][600]LogSavePackage: Moving '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/SpriteSheet_PersonnageBase_IdleV5B7C572D47E68E6DDBB2E5A07F61EA3F.tmp' to '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Characters/CharacterBase/Idle/SpriteSheet_PersonnageBase_IdleV2_Sprite_3.uasset'
-[2018.06.09-09.24.09:877][600]LogSavePackage: Display: Finished SavePackage ../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Characters/CharacterBase/Idle/SpriteSheet_PersonnageBase_IdleV2_Sprite_3.uasset
-[2018.06.09-09.24.09:924][600]LogSavePackage: Save=18.86ms
-[2018.06.09-09.24.09:924][600]LogSavePackage: Moving '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/SpriteSheet_PersonnageBase_IdleVB442D69A4C99E033C5AB64AD1EDCE8F9.tmp' to '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Characters/CharacterBase/Idle/SpriteSheet_PersonnageBase_IdleV2_Sprite_4.uasset'
-[2018.06.09-09.24.09:933][600]LogSavePackage: Display: Finished SavePackage ../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Characters/CharacterBase/Idle/SpriteSheet_PersonnageBase_IdleV2_Sprite_4.uasset
-[2018.06.09-09.24.09:978][600]LogSavePackage: Save=18.35ms
-[2018.06.09-09.24.09:978][600]LogSavePackage: Moving '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/SpriteSheet_PersonnageBase_IdleV7DA17D2F42DED6CC89888281C6524AE0.tmp' to '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Characters/CharacterBase/Idle/SpriteSheet_PersonnageBase_IdleV2_Sprite_5.uasset'
-[2018.06.09-09.24.09:986][600]LogSavePackage: Display: Finished SavePackage ../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Characters/CharacterBase/Idle/SpriteSheet_PersonnageBase_IdleV2_Sprite_5.uasset
-[2018.06.09-09.24.24:828][280]LogRenderer: Reallocating scene render targets to support 1524x736 Format 10 NumSamples 1 (Frame:1).
-[2018.06.09-09.24.27:611][377]LogSlate: Window 'ANim_Run*' being destroyed
-[2018.06.09-09.24.46:297][ 63]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.09-09.25.14:811][132]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.09-09.31.36:589][101]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.034
-[2018.06.09-09.31.36:616][101]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/CharacterBase/Run/ANim_Run] ([1] browsable assets)...
-[2018.06.09-09.31.36:634][101]OBJ SavePackage:     Rendered thumbnail for [PaperFlipbook /Game/Characters/CharacterBase/Run/ANim_Run.ANim_Run]
-[2018.06.09-09.31.36:634][101]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/CharacterBase/Run/ANim_Run]
-[2018.06.09-09.31.36:662][101]LogSavePackage: Save=21.93ms
-[2018.06.09-09.31.36:662][101]LogSavePackage: Moving '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/ANim_Run_Auto1771F11A94FF168202D001394801DA243.tmp' to '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/Autosaves/Game/Characters/CharacterBase/Run/ANim_Run_Auto1.uasset'
-[2018.06.09-09.31.36:665][101]LogSavePackage: Display: Finished SavePackage ../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/Autosaves/Game/Characters/CharacterBase/Run/ANim_Run_Auto1.uasset
-[2018.06.09-09.31.36:666][101]LogFileHelpers: Auto-saving content packages took 0.075
-[2018.06.09-09.35.58:672][975]LogSlate: Window 'ANim_Run*' being destroyed
-[2018.06.09-09.35.58:682][975]LogSlate: Window 'ANim_Run*' being destroyed
-[2018.06.09-09.36.03:201][142]LogSlate: Window 'Save Content' being destroyed
-[2018.06.09-09.36.03:342][142]LogSavePackage: Save=25.94ms
-[2018.06.09-09.36.03:343][142]LogSavePackage: Moving '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/ANim_Run90B516BE4AEBAA8468AAE78C8DE1471B.tmp' to '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Characters/CharacterBase/Run/ANim_Run.uasset'
-[2018.06.09-09.36.03:353][142]LogSavePackage: Display: Finished SavePackage ../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Characters/CharacterBase/Run/ANim_Run.uasset
-[2018.06.09-09.36.05:488][171]LogSlate: Window 'DrunkFighting - Unreal Editor' being destroyed
-[2018.06.09-09.36.05:491][171]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.06.09-09.36.06:707][172]Cmd: QUIT_EDITOR
-[2018.06.09-09.36.07:317][172]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
-[2018.06.09-09.36.07:346][172]LogExit: Preparing to exit.
-[2018.06.09-09.36.09:156][172]LogDirectoryWatcher: A directory notification for 'D:/Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/' was aborted.
-[2018.06.09-09.36.09:622][172]LogExit: Editor shut down
-[2018.06.09-09.36.09:652][172]LogExit: Transaction tracking system shut down
-[2018.06.09-09.36.09:888][172]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2018.06.09-09.36.09:888][172]LogDirectoryWatcher: A directory notification for '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/' was aborted.
-[2018.06.09-09.36.09:888][172]LogDirectoryWatcher: A directory notification for '../../Plugins/2D/Paper2D/Content/' was aborted.
-[2018.06.09-09.36.09:888][172]LogDirectoryWatcher: A directory notification for '../../Plugins/Enterprise/DatasmithContent/Content/' was aborted.
-[2018.06.09-09.36.09:888][172]LogDirectoryWatcher: A directory notification for '../../Plugins/Media/MediaCompositing/Content/' was aborted.
-[2018.06.09-09.36.09:888][172]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/AppleARKit/Content/' was aborted.
-[2018.06.09-09.36.09:888][172]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
-[2018.06.09-09.36.09:888][172]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
-[2018.06.09-09.36.11:791][172]LogExit: Object subsystem successfully closed.
-[2018.06.09-09.36.12:192][172]LogShaderCompilers: Display: Shaders left to compile 0
-[2018.06.09-09.36.12:216][172]LogD3D11RHI: Shutdown
-[2018.06.09-09.36.12:220][172]LogD3D11RHI: CleanupD3DDevice
-[2018.06.09-09.36.12:499][172]LogD3D11RHI: ~FD3D11DynamicRHI
-[2018.06.09-09.36.13:954][172]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (578)
-[2018.06.09-09.36.13:954][172]LogModuleManager: Shutting down and abandoning module SceneOutliner (576)
-[2018.06.09-09.36.13:966][172]LogModuleManager: Shutting down and abandoning module AddContentDialog (574)
-[2018.06.09-09.36.13:992][172]LogDirectoryWatcher: A directory notification for 'D:/Programmes/Epic Game/UnrealEngine/UE_4.19/FeaturePacks/' was aborted.
-[2018.06.09-09.36.14:004][172]LogModuleManager: Shutting down and abandoning module WidgetCarousel (573)
-[2018.06.09-09.36.14:004][172]LogModuleManager: Shutting down and abandoning module EditorWidgets (570)
-[2018.06.09-09.36.14:004][172]LogModuleManager: Shutting down and abandoning module CollectionManager (568)
-[2018.06.09-09.36.14:027][172]LogDirectoryWatcher: A directory notification for 'D:/Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Collections/' was aborted.
-[2018.06.09-09.36.14:027][172]LogDirectoryWatcher: A directory notification for 'D:/Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Developers/zeros/Collections/' was aborted.
-[2018.06.09-09.36.14:027][172]LogDirectoryWatcher: A directory notification for 'D:/Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/Collections/' was aborted.
-[2018.06.09-09.36.14:027][172]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (566)
-[2018.06.09-09.36.14:027][172]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (564)
-[2018.06.09-09.36.14:041][172]LogModuleManager: Shutting down and abandoning module StatsViewer (562)
-[2018.06.09-09.36.14:061][172]LogModuleManager: Shutting down and abandoning module FoliageEdit (560)
-[2018.06.09-09.36.14:061][172]LogModuleManager: Shutting down and abandoning module LandscapeEditor (558)
-[2018.06.09-09.36.14:079][172]LogModuleManager: Shutting down and abandoning module MeshPaintMode (556)
-[2018.06.09-09.36.14:091][172]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (554)
-[2018.06.09-09.36.14:091][172]LogModuleManager: Shutting down and abandoning module ActorPickerMode (552)
-[2018.06.09-09.36.14:091][172]LogModuleManager: Shutting down and abandoning module GeometryMode (550)
-[2018.06.09-09.36.14:110][172]LogModuleManager: Shutting down and abandoning module TextureAlignMode (548)
-[2018.06.09-09.36.14:111][172]LogModuleManager: Shutting down and abandoning module BspMode (546)
-[2018.06.09-09.36.14:111][172]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (544)
-[2018.06.09-09.36.14:123][172]LogModuleManager: Shutting down and abandoning module HardwareSurvey (542)
-[2018.06.09-09.36.14:123][172]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (540)
-[2018.06.09-09.36.14:134][172]LogModuleManager: Shutting down and abandoning module AutomationWorker (538)
-[2018.06.09-09.36.14:134][172]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (536)
-[2018.06.09-09.36.14:134][172]LogModuleManager: Shutting down and abandoning module SequenceRecorder (535)
-[2018.06.09-09.36.14:153][172]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (532)
-[2018.06.09-09.36.14:165][172]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (530)
-[2018.06.09-09.36.14:201][172]LogModuleManager: Shutting down and abandoning module PlacementMode (529)
-[2018.06.09-09.36.14:201][172]LogModuleManager: Shutting down and abandoning module MaterialEditor (528)
-[2018.06.09-09.36.14:258][172]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (524)
-[2018.06.09-09.36.14:258][172]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (522)
-[2018.06.09-09.36.14:258][172]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (520)
-[2018.06.09-09.36.14:297][172]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (518)
-[2018.06.09-09.36.14:297][172]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (516)
-[2018.06.09-09.36.14:297][172]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (514)
-[2018.06.09-09.36.14:297][172]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (512)
-[2018.06.09-09.36.14:297][172]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (510)
-[2018.06.09-09.36.14:297][172]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (508)
-[2018.06.09-09.36.14:297][172]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (506)
-[2018.06.09-09.36.14:297][172]LogModuleManager: Shutting down and abandoning module CharacterAI (504)
-[2018.06.09-09.36.14:297][172]LogModuleManager: Shutting down and abandoning module SmartSnapping (502)
-[2018.06.09-09.36.14:297][172]LogModuleManager: Shutting down and abandoning module SessionServices (500)
-[2018.06.09-09.36.14:298][172]LogModuleManager: Shutting down and abandoning module ViewportSnapping (498)
-[2018.06.09-09.36.14:298][172]LogModuleManager: Shutting down and abandoning module ViewportInteraction (496)
-[2018.06.09-09.36.14:298][172]LogModuleManager: Shutting down and abandoning module ClothPainter (494)
-[2018.06.09-09.36.14:335][172]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (493)
-[2018.06.09-09.36.14:352][172]LogModuleManager: Shutting down and abandoning module LogVisualizer (490)
-[2018.06.09-09.36.14:376][172]LogModuleManager: Shutting down and abandoning module IntroTutorials (488)
-[2018.06.09-09.36.14:409][172]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (487)
-[2018.06.09-09.36.14:447][172]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (484)
-[2018.06.09-09.36.14:447][172]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (482)
-[2018.06.09-09.36.14:447][172]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (480)
-[2018.06.09-09.36.14:447][172]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (479)
-[2018.06.09-09.36.14:477][172]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (476)
-[2018.06.09-09.36.14:478][172]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (474)
-[2018.06.09-09.36.14:478][172]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (472)
-[2018.06.09-09.36.14:478][172]LogModuleManager: Shutting down and abandoning module InputBindingEditor (470)
-[2018.06.09-09.36.14:491][172]LogModuleManager: Shutting down and abandoning module MergeActors (468)
-[2018.06.09-09.36.14:506][172]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (466)
-[2018.06.09-09.36.14:524][172]LogModuleManager: Shutting down and abandoning module LocalizationService (465)
-[2018.06.09-09.36.14:540][172]LogModuleManager: Shutting down and abandoning module HardwareTargeting (462)
-[2018.06.09-09.36.14:540][172]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (460)
-[2018.06.09-09.36.14:547][172]LogModuleManager: Shutting down and abandoning module UndoHistory (458)
-[2018.06.09-09.36.14:547][172]LogModuleManager: Shutting down and abandoning module XmlParser (456)
-[2018.06.09-09.36.14:554][172]LogModuleManager: Shutting down and abandoning module Blutility (454)
-[2018.06.09-09.36.14:554][172]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (452)
-[2018.06.09-09.36.14:554][172]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (451)
-[2018.06.09-09.36.14:554][172]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (448)
-[2018.06.09-09.36.14:554][172]LogModuleManager: Shutting down and abandoning module SettingsEditor (446)
-[2018.06.09-09.36.14:583][172]LogModuleManager: Shutting down and abandoning module ProjectLauncher (444)
-[2018.06.09-09.36.14:591][172]LogModuleManager: Shutting down and abandoning module SessionFrontend (442)
-[2018.06.09-09.36.14:607][172]LogModuleManager: Shutting down and abandoning module ProfilerClient (440)
-[2018.06.09-09.36.14:616][172]LogModuleManager: Shutting down and abandoning module DeviceManager (438)
-[2018.06.09-09.36.14:625][172]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (437)
-[2018.06.09-09.36.14:690][172]LogModuleManager: Shutting down and abandoning module AutomationController (434)
-[2018.06.09-09.36.14:703][172]LogModuleManager: Shutting down and abandoning module AutomationWindow (432)
-[2018.06.09-09.36.14:726][172]LogModuleManager: Shutting down and abandoning module Layers (430)
-[2018.06.09-09.36.14:755][172]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (428)
-[2018.06.09-09.36.14:755][172]LogModuleManager: Shutting down and abandoning module DetailCustomizations (426)
-[2018.06.09-09.36.14:771][172]LogModuleManager: Shutting down and abandoning module PackagesDialog (424)
-[2018.06.09-09.36.14:771][172]LogModuleManager: Shutting down and abandoning module Persona (422)
-[2018.06.09-09.36.14:799][172]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (421)
-[2018.06.09-09.36.14:799][172]LogModuleManager: Shutting down and abandoning module AnimGraph (419)
-[2018.06.09-09.36.14:799][172]LogModuleManager: Shutting down and abandoning module Kismet (416)
-[2018.06.09-09.36.14:820][172]LogModuleManager: Shutting down and abandoning module GraphEditor (414)
-[2018.06.09-09.36.14:872][172]LogModuleManager: Shutting down and abandoning module ClassViewer (412)
-[2018.06.09-09.36.14:872][172]LogModuleManager: Shutting down and abandoning module Toolbox (410)
-[2018.06.09-09.36.14:872][172]LogModuleManager: Shutting down and abandoning module ModuleUI (408)
-[2018.06.09-09.36.14:886][172]LogModuleManager: Shutting down and abandoning module MovieSceneTools (406)
-[2018.06.09-09.36.14:931][172]LogModuleManager: Shutting down and abandoning module OutputLog (404)
-[2018.06.09-09.36.14:948][172]LogModuleManager: Shutting down and abandoning module GammaUI (402)
-[2018.06.09-09.36.14:959][172]LogModuleManager: Shutting down and abandoning module Documentation (400)
-[2018.06.09-09.36.14:959][172]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (398)
-[2018.06.09-09.36.14:959][172]LogModuleManager: Shutting down and abandoning module MovieScene (396)
-[2018.06.09-09.36.14:967][172]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (394)
-[2018.06.09-09.36.14:967][172]LogModuleManager: Shutting down and abandoning module LauncherPlatform (392)
-[2018.06.09-09.36.14:967][172]LogModuleManager: Shutting down and abandoning module AnalyticsET (390)
-[2018.06.09-09.36.14:967][172]LogModuleManager: Shutting down and abandoning module PortalServices (388)
-[2018.06.09-09.36.14:967][172]LogModuleManager: Shutting down and abandoning module PortalRpc (386)
-[2018.06.09-09.36.14:967][172]LogModuleManager: Shutting down and abandoning module MessagingRpc (384)
-[2018.06.09-09.36.14:967][172]LogModuleManager: Shutting down and abandoning module AIModule (382)
-[2018.06.09-09.36.14:979][172]LogModuleManager: Shutting down and abandoning module GameplayDebugger (381)
-[2018.06.09-09.36.14:980][172]LogModuleManager: Shutting down and abandoning module AITestSuite (379)
-[2018.06.09-09.36.14:991][172]LogModuleManager: Shutting down and abandoning module DesktopPlatform (376)
-[2018.06.09-09.36.15:000][172]LogModuleManager: Shutting down and abandoning module ProfilerService (374)
-[2018.06.09-09.36.15:082][172]LogModuleManager: Shutting down and abandoning module TaskGraph (372)
-[2018.06.09-09.36.15:105][172]LogModuleManager: Shutting down and abandoning module SteamVRController (370)
-[2018.06.09-09.36.15:105][172]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (368)
-[2018.06.09-09.36.15:105][172]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (366)
-[2018.06.09-09.36.15:117][172]LogModuleManager: Shutting down and abandoning module OculusInput (364)
-[2018.06.09-09.36.15:133][172]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (362)
-[2018.06.09-09.36.15:133][172]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (360)
-[2018.06.09-09.36.15:133][172]LogModuleManager: Shutting down and abandoning module CableComponent (358)
-[2018.06.09-09.36.15:144][172]LogModuleManager: Shutting down and abandoning module AudioCapture (356)
-[2018.06.09-09.36.15:144][172]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (354)
-[2018.06.09-09.36.15:144][172]LogModuleManager: Shutting down and abandoning module AndroidPermission (352)
-[2018.06.09-09.36.15:144][172]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (348)
-[2018.06.09-09.36.15:144][172]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (346)
-[2018.06.09-09.36.15:168][172]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (344)
-[2018.06.09-09.36.15:168][172]LogModuleManager: Shutting down and abandoning module MediaCompositing (342)
-[2018.06.09-09.36.15:168][172]LogModuleManager: Shutting down and abandoning module LinearTimecode (340)
-[2018.06.09-09.36.15:168][172]LogModuleManager: Shutting down and abandoning module ImgMedia (338)
-[2018.06.09-09.36.15:182][172]LogModuleManager: Shutting down and abandoning module HTML5Networking (336)
-[2018.06.09-09.36.15:182][172]LogModuleManager: Shutting down and abandoning module AlembicImporter (334)
-[2018.06.09-09.36.15:194][172]LogModuleManager: Shutting down and abandoning module AlembicLibrary (333)
-[2018.06.09-09.36.15:195][172]LogModuleManager: Shutting down and abandoning module GeometryCache (332)
-[2018.06.09-09.36.15:195][172]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (331)
-[2018.06.09-09.36.15:195][172]LogModuleManager: Shutting down and abandoning module DatasmithContent (326)
-[2018.06.09-09.36.15:195][172]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (324)
-[2018.06.09-09.36.15:195][172]LogModuleManager: Shutting down and abandoning module PluginBrowser (322)
-[2018.06.09-09.36.15:216][172]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (320)
-[2018.06.09-09.36.15:224][172]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (318)
-[2018.06.09-09.36.15:230][172]LogModuleManager: Shutting down and abandoning module CryptoKeys (316)
-[2018.06.09-09.36.15:230][172]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (314)
-[2018.06.09-09.36.15:230][172]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (312)
-[2018.06.09-09.36.15:230][172]LogModuleManager: Shutting down and abandoning module UObjectPlugin (310)
-[2018.06.09-09.36.15:230][172]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (308)
-[2018.06.09-09.36.15:238][172]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (306)
-[2018.06.09-09.36.15:249][172]LogModuleManager: Shutting down and abandoning module GitSourceControl (304)
-[2018.06.09-09.36.15:263][172]LogModuleManager: Shutting down and abandoning module SourceControl (303)
-[2018.06.09-09.36.15:276][172]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (300)
-[2018.06.09-09.36.15:284][172]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (298)
-[2018.06.09-09.36.15:284][172]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (296)
-[2018.06.09-09.36.15:284][172]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (294)
-[2018.06.09-09.36.15:284][172]LogModuleManager: Shutting down and abandoning module Paper2DEditor (292)
-[2018.06.09-09.36.15:284][172]LogModuleManager: Shutting down and abandoning module MeshPaint (291)
-[2018.06.09-09.36.15:300][172]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (288)
-[2018.06.09-09.36.15:300][172]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (286)
-[2018.06.09-09.36.15:300][172]LogModuleManager: Shutting down and abandoning module PhysXVehicles (284)
-[2018.06.09-09.36.15:300][172]LogModuleManager: Shutting down and abandoning module OculusEditor (282)
-[2018.06.09-09.36.15:300][172]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (280)
-[2018.06.09-09.36.15:300][172]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (278)
-[2018.06.09-09.36.15:300][172]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (276)
-[2018.06.09-09.36.15:307][172]LogModuleManager: Shutting down and abandoning module ActorSequence (274)
-[2018.06.09-09.36.15:307][172]LogModuleManager: Shutting down and abandoning module UdpMessaging (272)
-[2018.06.09-09.36.15:418][172]LogModuleManager: Shutting down and abandoning module TcpMessaging (270)
-[2018.06.09-09.36.15:565][172]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (268)
-[2018.06.09-09.36.15:580][172]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (266)
-[2018.06.09-09.36.15:580][172]LogModuleManager: Shutting down and abandoning module FacialAnimation (264)
-[2018.06.09-09.36.15:580][172]LogModuleManager: Shutting down and abandoning module DataValidation (262)
-[2018.06.09-09.36.15:580][172]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (260)
-[2018.06.09-09.36.15:593][172]LogModuleManager: Shutting down and abandoning module LevelEditor (259)
-[2018.06.09-09.36.15:615][172]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (258)
-[2018.06.09-09.36.15:631][172]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (256)
-[2018.06.09-09.36.15:631][172]LogModuleManager: Shutting down and abandoning module MainFrame (254)
-[2018.06.09-09.36.15:631][172]LogModuleManager: Shutting down and abandoning module HotReload (253)
-[2018.06.09-09.36.15:676][172]LogModuleManager: Shutting down and abandoning module ContentBrowser (249)
-[2018.06.09-09.36.15:677][172]LogModuleManager: Shutting down and abandoning module TreeMap (247)
-[2018.06.09-09.36.15:689][172]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (244)
-[2018.06.09-09.36.15:689][172]LogModuleManager: Shutting down and abandoning module LiveLinkEditor (242)
-[2018.06.09-09.36.15:691][172]LogModuleManager: Shutting down and abandoning module LiveLink (240)
-[2018.06.09-09.36.16:336][172]LogModuleManager: Shutting down and abandoning module Paper2D (238)
-[2018.06.09-09.36.16:371][172]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (236)
-[2018.06.09-09.36.16:383][172]LogModuleManager: Shutting down and abandoning module WmfMedia (234)
-[2018.06.09-09.36.16:391][172]LogModuleManager: Shutting down and abandoning module Media (233)
-[2018.06.09-09.36.16:397][172]LogModuleManager: Shutting down and abandoning module PacketHandler (230)
-[2018.06.09-09.36.16:397][172]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (228)
-[2018.06.09-09.36.16:397][172]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (226)
-[2018.06.09-09.36.16:418][172]LogModuleManager: Shutting down and abandoning module MediaAssets (224)
-[2018.06.09-09.36.16:418][172]LogModuleManager: Shutting down and abandoning module Overlay (222)
-[2018.06.09-09.36.16:418][172]LogModuleManager: Shutting down and abandoning module OverlayEditor (221)
-[2018.06.09-09.36.16:418][172]LogModuleManager: Shutting down and abandoning module VREditor (218)
-[2018.06.09-09.36.16:444][172]LogModuleManager: Shutting down and abandoning module StringTableEditor (216)
-[2018.06.09-09.36.16:444][172]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (214)
-[2018.06.09-09.36.16:444][172]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (212)
-[2018.06.09-09.36.16:476][172]LogModuleManager: Shutting down and abandoning module FunctionalTesting (210)
-[2018.06.09-09.36.16:476][172]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (208)
-[2018.06.09-09.36.16:503][172]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (207)
-[2018.06.09-09.36.16:504][172]LogModuleManager: Shutting down and abandoning module UMG (204)
-[2018.06.09-09.36.16:539][172]LogModuleManager: Shutting down and abandoning module UMGEditor (203)
-[2018.06.09-09.36.16:593][172]LogModuleManager: Shutting down and abandoning module Sequencer (202)
-[2018.06.09-09.36.16:623][172]LogModuleManager: Shutting down and abandoning module MessageLog (199)
-[2018.06.09-09.36.16:623][172]LogModuleManager: Shutting down and abandoning module SlateReflector (194)
-[2018.06.09-09.36.16:667][172]LogModuleManager: Shutting down and abandoning module Slate (192)
-[2018.06.09-09.36.16:667][172]LogModuleManager: Shutting down and abandoning module EditorStyle (190)
-[2018.06.09-09.36.16:729][172]LogModuleManager: Shutting down and abandoning module MRMesh (188)
-[2018.06.09-09.36.16:729][172]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (186)
-[2018.06.09-09.36.16:729][172]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (184)
-[2018.06.09-09.36.16:729][172]LogModuleManager: Shutting down and abandoning module XAudio2 (182)
-[2018.06.09-09.36.16:729][172]LogModuleManager: Shutting down and abandoning module Networking (180)
-[2018.06.09-09.36.16:729][172]LogModuleManager: Shutting down and abandoning module Core (178)
-[2018.06.09-09.36.16:729][172]LogModuleManager: Shutting down and abandoning module LevelSequence (176)
-[2018.06.09-09.36.16:729][172]LogModuleManager: Shutting down and abandoning module KismetCompiler (174)
-[2018.06.09-09.36.16:729][172]LogModuleManager: Shutting down and abandoning module MeshUtilities (172)
-[2018.06.09-09.36.16:751][172]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (171)
-[2018.06.09-09.36.16:762][172]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (170)
-[2018.06.09-09.36.16:762][172]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (169)
-[2018.06.09-09.36.16:779][172]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (167)
-[2018.06.09-09.36.16:791][172]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (165)
-[2018.06.09-09.36.16:807][172]LogModuleManager: Shutting down and abandoning module MaterialBaking (161)
-[2018.06.09-09.36.16:848][172]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (157)
-[2018.06.09-09.36.16:854][172]LogModuleManager: Shutting down and abandoning module DerivedDataCache (154)
-[2018.06.09-09.36.16:902][172]LogDerivedDataCache: Shutdown
-[2018.06.09-09.36.16:902][172]LogModuleManager: Shutting down and abandoning module XGEController (152)
-[2018.06.09-09.36.16:912][172]LogXGEController: Cleaning working directory: C:/Users/zeros/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2018.06.09-09.36.16:925][172]LogModuleManager: Shutting down and abandoning module TargetPlatform (150)
-[2018.06.09-09.36.16:925][172]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (149)
-[2018.06.09-09.36.16:939][172]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (147)
-[2018.06.09-09.36.16:951][172]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (145)
-[2018.06.09-09.36.16:954][172]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (143)
-[2018.06.09-09.36.16:965][172]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (141)
-[2018.06.09-09.36.16:981][172]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (139)
-[2018.06.09-09.36.16:994][172]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (137)
-[2018.06.09-09.36.16:995][172]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (135)
-[2018.06.09-09.36.16:995][172]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (133)
-[2018.06.09-09.36.17:029][172]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (131)
-[2018.06.09-09.36.17:030][172]LogModuleManager: Shutting down and abandoning module ImageWrapper (130)
-[2018.06.09-09.36.17:030][172]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (127)
-[2018.06.09-09.36.17:040][172]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (125)
-[2018.06.09-09.36.17:040][172]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (123)
-[2018.06.09-09.36.17:048][172]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (121)
-[2018.06.09-09.36.17:064][172]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (119)
-[2018.06.09-09.36.17:064][172]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (117)
-[2018.06.09-09.36.17:076][172]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (115)
-[2018.06.09-09.36.17:095][172]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (113)
-[2018.06.09-09.36.17:096][172]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (111)
-[2018.06.09-09.36.17:096][172]LogModuleManager: Shutting down and abandoning module Messaging (109)
-[2018.06.09-09.36.17:096][172]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (107)
-[2018.06.09-09.36.17:096][172]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (105)
-[2018.06.09-09.36.17:106][172]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (103)
-[2018.06.09-09.36.17:106][172]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (101)
-[2018.06.09-09.36.17:106][172]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (99)
-[2018.06.09-09.36.17:106][172]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (97)
-[2018.06.09-09.36.17:106][172]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (95)
-[2018.06.09-09.36.17:106][172]LogModuleManager: Shutting down and abandoning module Android_ETC1aTargetPlatform (93)
-[2018.06.09-09.36.17:106][172]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (91)
-[2018.06.09-09.36.17:106][172]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (89)
-[2018.06.09-09.36.17:106][172]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (87)
-[2018.06.09-09.36.17:106][172]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (85)
-[2018.06.09-09.36.17:106][172]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (83)
-[2018.06.09-09.36.17:111][172]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (81)
-[2018.06.09-09.36.17:111][172]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (79)
-[2018.06.09-09.36.17:111][172]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (77)
-[2018.06.09-09.36.17:111][172]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (75)
-[2018.06.09-09.36.17:111][172]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (73)
-[2018.06.09-09.36.17:111][172]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (71)
-[2018.06.09-09.36.17:111][172]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (69)
-[2018.06.09-09.36.17:111][172]LogModuleManager: Shutting down and abandoning module InputCore (66)
-[2018.06.09-09.36.17:111][172]LogModuleManager: Shutting down and abandoning module Settings (64)
-[2018.06.09-09.36.17:111][172]LogModuleManager: Shutting down and abandoning module PhysXCooking (62)
-[2018.06.09-09.36.17:111][172]LogModuleManager: Shutting down and abandoning module SteamVR (60)
-[2018.06.09-09.36.17:111][172]LogModuleManager: Shutting down and abandoning module OculusHMD (58)
-[2018.06.09-09.36.17:125][172]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (56)
-[2018.06.09-09.36.17:127][172]LogModuleManager: Shutting down and abandoning module AppleARKit (54)
-[2018.06.09-09.36.17:127][172]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
-[2018.06.09-09.36.17:127][172]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2018.06.09-09.36.17:127][172]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2018.06.09-09.36.17:198][172]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2018.06.09-09.36.17:228][172]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2018.06.09-09.36.17:245][172]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2018.06.09-09.36.17:245][172]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BB295CA62-4265-9E97-3F75-E2BD0B209C3F%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.19.2-4033788%2B%2B%2BUE4%2BRelease-4.19&UserID=f66fdc59452aa7cc87dffb99bc5204ac%7C037a686bfffc425693050e4e40005a72%7Cc89ee516-ecf6-4704-b682-db009e82af57&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2018.06.09-09.36.17:293][172]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2018.06.09-09.36.17:332][172]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2018.06.09-09.36.17:352][172]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2018.06.09-09.36.17:409][172]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2018.06.09-09.36.17:434][172]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2018.06.09-09.36.17:434][172]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2018.06.09-09.36.17:434][172]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2018.06.09-09.36.17:434][172]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2018.06.09-09.36.17:466][172]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2018.06.09-09.36.17:491][172]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2018.06.09-09.36.17:491][172]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2018.06.09-09.36.17:491][172]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2018.06.09-09.36.17:491][172]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2018.06.09-09.36.17:502][172]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2018.06.09-09.36.17:502][172]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2018.06.09-09.36.17:519][172]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2018.06.09-09.36.17:521][172]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2018.06.09-09.36.17:532][172]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2018.06.09-09.36.17:532][172]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2018.06.09-09.36.17:570][172]LogExit: Exiting.
-[2018.06.09-09.36.17:638][172]Log file closed, 06/09/18 11:36:17
+[2018.06.09-12.01.39:610][  0]LogInit: Selected Device Profile: [Windows]
+[2018.06.09-12.01.39:610][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.06.09-12.01.39:800][  0]LogInit: Computer: INGATAN
+[2018.06.09-12.01.39:801][  0]LogInit: User: zeros
+[2018.06.09-12.01.39:801][  0]LogInit: CPU Page size=4096, Cores=2
+[2018.06.09-12.01.39:801][  0]LogInit: High frequency timer resolution =2.648438 MHz
+[2018.06.09-12.01.39:810][  0]LogMemory: Memory total: Physical=5.9GB (6GB approx)
+[2018.06.09-12.01.39:810][  0]LogMemory: Platform Memory Stats for Windows
+[2018.06.09-12.01.39:810][  0]LogMemory: Process Physical Memory: 272.79 MB used, 272.79 MB peak
+[2018.06.09-12.01.39:810][  0]LogMemory: Process Virtual Memory: 269.73 MB used, 269.73 MB peak
+[2018.06.09-12.01.39:810][  0]LogMemory: Physical Memory: 5583.93 MB used,  440.61 MB free, 6024.54 MB total
+[2018.06.09-12.01.39:810][  0]LogMemory: Virtual Memory: 4780.91 MB used,  440.61 MB free, 134217728.00 MB total
+[2018.06.09-12.01.40:894][  0]LogInit: Using OS detected language (fr-FR).
+[2018.06.09-12.01.40:894][  0]LogInit: Using OS detected locale (fr-FR).
+[2018.06.09-12.01.41:170][  0]LogTextLocalizationManager: No localization for 'fr-FR' exists, so 'en' will be used for the language.
+[2018.06.09-12.01.42:184][  0]LogStreaming: Display: Took  1.287s to EndInitTextLocalization.
+[2018.06.09-12.01.42:207][  0]LogInit: Setting process to per monitor DPI aware
+[2018.06.09-12.01.43:343][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.06.09-12.01.43:343][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.06.09-12.01.50:127][  0]LogD3D11RHI: D3D11 adapters:
+[2018.06.09-12.01.50:217][  0]LogD3D11RHI:    0. 'NVIDIA GeForce 940MX' (Feature Level 11_0)
+[2018.06.09-12.01.50:217][  0]LogD3D11RHI:       2020/0/3012 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.06.09-12.01.50:238][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 620' (Feature Level 11_0)
+[2018.06.09-12.01.50:238][  0]LogD3D11RHI:       128/0/3012 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.06.09-12.01.50:243][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.06.09-12.01.50:243][  0]LogD3D11RHI:       0/0/3012 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.06.09-12.01.50:243][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.06.09-12.01.50:305][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.06.09-12.01.50:305][  0]LogD3D11RHI:     GPU DeviceId: 0x134d (for the marketing name, search the web for "GPU Device Id")
+[2018.06.09-12.01.50:305][  0]LogWindows: EnumDisplayDevices:
+[2018.06.09-12.01.50:305][  0]LogWindows:    0. 'Intel(R) HD Graphics 620' (P:0 D:1)
+[2018.06.09-12.01.50:305][  0]LogWindows:    1. 'Intel(R) HD Graphics 620' (P:1 D:1)
+[2018.06.09-12.01.50:306][  0]LogWindows:    2. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2018.06.09-12.01.50:306][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.06.09-12.01.50:306][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce 940MX
+[2018.06.09-12.01.50:306][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.06.09-12.01.50:306][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.06.09-12.01.50:307][  0]LogRHI: Texture pool is 1414 MB (70% of 2020 MB)
+[2018.06.09-12.01.50:365][  0]LogD3D11RHI: [Aftermath] Aftermath enabled but failed to initialize
+[2018.06.09-12.01.50:365][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.06.09-12.01.50:366][  0]LogD3D11RHI: Async texture creation enabled
+[2018.06.09-12.01.50:764][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.06.09-12.01.50:892][  0]LogShaderCompilers: Guid format shader working directory is -23 characters bigger than the processId version (../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Intermediate/Shaders/WorkingDirectory/45476/).
+[2018.06.09-12.01.50:905][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/zeros/AppData/Local/Temp/UnrealShaderWorkingDir/9BA216C74C4CAE12CF97CEBA894EFD9A/'.
+[2018.06.09-12.01.53:590][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.06.09-12.01.53:608][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.06.09-12.01.53:623][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.06.09-12.01.53:640][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.06.09-12.01.53:691][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.06.09-12.01.53:707][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.06.09-12.01.53:725][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.06.09-12.01.53:742][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.06.09-12.01.53:765][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.06.09-12.01.53:781][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.06.09-12.01.53:795][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.06.09-12.01.53:811][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.06.09-12.01.53:824][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2018.06.09-12.01.53:841][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.06.09-12.01.53:855][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.06.09-12.01.53:886][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.06.09-12.01.53:886][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.06.09-12.01.53:907][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.06.09-12.01.53:909][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.06.09-12.01.54:024][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.06.09-12.01.54:048][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.06.09-12.01.54:062][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.06.09-12.01.54:077][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.06.09-12.01.54:090][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.06.09-12.01.54:124][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.06.09-12.01.54:124][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.06.09-12.01.55:491][  0]LogXGEController: Cleaning working directory: C:/Users/zeros/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.06.09-12.01.55:491][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.06.09-12.01.55:501][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.06.09-12.01.55:501][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.06.09-12.02.00:694][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.06.09-12.02.01:064][  0]LogDerivedDataCache: Loaded boot cache 0.37s 74MB C:/Users/zeros/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.06.09-12.02.01:064][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/zeros/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2018.06.09-12.02.01:078][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.06.09-12.02.01:078][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.06.09-12.02.01:078][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.06.09-12.02.01:078][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.06.09-12.02.01:192][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.06.09-12.02.01:214][  0]LogDerivedDataCache: Using Local data cache path C:/Users/zeros/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.06.09-12.02.01:214][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.06.09-12.02.01:214][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.06.09-12.02.01:366][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.06.09-12.02.01:417][  0]LogSlate: Using Freetype 2.6.0
+[2018.06.09-12.02.01:555][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.06.09-12.02.01:555][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.06.09-12.02.16:049][  0]LogAssetRegistry: FAssetRegistry took 0.0617 seconds to start up
+[2018.06.09-12.02.24:936][  0]LogInit: Selected Device Profile: [Windows]
+[2018.06.09-12.02.28:222][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.06.09-12.02.28:284][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.06.09-12.02.28:307][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.06.09-12.02.28:307][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.06.09-12.02.28:307][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.06.09-12.02.28:307][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.06.09-12.02.29:415][  0]LogNetVersion: DrunkFighting , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 958242841)
+[2018.06.09-12.02.37:507][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 1 prioritized culture(s) in 0.166709 seconds
+[2018.06.09-12.02.37:560][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2018.06.09-12.02.37:560][  0]LogUObjectAllocator: 7314304 out of 0 bytes used by permanent object pool.
+[2018.06.09-12.02.37:560][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.06.09-12.03.07:700][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.06.09-12.03.07:772][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.06.09-12.03.09:311][  0]SourceControl: Source control is disabled
+[2018.06.09-12.03.09:311][  0]SourceControl: Source control is disabled
+[2018.06.09-12.03.09:394][  0]SourceControl: Source control is disabled
+[2018.06.09-12.03.09:474][  0]SourceControl: Source control is disabled
+[2018.06.09-12.03.11:631][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.06.09-12.03.12:105][  0]LogOcInput: OculusInput pre-init called
+[2018.06.09-12.03.13:544][  0]LogEngine: Initializing Engine...
+[2018.06.09-12.03.13:690][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.06.09-12.03.13:766][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.06.09-12.03.13:767][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.06.09-12.03.16:261][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.06.09-12.03.16:676][  0]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.06.09-12.03.16:754][  0]LogInit: FAudioDevice initialized.
+[2018.06.09-12.03.16:968][  0]LogDerivedDataCache: Saved boot cache 0.16s 74MB C:/Users/zeros/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.06.09-12.03.16:989][  0]LogInit: Texture streaming: Enabled
+[2018.06.09-12.03.17:342][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.06.09-12.03.17:816][  0]LogInit: Transaction tracking system initialized
+[2018.06.09-12.03.18:454][  0]BlueprintLog: New page: Editor Load
+[2018.06.09-12.03.20:715][  0]LocalizationService: Localization service is disabled
+[2018.06.09-12.03.21:745][  0]LogLinker: Warning: Can't find file '/Game/ThirdPersonBP/ThirdPersonOverview'
+[2018.06.09-12.03.21:749][  0]LogLinker: Warning: Can't find file '/Game/ThirdPersonBP/ThirdPersonOverview'
+[2018.06.09-12.03.21:749][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/ThirdPersonBP/ThirdPersonOverview.ThirdPersonOverview_C'
+[2018.06.09-12.03.22:442][  0]LogConsoleResponse: Display: 
+[2018.06.09-12.03.26:028][  0]LogFileCache: Scanning file cache for directory 'D:/Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/' took 0.13s
+[2018.06.09-12.03.26:053][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.06.09-12.03.26:072][  0]LogCook: Display: Mobile HDR setting 1
+[2018.06.09-12.03.26:072][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.06.09-12.03.26:072][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.06.09-12.03.26:072][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.06.09-12.03.29:954][  0]SourceControl: Source control is disabled
+[2018.06.09-12.03.30:024][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.06.09-12.03.30:135][  0]LightingResults: New page: Lighting Build
+[2018.06.09-12.03.30:376][  0]MapCheck: New page: Map Check
+[2018.06.09-12.03.30:376][  0]LightingResults: New page: Lighting Build
+[2018.06.09-12.03.33:412][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2018.06.09-12.03.34:207][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.06.09-12.03.34:403][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.06.09-12.03.34:615][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 211,398ms to complete.
+[2018.06.09-12.03.34:623][  0]LogFileHelpers: Loading map 'Template_Default' took 4.638
+[2018.06.09-12.03.42:613][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.06.09-12.03.44:311][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.DrunkFighting
+[2018.06.09-12.03.44:311][  0]LogTemp: CWD: D:\Programmes\Epic Game\UnrealEngine\UE_4.19\Engine\Binaries\DotNET\IOS
+[2018.06.09-12.03.44:311][  0]LogTemp: Initial Dir: D:\Programmes\Epic Game\UnrealEngine\UE_4.19
+[2018.06.09-12.03.44:311][  0]LogTemp: Env CWD: D:\Programmes\Epic Game\UnrealEngine\UE_4.19\Engine\Binaries\DotNET\IOS
+[2018.06.09-12.03.44:311][  0]LogTemp: BranchPath = INGATAN/D/Programmes/Epic Game/UnrealEngine/UE_4.19/Engine/Binaries --- GameBranchPath = INGATAN/D/Programmes/Epic Game/UnrealEngine/UE_4.19/Engine/Binaries
+[2018.06.09-12.03.44:311][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\zeros\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.06.09-12.03.44:311][  0]LogCollectionManager: Loaded 0 collections in 0.002959 seconds
+[2018.06.09-12.03.44:635][  0]LogFileCache: Scanning file cache for directory 'D:/Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/Collections/' took 0.01s
+[2018.06.09-12.03.44:635][  0]LogFileCache: Scanning file cache for directory 'D:/Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Developers/zeros/Collections/' took 0.01s
+[2018.06.09-12.03.44:635][  0]LogFileCache: Scanning file cache for directory 'D:/Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Collections/' took 0.01s
+[2018.06.09-12.03.44:635][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.06.09-12.03.44:662][  0]LogContentBrowser: Native class hierarchy populated in 0.0116 seconds. Added 2452 classes and 558 folders.
+[2018.06.09-12.03.44:825][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.06.09-12.03.46:515][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.06.09-12.03.46:598][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2018.06.09-12.03.47:802][  0]LogSlate: Took 0.033039 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.06.09-12.03.47:884][  0]LogSlate: Took 0.032351 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.06.09-12.03.48:000][  0]LogSlate: Took 0.020227 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.06.09-12.03.49:076][  0]LogRenderer: Reallocating scene render targets to support 928x472 Format 10 NumSamples 1 (Frame:1).
+[2018.06.09-12.03.51:511][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.06.09-12.03.51:511][  0]LogLoad: (Engine Initialization) Total time: 163.68 seconds
+[2018.06.09-12.03.51:511][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.06.09-12.03.52:934][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.06.09-12.03.54:259][  3]LogAssetRegistry: Asset discovery search completed in 98.2426 seconds
+[2018.06.09-12.03.54:304][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.06.09-12.03.54:304][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.011575 seconds (updated 0 objects)
+[2018.06.09-12.03.57:432][ 12]LogSlate: Took 0.034984 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.06.09-12.04.36:471][344]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.09-12.04.37:054][352]LogSlate: Took 0.000300 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.06.09-12.04.38:312][352]LogRenderer: Reallocating scene render targets to support 1524x720 Format 10 NumSamples 1 (Frame:1).
+[2018.06.09-12.04.51:540][ 50]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.09-12.04.59:837][490]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.09-12.13.58:202][ 99]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.06.09-12.14.00:119][105]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.06.09-12.19.50:572][268]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.09-12.20.09:715][260]LogSavePackage: Save=155.45ms
+[2018.06.09-12.20.09:715][260]LogSavePackage: Moving '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/ANim_RunBE5BC0854C8BD3F6B3226A81598B3D7F.tmp' to '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Characters/CharacterBase/Run/ANim_Run.uasset'
+[2018.06.09-12.20.09:773][260]LogSavePackage: Display: Finished SavePackage ../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Characters/CharacterBase/Run/ANim_Run.uasset
+[2018.06.09-12.20.10:333][281]LogSlate: Window 'ANim_Run' being destroyed
+[2018.06.09-12.20.18:143][603]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.06.09-12.20.20:471][636]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.09-12.20.21:304][641]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.06.09-12.20.27:482][931]Cmd: TRANSACTION UNDO
+[2018.06.09-12.20.27:483][931]LogEditorTransaction: Undo Rotate Actors
+[2018.06.09-12.20.28:415][957]LogEditorViewport: Clicking on Actor (LMB): PaperFlipbookActor (ANim_Run)
+[2018.06.09-12.20.49:274][ 17]Cmd: DELETE
+[2018.06.09-12.20.49:274][ 17]Cmd: ACTOR DELETE
+[2018.06.09-12.20.49:704][ 17]LogEditorActor: Deleted Actor: PaperFlipbookActor
+[2018.06.09-12.20.49:868][ 17]LogEditorActor: Deleted 1 Actors (0.255 secs)
+[2018.06.09-12.20.52:406][150]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.09-12.21.01:087][432]LogSlate: Window 'Delete Assets' being destroyed
+[2018.06.09-12.21.06:259][499]LogSlate: Window 'Delete Assets' being destroyed
+[2018.06.09-12.21.07:512][530]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0013 seconds. Added 1 classes and 2 folders.
+[2018.06.09-12.21.12:242][687]LogSlate: Window 'SpriteSheet_PersonnageBase_Run' being destroyed
+[2018.06.09-12.21.43:815][209]LogSavePackage: Save=67.37ms
+[2018.06.09-12.21.43:815][209]LogSavePackage: Moving '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/Untitled_1_Auto14EBC4CB34F95BF750614F5AE51882A31.tmp' to '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/Autosaves/Temp/Untitled_1_Auto1.umap'
+[2018.06.09-12.21.43:816][209]LogSavePackage: Display: Finished SavePackage ../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/Autosaves/Temp/Untitled_1_Auto1.umap
+[2018.06.09-12.21.43:823][209]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.136
+[2018.06.09-12.21.43:823][209]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.136
+[2018.06.09-12.31.41:070][ 99]LogSlate: Window 'Delete Assets' being destroyed
+[2018.06.09-12.31.44:847][151]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../../Ordinateur/Stuffs/GameProjects - Ressources/DrunkFighting/Personnages/Run/SpriteSheet_PersonnageBase_Run.psd)
+[2018.06.09-12.31.45:122][151]LogTexture: Display: Building textures: SpriteSheet_PersonnageBase_Run (AutoDXT, 1920X1080)
+[2018.06.09-12.31.51:016][386]LogSlate: Took 0.013761 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.06.09-12.32.35:292][665]LogSlate: Window 'Extract sprites' being destroyed
+[2018.06.09-12.33.21:453][293]LogSlate: Window 'Extract sprites' being destroyed
+[2018.06.09-12.34.22:441][619]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.068
+[2018.06.09-12.34.22:444][619]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run] ([1] browsable assets)...
+[2018.06.09-12.34.22:450][619]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run.SpriteSheet_PersonnageBase_Run]
+[2018.06.09-12.34.22:450][619]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run]
+[2018.06.09-12.34.22:485][619]LogSavePackage: Save=30.26ms
+[2018.06.09-12.34.22:485][619]LogSavePackage: Moving '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/SpriteSheet_PersonnageBase_Run_A9CABB66742D0057D0B5852B9CF281318.tmp' to '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/Autosaves/Game/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Auto2.uasset'
+[2018.06.09-12.34.22:487][619]LogSavePackage: Display: Finished SavePackage ../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/Autosaves/Game/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Auto2.uasset
+[2018.06.09-12.34.22:487][619]LogFileHelpers: Auto-saving content packages took 0.046
+[2018.06.09-12.40.07:359][707]LogSlate: Window 'Extract sprites' being destroyed
+[2018.06.09-12.40.09:807][796]LogSlate: Window 'Delete Assets' being destroyed
+[2018.06.09-12.40.13:206][872]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../../Ordinateur/Stuffs/GameProjects - Ressources/DrunkFighting/Personnages/Run/SpriteSheet_PersonnageBase_Run.psd)
+[2018.06.09-12.40.13:266][872]LogTexture: Display: Building textures: SpriteSheet_PersonnageBase_Run (AutoDXT, 1920X1080)
+[2018.06.09-12.40.16:807][ 24]LogSlate: Window 'SpriteSheet_PersonnageBase_Run*' being destroyed
+[2018.06.09-12.40.45:063][551]LogSlate: Window 'Extract sprites' being destroyed
+[2018.06.09-12.40.49:068][695]LogSlate: Window 'Delete Assets' being destroyed
+[2018.06.09-12.41.01:680][804]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../../Ordinateur/Stuffs/GameProjects - Ressources/DrunkFighting/Personnages/Run/SpriteSheet_PersonnageBase_Run.psd)
+[2018.06.09-12.41.01:738][804]LogTexture: Display: Building textures: SpriteSheet_PersonnageBase_Run (AutoDXT, 1920X1080)
+[2018.06.09-12.41.26:483][774]LogSlate: Window 'Extract sprites' being destroyed
+[2018.06.09-12.42.16:198][ 94]LogSlate: Window 'Delete Assets' being destroyed
+[2018.06.09-12.42.19:213][132]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../../Ordinateur/Stuffs/GameProjects - Ressources/DrunkFighting/Personnages/Run/SpriteSheet_PersonnageBase_Run.psd)
+[2018.06.09-12.42.19:285][132]LogTexture: Display: Building textures: SpriteSheet_PersonnageBase_Run (AutoDXT, 1920X1080)
+[2018.06.09-12.42.49:606][774]LogSlate: Window 'Extract sprites' being destroyed
+[2018.06.09-12.42.55:817][  1]LogSlate: Window 'Delete Assets' being destroyed
+[2018.06.09-12.43.08:035][507]LogRenderer: Reallocating scene render targets to support 1524x736 Format 10 NumSamples 1 (Frame:1).
+[2018.06.09-12.43.12:129][591]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.06.09-12.43.12:602][592]LogRenderer: Reallocating scene render targets to support 1524x784 Format 10 NumSamples 1 (Frame:83).
+[2018.06.09-12.43.15:025][592]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.06.09-12.43.30:438][ 43]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.09-12.45.09:698][506]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.029
+[2018.06.09-12.45.09:705][506]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_0] ([1] browsable assets)...
+[2018.06.09-12.45.09:728][506]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_0.SpriteSheet_PersonnageBase_Run_Sprite_0]
+[2018.06.09-12.45.09:728][506]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_0]
+[2018.06.09-12.45.09:765][506]LogSavePackage: Save=25.71ms
+[2018.06.09-12.45.09:765][506]LogSavePackage: Moving '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/SpriteSheet_PersonnageBase_Run_SC6BE732743D48D1066538D95CBC00A5B.tmp' to '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/Autosaves/Game/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_0_Auto3.uasset'
+[2018.06.09-12.45.09:772][506]LogSavePackage: Display: Finished SavePackage ../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/Autosaves/Game/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_0_Auto3.uasset
+[2018.06.09-12.45.09:774][506]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run] ([1] browsable assets)...
+[2018.06.09-12.45.09:789][506]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run.SpriteSheet_PersonnageBase_Run]
+[2018.06.09-12.45.09:789][506]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run]
+[2018.06.09-12.45.10:083][506]LogSavePackage: Save=288.87ms
+[2018.06.09-12.45.10:083][506]LogSavePackage: Moving '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/SpriteSheet_PersonnageBase_Run_A47DD52574AB955EF24E8ADB090AF1FDB.tmp' to '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/Autosaves/Game/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Auto3.uasset'
+[2018.06.09-12.45.10:087][506]LogSavePackage: Display: Finished SavePackage ../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/Autosaves/Game/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Auto3.uasset
+[2018.06.09-12.45.10:089][506]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_1] ([1] browsable assets)...
+[2018.06.09-12.45.10:106][506]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_1.SpriteSheet_PersonnageBase_Run_Sprite_1]
+[2018.06.09-12.45.10:106][506]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_1]
+[2018.06.09-12.45.10:129][506]LogSavePackage: Save=18.43ms
+[2018.06.09-12.45.10:129][506]LogSavePackage: Moving '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/SpriteSheet_PersonnageBase_Run_S40731F4A47AE5D10E287DDB6DAAC0A51.tmp' to '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/Autosaves/Game/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_1_Auto3.uasset'
+[2018.06.09-12.45.10:132][506]LogSavePackage: Display: Finished SavePackage ../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/Autosaves/Game/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_1_Auto3.uasset
+[2018.06.09-12.45.10:134][506]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_2] ([1] browsable assets)...
+[2018.06.09-12.45.10:151][506]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_2.SpriteSheet_PersonnageBase_Run_Sprite_2]
+[2018.06.09-12.45.10:151][506]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_2]
+[2018.06.09-12.45.10:174][506]LogSavePackage: Save=19.18ms
+[2018.06.09-12.45.10:174][506]LogSavePackage: Moving '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/SpriteSheet_PersonnageBase_Run_SCFD4E7344F1703681E22B88717F4BE36.tmp' to '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/Autosaves/Game/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_2_Auto3.uasset'
+[2018.06.09-12.45.10:178][506]LogSavePackage: Display: Finished SavePackage ../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/Autosaves/Game/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_2_Auto3.uasset
+[2018.06.09-12.45.10:180][506]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_3] ([1] browsable assets)...
+[2018.06.09-12.45.10:195][506]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_3.SpriteSheet_PersonnageBase_Run_Sprite_3]
+[2018.06.09-12.45.10:195][506]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_3]
+[2018.06.09-12.45.10:219][506]LogSavePackage: Save=19.91ms
+[2018.06.09-12.45.10:219][506]LogSavePackage: Moving '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/SpriteSheet_PersonnageBase_Run_S5B1E512B4E0A4DCE2B73E8A4BA3927F9.tmp' to '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/Autosaves/Game/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_3_Auto3.uasset'
+[2018.06.09-12.45.10:223][506]LogSavePackage: Display: Finished SavePackage ../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/Autosaves/Game/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_3_Auto3.uasset
+[2018.06.09-12.45.10:225][506]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_4] ([1] browsable assets)...
+[2018.06.09-12.45.10:240][506]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_4.SpriteSheet_PersonnageBase_Run_Sprite_4]
+[2018.06.09-12.45.10:240][506]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_4]
+[2018.06.09-12.45.10:263][506]LogSavePackage: Save=18.61ms
+[2018.06.09-12.45.10:263][506]LogSavePackage: Moving '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/SpriteSheet_PersonnageBase_Run_SD11268A4495BE935C63750A13C60796A.tmp' to '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/Autosaves/Game/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_4_Auto3.uasset'
+[2018.06.09-12.45.10:266][506]LogSavePackage: Display: Finished SavePackage ../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/Autosaves/Game/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_4_Auto3.uasset
+[2018.06.09-12.45.10:268][506]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_5] ([1] browsable assets)...
+[2018.06.09-12.45.10:284][506]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_5.SpriteSheet_PersonnageBase_Run_Sprite_5]
+[2018.06.09-12.45.10:284][506]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_5]
+[2018.06.09-12.45.10:309][506]LogSavePackage: Save=19.00ms
+[2018.06.09-12.45.10:309][506]LogSavePackage: Moving '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/SpriteSheet_PersonnageBase_Run_S4C76A8BF4299A67C13EE968C333D41B0.tmp' to '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/Autosaves/Game/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_5_Auto3.uasset'
+[2018.06.09-12.45.10:312][506]LogSavePackage: Display: Finished SavePackage ../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/Autosaves/Game/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_5_Auto3.uasset
+[2018.06.09-12.45.10:314][506]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/CharacterBase/Run/Anim_Run] ([1] browsable assets)...
+[2018.06.09-12.45.10:329][506]OBJ SavePackage:     Rendered thumbnail for [PaperFlipbook /Game/Characters/CharacterBase/Run/Anim_Run.Anim_Run]
+[2018.06.09-12.45.10:329][506]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/CharacterBase/Run/Anim_Run]
+[2018.06.09-12.45.10:351][506]LogSavePackage: Save=17.35ms
+[2018.06.09-12.45.10:351][506]LogSavePackage: Moving '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/Anim_Run_Auto3814DDEA648AE65B59CF0B58900917E09.tmp' to '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/Autosaves/Game/Characters/CharacterBase/Run/Anim_Run_Auto3.uasset'
+[2018.06.09-12.45.10:354][506]LogSavePackage: Display: Finished SavePackage ../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/Autosaves/Game/Characters/CharacterBase/Run/Anim_Run_Auto3.uasset
+[2018.06.09-12.45.10:357][506]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_7] ([1] browsable assets)...
+[2018.06.09-12.45.10:375][506]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_7.SpriteSheet_PersonnageBase_Run_Sprite_7]
+[2018.06.09-12.45.10:375][506]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_7]
+[2018.06.09-12.45.10:405][506]LogSavePackage: Save=24.69ms
+[2018.06.09-12.45.10:405][506]LogSavePackage: Moving '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/SpriteSheet_PersonnageBase_Run_S44D9DBDC40D41998CC2644A3DB43C1A1.tmp' to '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/Autosaves/Game/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_7_Auto3.uasset'
+[2018.06.09-12.45.10:407][506]LogSavePackage: Display: Finished SavePackage ../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/Autosaves/Game/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_7_Auto3.uasset
+[2018.06.09-12.45.10:409][506]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_8] ([1] browsable assets)...
+[2018.06.09-12.45.10:423][506]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_8.SpriteSheet_PersonnageBase_Run_Sprite_8]
+[2018.06.09-12.45.10:423][506]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_8]
+[2018.06.09-12.45.10:446][506]LogSavePackage: Save=18.17ms
+[2018.06.09-12.45.10:446][506]LogSavePackage: Moving '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/SpriteSheet_PersonnageBase_Run_S12AE4B3D478A53ECB5D9359C6BCA7AB2.tmp' to '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/Autosaves/Game/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_8_Auto3.uasset'
+[2018.06.09-12.45.10:448][506]LogSavePackage: Display: Finished SavePackage ../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/Autosaves/Game/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_8_Auto3.uasset
+[2018.06.09-12.45.10:450][506]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_9] ([1] browsable assets)...
+[2018.06.09-12.45.10:464][506]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_9.SpriteSheet_PersonnageBase_Run_Sprite_9]
+[2018.06.09-12.45.10:464][506]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_9]
+[2018.06.09-12.45.10:486][506]LogSavePackage: Save=17.86ms
+[2018.06.09-12.45.10:516][506]LogSavePackage: Moving '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/SpriteSheet_PersonnageBase_Run_S0D1D5ADE48514D9FE8AC7482B5F18299.tmp' to '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/Autosaves/Game/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_9_Auto3.uasset'
+[2018.06.09-12.45.10:520][506]LogSavePackage: Display: Finished SavePackage ../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/Autosaves/Game/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_9_Auto3.uasset
+[2018.06.09-12.45.10:522][506]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_10] ([1] browsable assets)...
+[2018.06.09-12.45.10:538][506]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_10.SpriteSheet_PersonnageBase_Run_Sprite_10]
+[2018.06.09-12.45.10:538][506]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_10]
+[2018.06.09-12.45.10:559][506]LogSavePackage: Save=17.68ms
+[2018.06.09-12.45.10:559][506]LogSavePackage: Moving '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/SpriteSheet_PersonnageBase_Run_S665F8FD8493EDFC8D5FBA18C7957771A.tmp' to '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/Autosaves/Game/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_10_Auto3.uasset'
+[2018.06.09-12.45.10:563][506]LogSavePackage: Display: Finished SavePackage ../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/Autosaves/Game/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_10_Auto3.uasset
+[2018.06.09-12.45.10:565][506]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_11] ([1] browsable assets)...
+[2018.06.09-12.45.10:578][506]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_11.SpriteSheet_PersonnageBase_Run_Sprite_11]
+[2018.06.09-12.45.10:578][506]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_11]
+[2018.06.09-12.45.10:618][506]LogSavePackage: Save=16.36ms
+[2018.06.09-12.45.10:618][506]LogSavePackage: Moving '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/SpriteSheet_PersonnageBase_Run_S8D81A82F4780424D4C77F199DEF1D49D.tmp' to '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/Autosaves/Game/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_11_Auto3.uasset'
+[2018.06.09-12.45.10:620][506]LogSavePackage: Display: Finished SavePackage ../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/Autosaves/Game/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_11_Auto3.uasset
+[2018.06.09-12.45.10:620][506]LogFileHelpers: Auto-saving content packages took 0.922
+[2018.06.09-12.46.38:677][875]LogSavePackage: Save=22.29ms
+[2018.06.09-12.46.38:677][875]LogSavePackage: Moving '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/Anim_RunFBB609E64057BFFC30F8E3B23CBFDFC0.tmp' to '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Characters/CharacterBase/Run/Anim_Run.uasset'
+[2018.06.09-12.46.38:697][875]LogSavePackage: Display: Finished SavePackage ../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Characters/CharacterBase/Run/Anim_Run.uasset
+[2018.06.09-12.46.41:735][990]LogSlate: Window 'Anim_Run' being destroyed
+[2018.06.09-12.46.51:268][433]LogSlate: Window 'Save Content' being destroyed
+[2018.06.09-12.46.51:556][433]LogSavePackage: Save=209.39ms
+[2018.06.09-12.46.51:556][433]LogSavePackage: Moving '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/SpriteSheet_PersonnageBase_RunD354644140BDD51D46F0418A62F162F0.tmp' to '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run.uasset'
+[2018.06.09-12.46.51:571][433]LogSavePackage: Display: Finished SavePackage ../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run.uasset
+[2018.06.09-12.46.51:624][433]LogSavePackage: Save=19.20ms
+[2018.06.09-12.46.51:624][433]LogSavePackage: Moving '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/SpriteSheet_PersonnageBase_Run_S782432154C7828865C01D18E88955EDC.tmp' to '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_0.uasset'
+[2018.06.09-12.46.51:639][433]LogSavePackage: Display: Finished SavePackage ../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_0.uasset
+[2018.06.09-12.46.51:710][433]LogSavePackage: Save=15.53ms
+[2018.06.09-12.46.51:710][433]LogSavePackage: Moving '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/SpriteSheet_PersonnageBase_Run_S7F37FD9C4BD281CD60A96F9A4EC9E36E.tmp' to '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_1.uasset'
+[2018.06.09-12.46.51:725][433]LogSavePackage: Display: Finished SavePackage ../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_1.uasset
+[2018.06.09-12.46.51:770][433]LogSavePackage: Save=19.35ms
+[2018.06.09-12.46.51:770][433]LogSavePackage: Moving '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/SpriteSheet_PersonnageBase_Run_S323FB80949E9A881AA3AE09B5D57F23D.tmp' to '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_10.uasset'
+[2018.06.09-12.46.51:788][433]LogSavePackage: Display: Finished SavePackage ../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_10.uasset
+[2018.06.09-12.46.51:829][433]LogSavePackage: Save=17.77ms
+[2018.06.09-12.46.51:829][433]LogSavePackage: Moving '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/SpriteSheet_PersonnageBase_Run_S5FAA4FAF481A9051F7E30581C17CC98A.tmp' to '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_11.uasset'
+[2018.06.09-12.46.51:842][433]LogSavePackage: Display: Finished SavePackage ../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_11.uasset
+[2018.06.09-12.46.51:887][433]LogSavePackage: Save=15.37ms
+[2018.06.09-12.46.51:888][433]LogSavePackage: Moving '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/SpriteSheet_PersonnageBase_Run_S7D73E1DC48FE346006004D8C634E64D2.tmp' to '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_2.uasset'
+[2018.06.09-12.46.51:901][433]LogSavePackage: Display: Finished SavePackage ../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_2.uasset
+[2018.06.09-12.46.51:948][433]LogSavePackage: Save=15.35ms
+[2018.06.09-12.46.51:948][433]LogSavePackage: Moving '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/SpriteSheet_PersonnageBase_Run_SEFB687D14472DF23D95B4E9CDC8EBB48.tmp' to '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_3.uasset'
+[2018.06.09-12.46.51:961][433]LogSavePackage: Display: Finished SavePackage ../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_3.uasset
+[2018.06.09-12.46.52:037][433]LogSavePackage: Save=46.78ms
+[2018.06.09-12.46.52:037][433]LogSavePackage: Moving '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/SpriteSheet_PersonnageBase_Run_SAFD07853424769BFD957CBAC58920BB4.tmp' to '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_4.uasset'
+[2018.06.09-12.46.52:051][433]LogSavePackage: Display: Finished SavePackage ../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_4.uasset
+[2018.06.09-12.46.52:120][433]LogSavePackage: Save=39.59ms
+[2018.06.09-12.46.52:120][433]LogSavePackage: Moving '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/SpriteSheet_PersonnageBase_Run_S5CE357F840EE714CECBF76B17DB18B4A.tmp' to '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_5.uasset'
+[2018.06.09-12.46.52:134][433]LogSavePackage: Display: Finished SavePackage ../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_5.uasset
+[2018.06.09-12.46.52:179][433]LogSavePackage: Save=15.30ms
+[2018.06.09-12.46.52:179][433]LogSavePackage: Moving '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/SpriteSheet_PersonnageBase_Run_SE34171624647F7BC2F135BAEBA06B798.tmp' to '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_7.uasset'
+[2018.06.09-12.46.52:192][433]LogSavePackage: Display: Finished SavePackage ../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_7.uasset
+[2018.06.09-12.46.52:236][433]LogSavePackage: Save=14.68ms
+[2018.06.09-12.46.52:236][433]LogSavePackage: Moving '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/SpriteSheet_PersonnageBase_Run_S53D138DE41EBD8F3A29A9CBAD9630078.tmp' to '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_8.uasset'
+[2018.06.09-12.46.52:246][433]LogSavePackage: Display: Finished SavePackage ../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_8.uasset
+[2018.06.09-12.46.52:288][433]LogSavePackage: Save=14.38ms
+[2018.06.09-12.46.52:288][433]LogSavePackage: Moving '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/SpriteSheet_PersonnageBase_Run_SB63185E446F3A5A588DE708013744763.tmp' to '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_9.uasset'
+[2018.06.09-12.46.52:295][433]LogSavePackage: Display: Finished SavePackage ../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Characters/CharacterBase/Run/SpriteSheet_PersonnageBase_Run_Sprite_9.uasset
+[2018.06.09-12.46.56:473][433]LogSlate: Window 'Save Level As' being destroyed
+[2018.06.09-12.46.58:919][490]LogSlate: Window 'Save Content' being destroyed
+[2018.06.09-12.47.05:143][490]LogSlate: Window 'Save Level As' being destroyed
+[2018.06.09-12.47.07:420][612]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.06.09-12.47.15:550][ 19]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.09-12.47.22:254][213]LogSlate: Window 'Save Content' being destroyed
+[2018.06.09-12.47.32:179][213]LogTextFormatter: Warning: Failed to parse argument "ExistingAsset" as a number (using "0" as a fallback). Please check your format string for errors: "{ExistingAsset} already exists. Do you want to replace it?".
+[2018.06.09-12.47.35:192][213]LogSlate: Window 'Message' being destroyed
+[2018.06.09-12.47.35:202][213]LogSlate: Window 'Save Level As' being destroyed
+[2018.06.09-12.47.41:596][213]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/level1" FILE="../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Maps/level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.06.09-12.47.41:728][213]LogSavePackage: Save=43.60ms
+[2018.06.09-12.47.41:728][213]LogSavePackage: Moving '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Saved/level1D1A251F44A3DB9145C6A9C8BBFE04316.tmp' to '../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Maps/level1.umap'
+[2018.06.09-12.47.41:734][213]LogSavePackage: Display: Finished SavePackage ../../../../../../../Ordinateur/Stuffs/Unreal_Projects/DrunkFighting/Content/Maps/level1.umap
+[2018.06.09-12.47.41:841][213]LogFileHelpers: Saving map 'level1' took 6.576
