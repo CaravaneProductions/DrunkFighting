@@ -2,3 +2,7 @@
 Saved/Logs/DrunkFighting.log
 Saved/Logs/DrunkFighting.log
 Saved/Logs/DrunkFighting.log
+*.ini
+Config/DefaultInput.ini
+Intermediate/CachedAssetRegistry.bin
+Intermediate/Config/CoalescedSourceConfigs/Input.ini

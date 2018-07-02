@@ -1,0 +1,1415 @@
+﻿Log file open, 07/02/18 13:47:51
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: DrunkFighting
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(1644138555) SRandInit(1644138555).
+LogInit: Read version file with build ID '3944462'
+LogInit: Overriding engine version to CL 4033788, compatible CL 3944462
+LogInit: Registered custom module enumerator with build ID '3944462'
+LogTaskGraph: Started task graph with 5 named threads and 17 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.228557
+LogD3D11RHI: Aftermath initialized
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/CLionSourceCodeAccess/Binaries/Win64/UE4Editor-CLionSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeys.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeysOpenSSL.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/DataValidation/Binaries/Win64/UE4Editor-DataValidation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Enterprise/DatasmithContent/Binaries/Win64/UE4Editor-DatasmithContent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/LinearTimecode/Binaries/Win64/UE4Editor-LinearTimecode.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/Binaries/Win64/UE4Editor-NetcodeUnitTest.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/Binaries/Win64/UE4Editor-NUTUnrealEngine4.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLink.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLinkEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCaptureEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3944462).
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LiveLink
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  1.484s to configure plugins.
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: WinSock: I am pc-tanguy (192.168.42.48:0)
+LogInit: Build: ++UE4+Release-4.19-CL-4033788
+LogInit: Engine Version: 4.19.2-4033788+++UE4+Release-4.19
+LogInit: Compatible Engine Version: 4.19.0-3944462+++UE4+Release-4.19
+LogInit: Net CL: 3944462
+LogDevObjectVersion: Number of dev versions registered: 18
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 23
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 33
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 25
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 6
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 1
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 2
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 16
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogInit: Compiled (64-bit): Apr 27 2018 02:06:57
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.19
+LogInit: Command Line: -EpicPortal 
+LogInit: Base Directory: F:/jeux/fortnite/UE_4.19/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogStreaming: Display: Took  0.002s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.07.02-11.47.53:818][  0]LogInit: Selected Device Profile: [Windows]
+[2018.07.02-11.47.53:818][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.07.02-11.47.53:842][  0]LogInit: Computer: PC-TANGUY
+[2018.07.02-11.47.53:842][  0]LogInit: User: seb
+[2018.07.02-11.47.53:842][  0]LogInit: CPU Page size=4096, Cores=3
+[2018.07.02-11.47.53:842][  0]LogInit: High frequency timer resolution =3.441074 MHz
+[2018.07.02-11.47.53:842][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2018.07.02-11.47.53:842][  0]LogMemory: Platform Memory Stats for Windows
+[2018.07.02-11.47.53:842][  0]LogMemory: Process Physical Memory: 276.18 MB used, 276.18 MB peak
+[2018.07.02-11.47.53:842][  0]LogMemory: Process Virtual Memory: 273.48 MB used, 273.48 MB peak
+[2018.07.02-11.47.53:842][  0]LogMemory: Physical Memory: 3295.36 MB used,  4878.07 MB free, 8173.43 MB total
+[2018.07.02-11.47.53:842][  0]LogMemory: Virtual Memory: 645.61 MB used,  4878.07 MB free, 8388608.00 MB total
+[2018.07.02-11.47.53:881][  0]LogInit: Using OS detected language (fr-FR).
+[2018.07.02-11.47.53:881][  0]LogInit: Using OS detected locale (fr-FR).
+[2018.07.02-11.47.53:886][  0]LogTextLocalizationManager: No localization for 'fr-FR' exists, so 'en' will be used for the language.
+[2018.07.02-11.47.54:454][  0]LogStreaming: Display: Took  0.573s to EndInitTextLocalization.
+[2018.07.02-11.47.54:455][  0]LogWindows: Failed to load 'shcore.dll' (GetLastError=126)
+[2018.07.02-11.47.54:455][  0]LogWindows: File 'shcore.dll' does not exist
+[2018.07.02-11.47.54:455][  0]LogInit: Setting process to DPI aware
+[2018.07.02-11.47.54:459][  0]LogWindows: Failed to load 'shcore.dll' (GetLastError=126)
+[2018.07.02-11.47.54:459][  0]LogWindows: File 'shcore.dll' does not exist
+[2018.07.02-11.47.54:459][  0]LogInit: Setting process to DPI aware
+[2018.07.02-11.47.54:490][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.07.02-11.47.54:490][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.07.02-11.47.54:771][  0]LogD3D11RHI: D3D11 adapters:
+[2018.07.02-11.47.55:329][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
+[2018.07.02-11.47.55:330][  0]LogD3D11RHI:       4008/0/3830 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.07.02-11.47.55:330][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.07.02-11.47.55:338][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.07.02-11.47.55:338][  0]LogD3D11RHI:     GPU DeviceId: 0x1c82 (for the marketing name, search the web for "GPU Device Id")
+[2018.07.02-11.47.55:338][  0]LogWindows: EnumDisplayDevices:
+[2018.07.02-11.47.55:338][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1050 Ti' (P:1 D:1)
+[2018.07.02-11.47.55:339][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2018.07.02-11.47.55:339][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2018.07.02-11.47.55:339][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2018.07.02-11.47.55:340][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
+[2018.07.02-11.47.55:340][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2018.07.02-11.47.55:340][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
+[2018.07.02-11.47.55:340][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2018.07.02-11.47.55:340][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
+[2018.07.02-11.47.55:340][  0]LogD3D11RHI:   Driver Version: 382.05 (internal:22.21.13.8205, unified:382.05)
+[2018.07.02-11.47.55:340][  0]LogD3D11RHI:      Driver Date: 5-1-2017
+[2018.07.02-11.47.55:340][  0]LogRHI: Texture pool is 2806 MB (70% of 4008 MB)
+[2018.07.02-11.47.55:891][  0]LogD3D11RHI: [Aftermath] Aftermath enabled but failed to initialize
+[2018.07.02-11.47.55:891][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.07.02-11.47.55:891][  0]LogD3D11RHI: Async texture creation enabled
+[2018.07.02-11.47.55:938][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.07.02-11.47.55:988][  0]LogShaderCompilers: Guid format shader working directory is 1 characters bigger than the processId version (C:/Users/seb/Documents/GitHub/DrunkFighting/Intermediate/Shaders/WorkingDirectory/6228/).
+[2018.07.02-11.47.55:988][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/seb/AppData/Local/Temp/UnrealShaderWorkingDir/56BA5CB14BE5CE4D99C918972E8AC7A8/'.
+[2018.07.02-11.47.56:255][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.07.02-11.47.56:276][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.07.02-11.47.56:298][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.07.02-11.47.56:319][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.07.02-11.47.56:341][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.07.02-11.47.56:363][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.07.02-11.47.56:385][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.07.02-11.47.56:407][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.07.02-11.47.56:417][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.07.02-11.47.56:438][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.07.02-11.47.56:458][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.07.02-11.47.56:478][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.07.02-11.47.56:497][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2018.07.02-11.47.56:517][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.07.02-11.47.56:537][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.07.02-11.47.56:576][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.07.02-11.47.56:576][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.07.02-11.47.56:596][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.07.02-11.47.56:597][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.07.02-11.47.56:641][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.07.02-11.47.56:660][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.07.02-11.47.56:679][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.07.02-11.47.56:698][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.07.02-11.47.56:718][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.07.02-11.47.56:738][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.07.02-11.47.56:738][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.07.02-11.47.56:888][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.07.02-11.47.56:888][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.07.02-11.47.56:888][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.07.02-11.47.57:980][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.07.02-11.47.58:139][  0]LogDerivedDataCache: Loaded boot cache 0.16s 74MB C:/Users/seb/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.07.02-11.47.58:140][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/seb/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2018.07.02-11.47.58:140][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/seb/Documents/GitHub/DrunkFighting/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.07.02-11.47.58:140][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.07.02-11.47.58:140][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/seb/Documents/GitHub/DrunkFighting/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.07.02-11.47.58:140][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.07.02-11.47.58:165][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.07.02-11.47.58:177][  0]LogDerivedDataCache: Using Local data cache path C:/Users/seb/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.07.02-11.47.58:177][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.07.02-11.47.58:177][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.07.02-11.47.58:196][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.07.02-11.47.58:196][  0]LogSlate: Using Freetype 2.6.0
+[2018.07.02-11.47.58:197][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.07.02-11.47.58:197][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.07.02-11.47.58:374][  0]LogAssetRegistry: FAssetRegistry took 0.0277 seconds to start up
+[2018.07.02-11.47.58:890][  0]LogInit: Selected Device Profile: [Windows]
+[2018.07.02-11.47.59:098][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.07.02-11.47.59:101][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.07.02-11.47.59:101][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.07.02-11.47.59:101][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.07.02-11.47.59:101][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.07.02-11.47.59:101][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.07.02-11.47.59:151][  0]LogNetVersion: DrunkFighting , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 958242841)
+[2018.07.02-11.47.59:783][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 1 prioritized culture(s) in 0.065261 seconds
+[2018.07.02-11.47.59:791][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2018.07.02-11.47.59:791][  0]LogUObjectAllocator: 7314304 out of 0 bytes used by permanent object pool.
+[2018.07.02-11.47.59:791][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.07.02-11.48.02:170][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.07.02-11.48.02:207][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.07.02-11.48.02:730][  0]SourceControl: Source control is disabled
+[2018.07.02-11.48.02:730][  0]SourceControl: Source control is disabled
+[2018.07.02-11.48.02:758][  0]SourceControl: Source control is disabled
+[2018.07.02-11.48.02:785][  0]SourceControl: Source control is disabled
+[2018.07.02-11.48.03:482][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.07.02-11.48.03:825][  0]LogOcInput: OculusInput pre-init called
+[2018.07.02-11.48.03:980][  0]LogEngine: Initializing Engine...
+[2018.07.02-11.48.03:981][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.07.02-11.48.03:983][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.07.02-11.48.03:983][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.07.02-11.48.04:362][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.07.02-11.48.04:429][  0]LogInit: XAudio2 using 'Haut-parleurs (2- Razer Surround Audio Controller)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.07.02-11.48.04:441][  0]LogInit: FAudioDevice initialized.
+[2018.07.02-11.48.04:594][  0]LogDerivedDataCache: Saved boot cache 0.15s 74MB C:/Users/seb/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.07.02-11.48.04:630][  0]LogInit: Texture streaming: Enabled
+[2018.07.02-11.48.04:654][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.07.02-11.48.04:668][  0]LogInit: Transaction tracking system initialized
+[2018.07.02-11.48.04:700][  0]BlueprintLog: New page: Editor Load
+[2018.07.02-11.48.04:799][  0]LocalizationService: Localization service is disabled
+[2018.07.02-11.48.04:959][  0]LogConsoleResponse: Display: 
+[2018.07.02-11.48.05:194][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.07.02-11.48.05:194][  0]LogCook: Display: Mobile HDR setting 1
+[2018.07.02-11.48.05:194][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.07.02-11.48.05:194][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.07.02-11.48.05:194][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.07.02-11.48.05:767][  0]LogFileCache: Scanning file cache for directory 'C:/Users/seb/Documents/GitHub/DrunkFighting/Content/' took 0.01s
+[2018.07.02-11.48.05:767][  0]SourceControl: Source control is disabled
+[2018.07.02-11.48.05:767][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.07.02-11.48.05:768][  0]LightingResults: New page: Lighting Build
+[2018.07.02-11.48.05:772][  0]MapCheck: New page: Map Check
+[2018.07.02-11.48.05:772][  0]LightingResults: New page: Lighting Build
+[2018.07.02-11.48.06:038][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2018.07.02-11.48.06:046][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.07.02-11.48.06:068][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.07.02-11.48.06:138][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 70,305ms to complete.
+[2018.07.02-11.48.06:138][  0]LogFileHelpers: Loading map 'Template_Default' took 0.371
+[2018.07.02-11.48.06:573][  0]LogCollectionManager: Loaded 0 collections in 0.003101 seconds
+[2018.07.02-11.48.06:616][  0]LogFileCache: Scanning file cache for directory 'C:/Users/seb/Documents/GitHub/DrunkFighting/Saved/Collections/' took 0.01s
+[2018.07.02-11.48.06:616][  0]LogFileCache: Scanning file cache for directory 'C:/Users/seb/Documents/GitHub/DrunkFighting/Content/Developers/seb/Collections/' took 0.01s
+[2018.07.02-11.48.06:616][  0]LogFileCache: Scanning file cache for directory 'C:/Users/seb/Documents/GitHub/DrunkFighting/Content/Collections/' took 0.01s
+[2018.07.02-11.48.06:616][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.07.02-11.48.06:633][  0]LogContentBrowser: Native class hierarchy populated in 0.0164 seconds. Added 2452 classes and 558 folders.
+[2018.07.02-11.48.06:643][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.07.02-11.48.08:270][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.07.02-11.48.08:339][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2018.07.02-11.48.08:376][  0]LogSlate: Took 0.000424 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.07.02-11.48.08:380][  0]LogSlate: Took 0.000330 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.07.02-11.48.08:398][  0]LogSlate: Took 0.010106 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.07.02-11.48.08:802][  0]LogRenderer: Reallocating scene render targets to support 960x644 Format 10 NumSamples 1 (Frame:1).
+[2018.07.02-11.48.09:074][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.07.02-11.48.09:074][  0]LogLoad: (Engine Initialization) Total time: 19.18 seconds
+[2018.07.02-11.48.09:074][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.07.02-11.48.09:108][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.07.02-11.48.09:226][  2]LogAssetRegistry: Asset discovery search completed in 10.8726 seconds
+[2018.07.02-11.48.09:229][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.07.02-11.48.09:229][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000055 seconds (updated 0 objects)
+[2018.07.02-11.48.10:155][ 83]LogSlate: Took 0.032542 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.07.02-11.48.13:184][435]LogSlate: Took 0.000261 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.07.02-11.56.34:162][481]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.02-11.56.35:290][613]LogUObjectGlobals: Created PersistentFrame Addr=0x0000000062a41140, Size=32, Default__BP_PersonnageTest_C Function /Game/Personnage/BP_PersonnageTest.BP_PersonnageTest_C:ExecuteUbergraph_BP_PersonnageTest
+[2018.07.02-11.56.35:295][613]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000000062a41140, Size=32
+[2018.07.02-11.56.35:295][613]LogUObjectGlobals: Created PersistentFrame Addr=0x0000000062a41140, Size=32, Default__BP_PersonnageTest_C Function /Engine/Transient.REINST_BP_PersonnageTest_C_5:ExecuteUbergraph_BP_PersonnageTest
+[2018.07.02-11.56.35:298][613]LogUObjectGlobals: Created PersistentFrame Addr=0x0000000016fefe00, Size=32, Default__BP_PersonnageTest_C Function /Game/Personnage/BP_PersonnageTest.BP_PersonnageTest_C:ExecuteUbergraph_BP_PersonnageTest
+[2018.07.02-11.56.36:025][613]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0012 seconds. Added 116 classes and 0 folders.
+[2018.07.02-11.56.36:612][613]LogUObjectGlobals: Created PersistentFrame Addr=0x0000000037ebd7a8, Size=4, Default__SKEL_PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.SKEL_PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2018.07.02-11.56.36:613][613]LogUObjectGlobals: Created PersistentFrame Addr=0x0000000037ebd7a0, Size=4, Default__PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2018.07.02-11.56.37:754][613]LogSlate: Took 0.018420 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.07.02-11.56.41:220][963]LogRenderer: Reallocating scene render targets to support 960x688 Format 10 NumSamples 1 (Frame:1).
+[2018.07.02-11.56.42:277][ 75]LogSlate: Took 0.013025 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.07.02-11.56.52:207][229]LogUObjectGlobals: Created PersistentFrame Addr=0x00000000705d4ab0, Size=4, Default__SKEL_BP_PersonnageTest_C Function /Game/Personnage/BP_PersonnageTest.SKEL_BP_PersonnageTest_C:ExecuteUbergraph_BP_PersonnageTest
+[2018.07.02-11.56.59:045][  4]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000000705d4ab0, Size=4
+[2018.07.02-11.56.59:045][  4]LogUObjectGlobals: Created PersistentFrame Addr=0x0000000054ccd600, Size=4, Default__SKEL_BP_PersonnageTest_C Function /Engine/Transient.REINST_SKEL_BP_PersonnageTest_C_21:ExecuteUbergraph_BP_PersonnageTest
+[2018.07.02-11.56.59:048][  4]LogUObjectGlobals: Created PersistentFrame Addr=0x0000000054cccea8, Size=4, Default__SKEL_BP_PersonnageTest_C Function /Game/Personnage/BP_PersonnageTest.SKEL_BP_PersonnageTest_C:ExecuteUbergraph_BP_PersonnageTest
+[2018.07.02-11.57.10:284][299]BlueprintLog: New page: Compile BP_PersonnageTest
+[2018.07.02-11.57.10:292][299]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000000054cccea8, Size=4
+[2018.07.02-11.57.10:292][299]LogUObjectGlobals: Created PersistentFrame Addr=0x00000000705d7708, Size=4, Default__SKEL_BP_PersonnageTest_C Function /Engine/Transient.REINST_SKEL_BP_PersonnageTest_C_23:ExecuteUbergraph_BP_PersonnageTest
+[2018.07.02-11.57.10:300][299]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000000016fefe00, Size=32
+[2018.07.02-11.57.10:300][299]LogUObjectGlobals: Created PersistentFrame Addr=0x000000006073d860, Size=32, BP_PersonnageTest_C_16 Function /Engine/Transient.REINST_BP_PersonnageTest_C_25:ExecuteUbergraph_BP_PersonnageTest
+[2018.07.02-11.57.10:303][299]LogUObjectGlobals: Created PersistentFrame Addr=0x000000006073c980, Size=32, Default__BP_PersonnageTest_C Function /Game/Personnage/BP_PersonnageTest.BP_PersonnageTest_C:ExecuteUbergraph_BP_PersonnageTest
+[2018.07.02-11.57.10:868][299]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000000062a41140, Size=32
+[2018.07.02-11.57.10:869][299]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000000705d7708, Size=4
+[2018.07.02-11.57.11:847][380]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Personnage/BP_PersonnageTest" FILE="C:/Users/seb/Documents/GitHub/DrunkFighting/Content/Personnage/BP_PersonnageTest.uasset" SILENT=true
+[2018.07.02-11.57.12:024][380]LogSavePackage: Save=128.70ms
+[2018.07.02-11.57.12:024][380]LogSavePackage: Moving 'C:/Users/seb/Documents/GitHub/DrunkFighting/Saved/BP_PersonnageTest895704FF49CC1D76C2032E94229196A0.tmp' to 'C:/Users/seb/Documents/GitHub/DrunkFighting/Content/Personnage/BP_PersonnageTest.uasset'
+[2018.07.02-11.57.12:047][380]LogSavePackage: Display: Finished SavePackage C:/Users/seb/Documents/GitHub/DrunkFighting/Content/Personnage/BP_PersonnageTest.uasset
+[2018.07.02-11.57.17:412][  2]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.07.02-11.57.17:482][  2]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.02-11.57.17:514][  2]PIE: New page: PIE session: Untitled_1 (2 juil. 2018 15:57:17)
+[2018.07.02-11.57.17:515][  2]LogPlayLevel: Creating play world package: /Temp/UEDPIE_1_Untitled_1
+[2018.07.02-11.57.17:553][  2]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038364s)
+[2018.07.02-11.57.17:554][  2]LogAIModule: Creating AISystem for world Untitled_1
+[2018.07.02-11.57.17:554][  2]LogPlayLevel: PIE: World Init took: (0.001096s)
+[2018.07.02-11.57.17:554][  2]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_1_Untitled_1.Untitled_1 (0.039632s)
+[2018.07.02-11.57.17:647][  2]LogUObjectGlobals: Created PersistentFrame Addr=0x000000005b93c098, Size=4, Default__BP_gameMode_C Function /Game/Personnage/BP_gameMode.BP_gameMode_C:ExecuteUbergraph_BP_gameMode
+[2018.07.02-11.57.17:653][  2]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000005b93c098, Size=4
+[2018.07.02-11.57.17:653][  2]LogUObjectGlobals: Created PersistentFrame Addr=0x000000005b93c098, Size=4, Default__BP_gameMode_C Function /Engine/Transient.REINST_BP_gameMode_C_29:ExecuteUbergraph_BP_gameMode
+[2018.07.02-11.57.17:674][  2]LogUObjectGlobals: Created PersistentFrame Addr=0x000000005b93c4b8, Size=4, Default__BP_gameMode_C Function /Game/Personnage/BP_gameMode.BP_gameMode_C:ExecuteUbergraph_BP_gameMode
+[2018.07.02-11.57.17:699][  2]LogLoad: Game class is 'BP_gameMode_C'
+[2018.07.02-11.57.17:709][  2]LogWorld: Bringing World /Temp/UEDPIE_1_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2018.07.02-13.57.17
+[2018.07.02-11.57.17:717][  2]LogWorld: Bringing up level for play took: 0.007986
+[2018.07.02-11.57.17:731][  2]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.07.02-11.57.17:731][  2]LogTemp: Display: ParseSettings for IpNetDriver_0
+[2018.07.02-11.57.17:731][  2]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.07.02-11.57.17:732][  2]LogInit: WinSock: Socket queue 131072 / 131072
+[2018.07.02-11.57.17:733][  2]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.07.02-11.57.17:733][  2]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 17777
+[2018.07.02-11.57.17:733][  2]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.07.02-11.57.17:749][  2]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.07.02-11.57.17:749][  2]PIE: Play in editor start time for /Temp/UEDPIE_1_Untitled_1 -0,299
+[2018.07.02-11.57.17:761][  2]PIE: New page: PIE session: Untitled_1 (2 juil. 2018 15:57:17)
+[2018.07.02-11.57.17:789][  2]LogInit: XAudio2 using 'Haut-parleurs (2- Razer Surround Audio Controller)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.07.02-11.57.17:797][  2]LogInit: FAudioDevice initialized.
+[2018.07.02-11.57.17:851][  2]LogNet: Browse: 127.0.0.1:17777//Engine/Maps/Entry
+[2018.07.02-11.57.17:853][  2]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.07.02-11.57.17:853][  2]LogTemp: Display: ParseSettings for IpNetDriver_1
+[2018.07.02-11.57.17:853][  2]LogTemp: Display: ParseSettings for PendingNetDriver
+[2018.07.02-11.57.17:854][  2]LogInit: WinSock: Socket queue 32768 / 32768
+[2018.07.02-11.57.17:854][  2]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.07.02-11.57.17:876][  2]LogNet: Game client on port 17777, rate 10000
+[2018.07.02-11.57.17:882][  2]PIE: Play in editor start time for /Engine/Maps/Entry -0,166
+[2018.07.02-11.57.17:890][  2]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:54090
+[2018.07.02-11.57.17:890][  2]LogHandshake: SendConnectChallenge. Timestamp: 0.008333, Cookie: 153062119104027052140168085081105197085217059134075023014080
+[2018.07.02-11.57.17:897][  2]LogHandshake: SendChallengeResponse. Timestamp: 0.008333, Cookie: 153062119104027052140168085081105197085217059134075023014080
+[2018.07.02-11.57.18:504][  3]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.512 s
+[2018.07.02-11.57.18:504][  3]LogOutputDevice: Error: === Handled ensure: ===
+[2018.07.02-11.57.18:504][  3]LogOutputDevice: Error: 
+[2018.07.02-11.57.18:504][  3]LogOutputDevice: Error: Ensure condition failed: Cast<APawn>(NewUpdatedComponent->GetOwner()) [File:D:\Build\++UE4+Release-4.19+Compile\Sync\Engine\Source\Runtime\Engine\Private\Components\PawnMovementComponent.cpp] [Line: 16]
+[2018.07.02-11.57.18:504][  3]LogOutputDevice: Error: FloatingPawnMovement must update a component owned by a Pawn
+[2018.07.02-11.57.18:504][  3]LogOutputDevice: Error: Stack: 
+[2018.07.02-11.57.18:504][  3]LogOutputDevice: Error: [Callstack] 0x00000000DD4AB706 UE4Editor-Core.dll!UnknownFunction []
+[2018.07.02-11.57.18:504][  3]LogOutputDevice: Error: [Callstack] 0x00000000DD20AE3A UE4Editor-Core.dll!UnknownFunction []
+[2018.07.02-11.57.18:504][  3]LogOutputDevice: Error: [Callstack] 0x00000000DD21ECD6 UE4Editor-Core.dll!UnknownFunction []
+[2018.07.02-11.57.18:504][  3]LogOutputDevice: Error: [Callstack] 0x00000000D74990B0 UE4Editor-Engine.dll!UnknownFunction []
+[2018.07.02-11.57.18:504][  3]LogOutputDevice: Error: [Callstack] 0x00000000D7480A22 UE4Editor-Engine.dll!UnknownFunction []
+[2018.07.02-11.57.18:504][  3]LogOutputDevice: Error: [Callstack] 0x00000000D6FAF3C0 UE4Editor-Engine.dll!UnknownFunction []
+[2018.07.02-11.57.18:504][  3]LogOutputDevice: Error: [Callstack] 0x00000000D6FB7C6A UE4Editor-Engine.dll!UnknownFunction []
+[2018.07.02-11.57.18:505][  3]LogOutputDevice: Error: [Callstack] 0x00000000D6F9484A UE4Editor-Engine.dll!UnknownFunction []
+[2018.07.02-11.57.18:505][  3]LogOutputDevice: Error: [Callstack] 0x00000000D6FBC349 UE4Editor-Engine.dll!UnknownFunction []
+[2018.07.02-11.57.18:505][  3]LogOutputDevice: Error: [Callstack] 0x00000000D79233D4 UE4Editor-Engine.dll!UnknownFunction []
+[2018.07.02-11.57.18:505][  3]LogOutputDevice: Error: [Callstack] 0x00000000D79237E7 UE4Editor-Engine.dll!UnknownFunction []
+[2018.07.02-11.57.18:505][  3]LogOutputDevice: Error: [Callstack] 0x00000000D4B0BFB5 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.07.02-11.57.18:505][  3]LogOutputDevice: Error: [Callstack] 0x00000000D531607E UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.07.02-11.57.18:505][  3]LogOutputDevice: Error: [Callstack] 0x00000000D52ADC02 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.07.02-11.57.18:505][  3]LogOutputDevice: Error: [Callstack] 0x00000000D4F8A184 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.07.02-11.57.18:505][  3]LogOutputDevice: Error: [Callstack] 0x00000000D4797AE2 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.07.02-11.57.18:505][  3]LogOutputDevice: Error: [Callstack] 0x00000000D46CE728 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.07.02-11.57.18:505][  3]LogOutputDevice: Error: [Callstack] 0x00000000D4A7C1DF UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.07.02-11.57.18:505][  3]LogOutputDevice: Error: [Callstack] 0x00000000D5319626 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.07.02-11.57.18:505][  3]LogOutputDevice: Error: [Callstack] 0x000000003F7D5EAC UE4Editor.exe!UnknownFunction []
+[2018.07.02-11.57.18:505][  3]LogOutputDevice: Error: [Callstack] 0x000000003F7E6BD0 UE4Editor.exe!UnknownFunction []
+[2018.07.02-11.57.18:505][  3]LogOutputDevice: Error: [Callstack] 0x000000003F7E6C4A UE4Editor.exe!UnknownFunction []
+[2018.07.02-11.57.18:505][  3]LogOutputDevice: Error: [Callstack] 0x000000003F7F4177 UE4Editor.exe!UnknownFunction []
+[2018.07.02-11.57.18:505][  3]LogOutputDevice: Error: [Callstack] 0x000000003F7F5B87 UE4Editor.exe!UnknownFunction []
+[2018.07.02-11.57.18:505][  3]LogOutputDevice: Error: [Callstack] 0x00000000777759CD kernel32.dll!UnknownFunction []
+[2018.07.02-11.57.18:505][  3]LogOutputDevice: Error: [Callstack] 0x00000000779D383D ntdll.dll!UnknownFunction []
+[2018.07.02-11.57.18:506][  3]LogOutputDevice: Error: 
+[2018.07.02-11.57.18:510][  3]LogStats:                SubmitErrorReport -  0.000 s
+[2018.07.02-11.57.19:525][  3]LogStats:                    SendNewReport -  1.015 s
+[2018.07.02-11.57.19:525][  3]LogStats:             FDebug::EnsureFailed -  1.534 s
+[2018.07.02-11.57.19:551][  3]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:54090
+[2018.07.02-11.57.19:551][  3]LogHandshake: SendChallengeAck. InCookie: 153062119104027052140168085081105197085217059134075023014080
+[2018.07.02-11.57.19:551][  3]LogNet: Server accepting post-challenge connection from: 127.0.0.1:54090
+[2018.07.02-11.57.19:551][  3]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.07.02-11.57.19:552][  3]LogNet: NotifyAcceptedConnection: Name: Untitled_1, TimeStamp: 07/02/18 13:57:19, [UNetConnection] RemoteAddr: 127.0.0.1:54090, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.07.02-11.57.19:552][  3]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:54090, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.07.02-11.57.19:569][  3]LogNetVersion: DrunkFighting 1.0.0.0, NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4008793100)
+[2018.07.02-11.57.19:592][  3]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: PendingNetDriver IpNetDriver_1, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.07.02-11.57.19:605][  4]LogNet: NotifyAcceptingChannel Control 0 server World /Temp/UEDPIE_1_Untitled_1.Untitled_1: Accepted
+[2018.07.02-11.57.19:605][  4]LogNet: Remote platform little endian=1
+[2018.07.02-11.57.19:605][  4]LogNet: This platform little endian=1
+[2018.07.02-11.57.19:644][  5]LogNet: Login request: /Engine/Maps/Entry userId: Invalid
+[2018.07.02-11.57.19:646][  5]LogNet: Welcomed by server (Level: /Temp/UEDPIE_1_Untitled_1, Game: /Game/Personnage/BP_gameMode.BP_gameMode_C)
+[2018.07.02-11.57.19:647][  5]LogLoad: LoadMap: 127.0.0.1:17777//Temp/UEDPIE_1_Untitled_1?game=/Game/Personnage/BP_gameMode.BP_gameMode_C
+[2018.07.02-11.57.19:686][  5]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000005b93c098, Size=4
+[2018.07.02-11.57.19:692][  5]LogAIModule: Creating AISystem for world Untitled_1
+[2018.07.02-11.57.19:692][  5]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.07.02-11.57.19:694][  5]LogWorld: Bringing World /Temp/UEDPIE_2_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2018.07.02-13.57.19
+[2018.07.02-11.57.19:694][  5]LogWorld: Bringing up level for play took: 0.000711
+[2018.07.02-11.57.19:694][  5]LogLoad: Took 0.047032 seconds to LoadMap(/Temp/UEDPIE_1_Untitled_1)
+[2018.07.02-11.57.19:793][  6]LogRenderer: Reallocating scene render targets to support 1440x900 Format 10 NumSamples 1 (Frame:1).
+[2018.07.02-11.57.19:857][  6]LogNet: Client netspeed is 10000
+[2018.07.02-11.57.19:857][  6]LogNet: Join request: /Engine/Maps/Entry?SplitscreenCount=1
+[2018.07.02-11.57.19:887][  6]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.07.02-11.57.19:887][  6]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.07.02-11.57.19:887][  6]LogNet: Join succeeded: 256
+[2018.07.02-11.57.24:212][454]LogSlate: Window 'DrunkFighting Game Preview Client 1 (64-bit/PCD3D_SM5)' being destroyed
+[2018.07.02-11.57.24:274][454]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:54090, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PlayerController_0, Owner: PlayerController_0, UniqueId: INVALID
+[2018.07.02-11.57.24:274][454]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:54090, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PlayerController_0, Owner: PlayerController_0, UniqueId: INVALID, Channels: 7, Time: 2018.07.02-11.57.24
+[2018.07.02-11.57.24:274][454]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:54090, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PlayerController_0, Owner: PlayerController_0, UniqueId: INVALID
+[2018.07.02-11.57.24:275][454]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: INVALID
+[2018.07.02-11.57.24:275][454]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: INVALID, Channels: 7, Time: 2018.07.02-11.57.24
+[2018.07.02-11.57.24:275][454]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: INVALID
+[2018.07.02-11.57.24:294][454]LogExit: GameNetDriver None shut down
+[2018.07.02-11.57.24:294][454]LogExit: GameNetDriver None shut down
+[2018.07.02-11.57.26:810][735]LogUObjectGlobals: Created PersistentFrame Addr=0x000000005b8f1c60, Size=40, Default__BP_camera_C Function /Game/Personnage/BP_camera.BP_camera_C:ExecuteUbergraph_BP_camera
+[2018.07.02-11.57.26:822][735]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000005b8f1c60, Size=40
+[2018.07.02-11.57.26:822][735]LogUObjectGlobals: Created PersistentFrame Addr=0x000000005b8f1c60, Size=40, Default__BP_camera_C Function /Engine/Transient.REINST_BP_camera_C_31:ExecuteUbergraph_BP_camera
+[2018.07.02-11.57.26:854][735]LogUObjectGlobals: Created PersistentFrame Addr=0x000000005b8f14e0, Size=40, Default__BP_camera_C Function /Game/Personnage/BP_camera.BP_camera_C:ExecuteUbergraph_BP_camera
+[2018.07.02-11.57.34:272][420]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.02-11.57.34:372][431]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.07.02-11.57.34:393][431]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.02-11.57.34:394][431]PIE: New page: PIE session: Untitled_1 (2 juil. 2018 15:57:34)
+[2018.07.02-11.57.34:394][431]LogPlayLevel: Creating play world package: /Temp/UEDPIE_1_Untitled_1
+[2018.07.02-11.57.34:397][431]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003361s)
+[2018.07.02-11.57.34:398][431]LogAIModule: Creating AISystem for world Untitled_1
+[2018.07.02-11.57.34:398][431]LogPlayLevel: PIE: World Init took: (0.000865s)
+[2018.07.02-11.57.34:398][431]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_1_Untitled_1.Untitled_1 (0.004370s)
+[2018.07.02-11.57.34:439][431]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000005b8f1c60, Size=40
+[2018.07.02-11.57.34:523][431]LogLoad: Game class is 'BP_gameMode_C'
+[2018.07.02-11.57.34:526][431]LogWorld: Bringing World /Temp/UEDPIE_1_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2018.07.02-13.57.34
+[2018.07.02-11.57.34:527][431]LogWorld: Bringing up level for play took: 0.001789
+[2018.07.02-11.57.34:527][431]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.07.02-11.57.34:527][431]LogTemp: Display: ParseSettings for IpNetDriver_2
+[2018.07.02-11.57.34:528][431]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.07.02-11.57.34:528][431]LogInit: WinSock: Socket queue 131072 / 131072
+[2018.07.02-11.57.34:529][431]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.07.02-11.57.34:529][431]LogNet: GameNetDriver IpNetDriver_2 IpNetDriver listening on port 17777
+[2018.07.02-11.57.34:529][431]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.07.02-11.57.34:549][431]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.07.02-11.57.34:550][431]PIE: Play in editor start time for /Temp/UEDPIE_1_Untitled_1 0,501
+[2018.07.02-11.57.34:551][431]PIE: New page: PIE session: Untitled_1 (2 juil. 2018 15:57:34)
+[2018.07.02-11.57.34:592][431]LogInit: XAudio2 using 'Haut-parleurs (2- Razer Surround Audio Controller)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.07.02-11.57.34:604][431]LogInit: FAudioDevice initialized.
+[2018.07.02-11.57.34:672][431]LogNet: Browse: 127.0.0.1:17777//Engine/Maps/Entry
+[2018.07.02-11.57.34:672][431]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.07.02-11.57.34:672][431]LogTemp: Display: ParseSettings for IpNetDriver_3
+[2018.07.02-11.57.34:672][431]LogTemp: Display: ParseSettings for PendingNetDriver
+[2018.07.02-11.57.34:673][431]LogInit: WinSock: Socket queue 32768 / 32768
+[2018.07.02-11.57.34:673][431]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.07.02-11.57.34:674][431]LogNet: Game client on port 17777, rate 10000
+[2018.07.02-11.57.34:682][431]PIE: Play in editor start time for /Engine/Maps/Entry 0,634
+[2018.07.02-11.57.34:695][431]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:58847
+[2018.07.02-11.57.34:695][431]LogHandshake: SendConnectChallenge. Timestamp: 0.008530, Cookie: 059170195154048153051116043202174176025112097080091098016182
+[2018.07.02-11.57.34:696][431]LogHandshake: SendChallengeResponse. Timestamp: 0.008530, Cookie: 059170195154048153051116043202174176025112097080091098016182
+[2018.07.02-11.57.34:763][432]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:58847
+[2018.07.02-11.57.34:763][432]LogHandshake: SendChallengeAck. InCookie: 059170195154048153051116043202174176025112097080091098016182
+[2018.07.02-11.57.34:763][432]LogNet: Server accepting post-challenge connection from: 127.0.0.1:58847
+[2018.07.02-11.57.34:763][432]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.07.02-11.57.34:763][432]LogNet: NotifyAcceptedConnection: Name: Untitled_1, TimeStamp: 07/02/18 13:57:34, [UNetConnection] RemoteAddr: 127.0.0.1:58847, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.07.02-11.57.34:763][432]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:58847, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.07.02-11.57.34:764][432]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_2, Driver: PendingNetDriver IpNetDriver_3, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.07.02-11.57.34:775][433]LogNet: NotifyAcceptingChannel Control 0 server World /Temp/UEDPIE_1_Untitled_1.Untitled_1: Accepted
+[2018.07.02-11.57.34:776][433]LogNet: Remote platform little endian=1
+[2018.07.02-11.57.34:776][433]LogNet: This platform little endian=1
+[2018.07.02-11.57.34:784][434]LogNet: Login request: /Engine/Maps/Entry userId: Invalid
+[2018.07.02-11.57.34:785][434]LogNet: Welcomed by server (Level: /Temp/UEDPIE_1_Untitled_1, Game: /Game/Personnage/BP_gameMode.BP_gameMode_C)
+[2018.07.02-11.57.34:787][434]LogLoad: LoadMap: 127.0.0.1:17777//Temp/UEDPIE_1_Untitled_1?game=/Game/Personnage/BP_gameMode.BP_gameMode_C
+[2018.07.02-11.57.34:827][434]LogAIModule: Creating AISystem for world Untitled_1
+[2018.07.02-11.57.34:827][434]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.07.02-11.57.34:828][434]LogWorld: Bringing World /Temp/UEDPIE_2_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2018.07.02-13.57.34
+[2018.07.02-11.57.34:828][434]LogWorld: Bringing up level for play took: 0.000514
+[2018.07.02-11.57.34:829][434]LogLoad: Took 0.042083 seconds to LoadMap(/Temp/UEDPIE_1_Untitled_1)
+[2018.07.02-11.57.34:846][435]LogNet: Client netspeed is 10000
+[2018.07.02-11.57.34:847][435]LogNet: Join request: /Engine/Maps/Entry?SplitscreenCount=1
+[2018.07.02-11.57.34:848][435]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.07.02-11.57.34:848][435]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.07.02-11.57.34:848][435]LogNet: Join succeeded: 257
+[2018.07.02-11.58.32:620][848]LogSlate: Window 'DrunkFighting Game Preview Client 1 (64-bit/PCD3D_SM5)' being destroyed
+[2018.07.02-11.58.32:683][848]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:58847, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: None, Owner: None, UniqueId: INVALID
+[2018.07.02-11.58.32:683][848]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:58847, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: None, Owner: None, UniqueId: INVALID, Channels: 2, Time: 2018.07.02-11.58.32
+[2018.07.02-11.58.32:684][848]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:58847, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: None, Owner: None, UniqueId: INVALID
+[2018.07.02-11.58.32:684][848]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, IsServer: NO, PC: None, Owner: None, UniqueId: INVALID
+[2018.07.02-11.58.32:684][848]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, IsServer: NO, PC: None, Owner: None, UniqueId: INVALID, Channels: 2, Time: 2018.07.02-11.58.32
+[2018.07.02-11.58.32:684][848]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, IsServer: NO, PC: None, Owner: None, UniqueId: INVALID
+[2018.07.02-11.58.32:686][848]LogExit: GameNetDriver None shut down
+[2018.07.02-11.58.32:687][848]LogExit: GameNetDriver None shut down
+[2018.07.02-11.58.48:828][743]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2018.07.02-11.58.53:872][240]LogEditorViewport: Clicking on Actor (context menu): PlayerStart (Player Start)
+[2018.07.02-11.58.53:957][240]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.02-11.58.56:260][437]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.07.02-11.58.58:461][596]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.07.02-11.58.59:482][691]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2018.07.02-11.59.24:131][102]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.02-11.59.24:220][102]Cmd: OBJ SAVEPACKAGE PACKAGE="/Temp/Untitled_1" FILE="C:/Users/seb/Documents/GitHub/DrunkFighting/Saved/Autosaves/Temp/Untitled_1_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.07.02-11.59.24:255][102]LogSavePackage: Save=34.29ms
+[2018.07.02-11.59.24:255][102]LogSavePackage: Moving 'C:/Users/seb/Documents/GitHub/DrunkFighting/Saved/Untitled_1_Auto1280EB569460984CCDF871DA73FD520BF.tmp' to 'C:/Users/seb/Documents/GitHub/DrunkFighting/Saved/Autosaves/Temp/Untitled_1_Auto1.umap'
+[2018.07.02-11.59.24:257][102]LogSavePackage: Display: Finished SavePackage C:/Users/seb/Documents/GitHub/DrunkFighting/Saved/Autosaves/Temp/Untitled_1_Auto1.umap
+[2018.07.02-11.59.24:280][102]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.130
+[2018.07.02-11.59.24:281][102]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.130
+[2018.07.02-12.03.44:798][ 60]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.02-12.04.03:301][977]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.07.02-12.04.06:725][338]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.07.02-12.04.08:049][474]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.07.02-12.04.12:543][935]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.07.02-12.04.16:359][323]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.07.02-12.04.17:918][487]LogEditorViewport: Clicking on Actor (context menu): PlayerStart (PlayerStart)
+[2018.07.02-12.04.17:945][487]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.02-12.04.19:374][637]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.07.02-12.04.20:657][762]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.07.02-12.04.21:541][846]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2018.07.02-12.04.25:522][257]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2018.07.02-12.04.29:441][641]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.02-12.04.36:372][350]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.02-12.04.44:098][168]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.07.02-12.05.28:945][999]BlueprintLog: New page: Compile BP_gameMode
+[2018.07.02-12.05.28:978][999]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000005b93c4b8, Size=4
+[2018.07.02-12.05.28:978][999]LogUObjectGlobals: Created PersistentFrame Addr=0x000000009f5d4e88, Size=4, Default__BP_gameMode_C Function /Engine/Transient.REINST_BP_gameMode_C_37:ExecuteUbergraph_BP_gameMode
+[2018.07.02-12.05.28:984][999]LogUObjectGlobals: Created PersistentFrame Addr=0x000000009f5d4a08, Size=4, Default__BP_gameMode_C Function /Game/Personnage/BP_gameMode.BP_gameMode_C:ExecuteUbergraph_BP_gameMode
+[2018.07.02-12.05.29:758][ 46]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Personnage/BP_gameMode" FILE="C:/Users/seb/Documents/GitHub/DrunkFighting/Content/Personnage/BP_gameMode.uasset" SILENT=true
+[2018.07.02-12.05.29:816][ 46]LogSavePackage: Save=38.14ms
+[2018.07.02-12.05.29:816][ 46]LogSavePackage: Moving 'C:/Users/seb/Documents/GitHub/DrunkFighting/Saved/BP_gameMode81726D8744FCDFA7E3F6649D79BEECE0.tmp' to 'C:/Users/seb/Documents/GitHub/DrunkFighting/Content/Personnage/BP_gameMode.uasset'
+[2018.07.02-12.05.29:821][ 46]LogSavePackage: Display: Finished SavePackage C:/Users/seb/Documents/GitHub/DrunkFighting/Content/Personnage/BP_gameMode.uasset
+[2018.07.02-12.05.31:969][289]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Personnage/BP_PersonnageTest" FILE="C:/Users/seb/Documents/GitHub/DrunkFighting/Content/Personnage/BP_PersonnageTest.uasset" SILENT=true
+[2018.07.02-12.05.32:007][289]LogSavePackage: Save=28.56ms
+[2018.07.02-12.05.32:007][289]LogSavePackage: Moving 'C:/Users/seb/Documents/GitHub/DrunkFighting/Saved/BP_PersonnageTest16F1931A431179D2D53FA488417AB012.tmp' to 'C:/Users/seb/Documents/GitHub/DrunkFighting/Content/Personnage/BP_PersonnageTest.uasset'
+[2018.07.02-12.05.32:010][289]LogSavePackage: Display: Finished SavePackage C:/Users/seb/Documents/GitHub/DrunkFighting/Content/Personnage/BP_PersonnageTest.uasset
+[2018.07.02-12.05.36:518][751]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.07.02-12.05.36:542][751]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.02-12.05.36:543][751]PIE: New page: PIE session: Untitled_1 (2 juil. 2018 16:05:36)
+[2018.07.02-12.05.36:543][751]LogPlayLevel: Creating play world package: /Temp/UEDPIE_1_Untitled_1
+[2018.07.02-12.05.36:547][751]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004302s)
+[2018.07.02-12.05.36:548][751]LogAIModule: Creating AISystem for world Untitled_1
+[2018.07.02-12.05.36:548][751]LogPlayLevel: PIE: World Init took: (0.001294s)
+[2018.07.02-12.05.36:549][751]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_1_Untitled_1.Untitled_1 (0.005747s)
+[2018.07.02-12.05.36:587][751]LogLoad: Game class is 'BP_gameMode_C'
+[2018.07.02-12.05.36:588][751]LogWorld: Bringing World /Temp/UEDPIE_1_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2018.07.02-14.05.36
+[2018.07.02-12.05.36:589][751]LogWorld: Bringing up level for play took: 0.000857
+[2018.07.02-12.05.36:589][751]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.07.02-12.05.36:589][751]LogTemp: Display: ParseSettings for IpNetDriver_4
+[2018.07.02-12.05.36:589][751]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.07.02-12.05.36:589][751]LogInit: WinSock: Socket queue 131072 / 131072
+[2018.07.02-12.05.36:590][751]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.07.02-12.05.36:590][751]LogNet: GameNetDriver IpNetDriver_4 IpNetDriver listening on port 17777
+[2018.07.02-12.05.36:590][751]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.07.02-12.05.36:590][751]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.07.02-12.05.36:591][751]PIE: Play in editor start time for /Temp/UEDPIE_1_Untitled_1 0,538
+[2018.07.02-12.05.36:591][751]PIE: New page: PIE session: Untitled_1 (2 juil. 2018 16:05:36)
+[2018.07.02-12.05.36:612][751]LogInit: XAudio2 using 'Haut-parleurs (2- Razer Surround Audio Controller)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.07.02-12.05.36:620][751]LogInit: FAudioDevice initialized.
+[2018.07.02-12.05.36:669][751]LogNet: Browse: 127.0.0.1:17777//Engine/Maps/Entry
+[2018.07.02-12.05.36:669][751]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.07.02-12.05.36:669][751]LogTemp: Display: ParseSettings for IpNetDriver_5
+[2018.07.02-12.05.36:669][751]LogTemp: Display: ParseSettings for PendingNetDriver
+[2018.07.02-12.05.36:669][751]LogInit: WinSock: Socket queue 32768 / 32768
+[2018.07.02-12.05.36:670][751]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.07.02-12.05.36:670][751]LogNet: Game client on port 17777, rate 10000
+[2018.07.02-12.05.36:675][751]PIE: Play in editor start time for /Engine/Maps/Entry 0,622
+[2018.07.02-12.05.36:683][751]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:59185
+[2018.07.02-12.05.36:683][751]LogHandshake: SendConnectChallenge. Timestamp: 0.008479, Cookie: 198143099228225184092190183204250045056197142196027012241031
+[2018.07.02-12.05.36:684][751]LogHandshake: SendChallengeResponse. Timestamp: 0.008479, Cookie: 198143099228225184092190183204250045056197142196027012241031
+[2018.07.02-12.05.36:756][752]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:59185
+[2018.07.02-12.05.36:756][752]LogHandshake: SendChallengeAck. InCookie: 198143099228225184092190183204250045056197142196027012241031
+[2018.07.02-12.05.36:757][752]LogNet: Server accepting post-challenge connection from: 127.0.0.1:59185
+[2018.07.02-12.05.36:757][752]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.07.02-12.05.36:757][752]LogNet: NotifyAcceptedConnection: Name: Untitled_1, TimeStamp: 07/02/18 14:05:36, [UNetConnection] RemoteAddr: 127.0.0.1:59185, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.07.02-12.05.36:757][752]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:59185, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.07.02-12.05.36:758][752]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_4, Driver: PendingNetDriver IpNetDriver_5, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.07.02-12.05.36:767][753]LogNet: NotifyAcceptingChannel Control 0 server World /Temp/UEDPIE_1_Untitled_1.Untitled_1: Accepted
+[2018.07.02-12.05.36:767][753]LogNet: Remote platform little endian=1
+[2018.07.02-12.05.36:767][753]LogNet: This platform little endian=1
+[2018.07.02-12.05.36:775][754]LogNet: Login request: /Engine/Maps/Entry userId: Invalid
+[2018.07.02-12.05.36:776][754]LogNet: Welcomed by server (Level: /Temp/UEDPIE_1_Untitled_1, Game: /Game/Personnage/BP_gameMode.BP_gameMode_C)
+[2018.07.02-12.05.36:777][754]LogLoad: LoadMap: 127.0.0.1:17777//Temp/UEDPIE_1_Untitled_1?game=/Game/Personnage/BP_gameMode.BP_gameMode_C
+[2018.07.02-12.05.36:819][754]LogAIModule: Creating AISystem for world Untitled_1
+[2018.07.02-12.05.36:819][754]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.07.02-12.05.36:821][754]LogWorld: Bringing World /Temp/UEDPIE_2_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2018.07.02-14.05.36
+[2018.07.02-12.05.36:821][754]LogWorld: Bringing up level for play took: 0.000640
+[2018.07.02-12.05.36:821][754]LogLoad: Took 0.043849 seconds to LoadMap(/Temp/UEDPIE_1_Untitled_1)
+[2018.07.02-12.05.36:840][755]LogNet: Client netspeed is 10000
+[2018.07.02-12.05.36:840][755]LogNet: Join request: /Engine/Maps/Entry?SplitscreenCount=1
+[2018.07.02-12.05.36:862][755]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.07.02-12.05.36:886][755]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.07.02-12.05.36:887][755]LogNet: Join succeeded: 258
+[2018.07.02-12.05.47:689][975]LogSlate: Window 'DrunkFighting Game Preview Client 1 (64-bit/PCD3D_SM5)' being destroyed
+[2018.07.02-12.05.47:758][975]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:59185, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: None, Owner: None, UniqueId: INVALID
+[2018.07.02-12.05.47:758][975]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:59185, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: None, Owner: None, UniqueId: INVALID, Channels: 2, Time: 2018.07.02-12.05.47
+[2018.07.02-12.05.47:758][975]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:59185, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: None, Owner: None, UniqueId: INVALID
+[2018.07.02-12.05.47:758][975]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_5, IsServer: NO, PC: None, Owner: None, UniqueId: INVALID
+[2018.07.02-12.05.47:758][975]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_5, IsServer: NO, PC: None, Owner: None, UniqueId: INVALID, Channels: 2, Time: 2018.07.02-12.05.47
+[2018.07.02-12.05.47:758][975]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_5, IsServer: NO, PC: None, Owner: None, UniqueId: INVALID
+[2018.07.02-12.05.47:761][975]LogExit: GameNetDriver None shut down
+[2018.07.02-12.05.47:762][975]LogExit: GameNetDriver None shut down
+[2018.07.02-12.05.53:318][624]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2018.07.02-12.05.59:083][214]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.02-12.06.14:984][815]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2018.07.02-12.06.16:784][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.02-12.06.21:926][541]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.02-12.07.04:878][456]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart2)
+[2018.07.02-12.07.06:104][595]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.02-12.07.19:584][130]Cmd: DUPLICATE
+[2018.07.02-12.07.19:584][130]Cmd: ACTOR DUPLICATE
+[2018.07.02-12.07.19:777][130]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.07.02-12.07.23:289][537]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.07.02-12.07.24:276][651]Cmd: DUPLICATE
+[2018.07.02-12.07.24:276][651]Cmd: ACTOR DUPLICATE
+[2018.07.02-12.07.24:290][651]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.07.02-12.07.26:135][864]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.07.02-12.07.28:929][183]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.02-12.07.41:417][632]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.07.02-12.07.41:442][632]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.02-12.07.41:443][632]PIE: New page: PIE session: Untitled_1 (2 juil. 2018 16:07:41)
+[2018.07.02-12.07.41:443][632]LogPlayLevel: Creating play world package: /Temp/UEDPIE_1_Untitled_1
+[2018.07.02-12.07.41:448][632]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004693s)
+[2018.07.02-12.07.41:448][632]LogAIModule: Creating AISystem for world Untitled_1
+[2018.07.02-12.07.41:449][632]LogPlayLevel: PIE: World Init took: (0.001011s)
+[2018.07.02-12.07.41:449][632]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_1_Untitled_1.Untitled_1 (0.005854s)
+[2018.07.02-12.07.41:491][632]LogLoad: Game class is 'BP_gameMode_C'
+[2018.07.02-12.07.41:493][632]LogWorld: Bringing World /Temp/UEDPIE_1_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2018.07.02-14.07.41
+[2018.07.02-12.07.41:493][632]LogWorld: Bringing up level for play took: 0.001623
+[2018.07.02-12.07.41:494][632]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.07.02-12.07.41:494][632]LogTemp: Display: ParseSettings for IpNetDriver_6
+[2018.07.02-12.07.41:494][632]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.07.02-12.07.41:494][632]LogInit: WinSock: Socket queue 131072 / 131072
+[2018.07.02-12.07.41:495][632]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.07.02-12.07.41:495][632]LogNet: GameNetDriver IpNetDriver_6 IpNetDriver listening on port 17777
+[2018.07.02-12.07.41:495][632]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.07.02-12.07.41:497][632]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.07.02-12.07.41:498][632]LogOutputDevice: Warning: 
+
+Script Stack:
+GameModeBase.HandleStartingNewPlayer
+BP_gameMode_C.spawnPlayers
+BP_gameMode_C.ExecuteUbergraph_BP_gameMode
+BP_gameMode_C.ReceiveBeginPlay
+
+[2018.07.02-12.07.41:597][632]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.099 s
+[2018.07.02-12.07.41:597][632]LogOutputDevice: Error: === Handled ensure: ===
+[2018.07.02-12.07.41:597][632]LogOutputDevice: Error: 
+[2018.07.02-12.07.41:597][632]LogOutputDevice: Error: Ensure condition failed: ActorHasBegunPlay == EActorBeginPlayState::HasNotBegunPlay [File:D:\Build\++UE4+Release-4.19+Compile\Sync\Engine\Source\Runtime\Engine\Private\Actor.cpp] [Line: 3114]
+[2018.07.02-12.07.41:597][632]LogOutputDevice: Error: BeginPlay was called on actor /Temp/UEDPIE_1_Untitled_1.Untitled_1:PersistentLevel.BP_gameMode_C_0 which was in state 1
+[2018.07.02-12.07.41:597][632]LogOutputDevice: Error: Stack: 
+[2018.07.02-12.07.41:597][632]LogOutputDevice: Error: [Callstack] 0x00000000DD4AB706 UE4Editor-Core.dll!UnknownFunction []
+[2018.07.02-12.07.41:597][632]LogOutputDevice: Error: [Callstack] 0x00000000DD20AE3A UE4Editor-Core.dll!UnknownFunction []
+[2018.07.02-12.07.41:597][632]LogOutputDevice: Error: [Callstack] 0x00000000DD21ECD6 UE4Editor-Core.dll!UnknownFunction []
+[2018.07.02-12.07.41:597][632]LogOutputDevice: Error: [Callstack] 0x00000000D6F7A0E8 UE4Editor-Engine.dll!UnknownFunction []
+[2018.07.02-12.07.41:597][632]LogOutputDevice: Error: [Callstack] 0x00000000D6F872FB UE4Editor-Engine.dll!UnknownFunction []
+[2018.07.02-12.07.41:597][632]LogOutputDevice: Error: [Callstack] 0x00000000D823AE33 UE4Editor-Engine.dll!UnknownFunction []
+[2018.07.02-12.07.41:597][632]LogOutputDevice: Error: [Callstack] 0x00000000D770104C UE4Editor-Engine.dll!UnknownFunction []
+[2018.07.02-12.07.41:597][632]LogOutputDevice: Error: [Callstack] 0x00000000D771EF23 UE4Editor-Engine.dll!UnknownFunction []
+[2018.07.02-12.07.41:597][632]LogOutputDevice: Error: [Callstack] 0x00000000D7723B03 UE4Editor-Engine.dll!UnknownFunction []
+[2018.07.02-12.07.41:597][632]LogOutputDevice: Error: [Callstack] 0x00000000D770384F UE4Editor-Engine.dll!UnknownFunction []
+[2018.07.02-12.07.41:597][632]LogOutputDevice: Error: [Callstack] 0x00000000D73F6AB6 UE4Editor-Engine.dll!UnknownFunction []
+[2018.07.02-12.07.41:597][632]LogOutputDevice: Error: [Callstack] 0x00000000DCB1E094 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.07.02-12.07.41:597][632]LogOutputDevice: Error: [Callstack] 0x00000000DCD09D73 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.07.02-12.07.41:597][632]LogOutputDevice: Error: [Callstack] 0x00000000D6FBCCFB UE4Editor-Engine.dll!UnknownFunction []
+[2018.07.02-12.07.41:597][632]LogOutputDevice: Error: [Callstack] 0x00000000D831E149 UE4Editor-Engine.dll!UnknownFunction []
+[2018.07.02-12.07.41:597][632]LogOutputDevice: Error: [Callstack] 0x00000000D770F2D0 UE4Editor-Engine.dll!UnknownFunction []
+[2018.07.02-12.07.41:597][632]LogOutputDevice: Error: [Callstack] 0x00000000D7924A97 UE4Editor-Engine.dll!UnknownFunction []
+[2018.07.02-12.07.41:597][632]LogOutputDevice: Error: [Callstack] 0x00000000D7924354 UE4Editor-Engine.dll!UnknownFunction []
+[2018.07.02-12.07.41:597][632]LogOutputDevice: Error: [Callstack] 0x00000000D76ED62D UE4Editor-Engine.dll!UnknownFunction []
+[2018.07.02-12.07.41:597][632]LogOutputDevice: Error: [Callstack] 0x00000000D76ED844 UE4Editor-Engine.dll!UnknownFunction []
+[2018.07.02-12.07.41:597][632]LogOutputDevice: Error: [Callstack] 0x00000000D6FEEFBA UE4Editor-Engine.dll!UnknownFunction []
+[2018.07.02-12.07.41:597][632]LogOutputDevice: Error: [Callstack] 0x00000000DCB1E094 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.07.02-12.07.41:597][632]LogOutputDevice: Error: [Callstack] 0x00000000DCCF0781 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.07.02-12.07.41:598][632]LogOutputDevice: Error: [Callstack] 0x00000000DCD087B1 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.07.02-12.07.41:598][632]LogOutputDevice: Error: [Callstack] 0x00000000DCD341E4 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.07.02-12.07.41:598][632]LogOutputDevice: Error: [Callstack] 0x00000000DCD0AA82 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.07.02-12.07.41:598][632]LogOutputDevice: Error: [Callstack] 0x00000000DCCF11EE UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.07.02-12.07.41:598][632]LogOutputDevice: Error: [Callstack] 0x00000000DCD0AA82 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.07.02-12.07.41:598][632]LogOutputDevice: Error: [Callstack] 0x00000000DCCF11EE UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.07.02-12.07.41:598][632]LogOutputDevice: Error: [Callstack] 0x00000000DCD0AA82 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.07.02-12.07.41:598][632]LogOutputDevice: Error: [Callstack] 0x00000000DCB1E094 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.07.02-12.07.41:598][632]LogOutputDevice: Error: [Callstack] 0x00000000DCD09D73 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.07.02-12.07.41:598][632]LogOutputDevice: Error: [Callstack] 0x00000000D6FBCCFB UE4Editor-Engine.dll!UnknownFunction []
+[2018.07.02-12.07.41:598][632]LogOutputDevice: Error: [Callstack] 0x00000000D6F7A332 UE4Editor-Engine.dll!UnknownFunction []
+[2018.07.02-12.07.41:598][632]LogOutputDevice: Error: [Callstack] 0x00000000D6F872FB UE4Editor-Engine.dll!UnknownFunction []
+[2018.07.02-12.07.41:598][632]LogOutputDevice: Error: [Callstack] 0x00000000D823AE33 UE4Editor-Engine.dll!UnknownFunction []
+[2018.07.02-12.07.41:598][632]LogOutputDevice: Error: [Callstack] 0x00000000D771EF23 UE4Editor-Engine.dll!UnknownFunction []
+[2018.07.02-12.07.41:598][632]LogOutputDevice: Error: [Callstack] 0x00000000D7723B8B UE4Editor-Engine.dll!UnknownFunction []
+[2018.07.02-12.07.41:598][632]LogOutputDevice: Error: [Callstack] 0x00000000D822414E UE4Editor-Engine.dll!UnknownFunction []
+[2018.07.02-12.07.41:598][632]LogOutputDevice: Error: [Callstack] 0x00000000D772443E UE4Editor-Engine.dll!UnknownFunction []
+[2018.07.02-12.07.41:598][632]LogOutputDevice: Error: [Callstack] 0x00000000D4FD27E0 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.07.02-12.07.41:598][632]LogOutputDevice: Error: [Callstack] 0x00000000D500B40A UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.07.02-12.07.41:598][632]LogOutputDevice: Error: [Callstack] 0x00000000D4FF11EE UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.07.02-12.07.41:598][632]LogOutputDevice: Error: [Callstack] 0x00000000D500BBEF UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.07.02-12.07.41:598][632]LogOutputDevice: Error: [Callstack] 0x00000000D4A7C961 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.07.02-12.07.41:598][632]LogOutputDevice: Error: [Callstack] 0x00000000D5319626 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.07.02-12.07.41:598][632]LogOutputDevice: Error: [Callstack] 0x000000003F7D5EAC UE4Editor.exe!UnknownFunction []
+[2018.07.02-12.07.41:598][632]LogOutputDevice: Error: [Callstack] 0x000000003F7E6BD0 UE4Editor.exe!UnknownFunction []
+[2018.07.02-12.07.41:598][632]LogOutputDevice: Error: [Callstack] 0x000000003F7E6C4A UE4Editor.exe!UnknownFunction []
+[2018.07.02-12.07.41:598][632]LogOutputDevice: Error: [Callstack] 0x000000003F7F4177 UE4Editor.exe!UnknownFunction []
+[2018.07.02-12.07.41:598][632]LogOutputDevice: Error: [Callstack] 0x000000003F7F5B87 UE4Editor.exe!UnknownFunction []
+[2018.07.02-12.07.41:598][632]LogOutputDevice: Error: [Callstack] 0x00000000777759CD kernel32.dll!UnknownFunction []
+[2018.07.02-12.07.41:598][632]LogOutputDevice: Error: [Callstack] 0x00000000779D383D ntdll.dll!UnknownFunction []
+[2018.07.02-12.07.41:598][632]LogOutputDevice: Error: 
+[2018.07.02-12.07.41:605][632]LogStats:                SubmitErrorReport -  0.000 s
+[2018.07.02-12.07.42:031][632]LogStats:                    SendNewReport -  0.426 s
+[2018.07.02-12.07.42:031][632]LogStats:             FDebug::EnsureFailed -  0.533 s
+[2018.07.02-12.07.42:031][632]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 1,
+[2018.07.02-12.07.42:045][632]LogPlayerManagement: Error: Failed to Create Player: Maximum number of players (1) already created.  Unable to create more.
+[2018.07.02-12.07.42:045][632]LogPlayerManagement: Error: Failed to Create Player: Maximum number of players (1) already created.  Unable to create more.
+[2018.07.02-12.07.42:046][632]LogGameState: Match State Changed from EnteringMap to InProgress
+[2018.07.02-12.07.42:070][632]LogPlayerManagement: Error: Failed to Create Player: Maximum number of players (1) already created.  Unable to create more.
+[2018.07.02-12.07.42:071][632]LogPlayerManagement: Error: Failed to Create Player: Maximum number of players (1) already created.  Unable to create more.
+[2018.07.02-12.07.42:072][632]LogPlayerManagement: Error: Failed to Create Player: Maximum number of players (1) already created.  Unable to create more.
+[2018.07.02-12.07.42:072][632]LogGameState: Match State Changed from InProgress to WaitingToStart
+[2018.07.02-12.07.42:072][632]PIE: Play in editor start time for /Temp/UEDPIE_1_Untitled_1 0,019
+[2018.07.02-12.07.42:073][632]PIE: New page: PIE session: Untitled_1 (2 juil. 2018 16:07:42)
+[2018.07.02-12.07.42:092][632]LogInit: XAudio2 using 'Haut-parleurs (2- Razer Surround Audio Controller)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.07.02-12.07.42:098][632]LogInit: FAudioDevice initialized.
+[2018.07.02-12.07.42:144][632]LogNet: Browse: 127.0.0.1:17777//Engine/Maps/Entry
+[2018.07.02-12.07.42:144][632]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.07.02-12.07.42:144][632]LogTemp: Display: ParseSettings for IpNetDriver_7
+[2018.07.02-12.07.42:145][632]LogTemp: Display: ParseSettings for PendingNetDriver
+[2018.07.02-12.07.42:145][632]LogInit: WinSock: Socket queue 32768 / 32768
+[2018.07.02-12.07.42:145][632]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.07.02-12.07.42:145][632]LogNet: Game client on port 17777, rate 10000
+[2018.07.02-12.07.42:150][632]PIE: Play in editor start time for /Engine/Maps/Entry 0,096
+[2018.07.02-12.07.42:157][632]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:57573
+[2018.07.02-12.07.42:157][632]LogHandshake: SendConnectChallenge. Timestamp: 0.008368, Cookie: 055064234139158215224090234010014195055037154129088133165194
+[2018.07.02-12.07.42:159][632]LogHandshake: SendChallengeResponse. Timestamp: 0.008368, Cookie: 055064234139158215224090234010014195055037154129088133165194
+[2018.07.02-12.07.42:219][633]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:57573
+[2018.07.02-12.07.42:220][633]LogHandshake: SendChallengeAck. InCookie: 055064234139158215224090234010014195055037154129088133165194
+[2018.07.02-12.07.42:220][633]LogNet: Server accepting post-challenge connection from: 127.0.0.1:57573
+[2018.07.02-12.07.42:220][633]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.07.02-12.07.42:220][633]LogNet: NotifyAcceptedConnection: Name: Untitled_1, TimeStamp: 07/02/18 14:07:42, [UNetConnection] RemoteAddr: 127.0.0.1:57573, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_6, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.07.02-12.07.42:220][633]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:57573, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_6, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.07.02-12.07.42:221][633]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_6, Driver: PendingNetDriver IpNetDriver_7, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.07.02-12.07.42:234][634]LogNet: NotifyAcceptingChannel Control 0 server World /Temp/UEDPIE_1_Untitled_1.Untitled_1: Accepted
+[2018.07.02-12.07.42:234][634]LogNet: Remote platform little endian=1
+[2018.07.02-12.07.42:235][634]LogNet: This platform little endian=1
+[2018.07.02-12.07.42:244][635]LogNet: Login request: /Engine/Maps/Entry userId: Invalid
+[2018.07.02-12.07.42:245][635]LogNet: Welcomed by server (Level: /Temp/UEDPIE_1_Untitled_1, Game: /Game/Personnage/BP_gameMode.BP_gameMode_C)
+[2018.07.02-12.07.42:246][635]LogLoad: LoadMap: 127.0.0.1:17777//Temp/UEDPIE_1_Untitled_1?game=/Game/Personnage/BP_gameMode.BP_gameMode_C
+[2018.07.02-12.07.42:291][635]LogAIModule: Creating AISystem for world Untitled_1
+[2018.07.02-12.07.42:292][635]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.07.02-12.07.42:293][635]LogWorld: Bringing World /Temp/UEDPIE_2_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2018.07.02-14.07.42
+[2018.07.02-12.07.42:293][635]LogWorld: Bringing up level for play took: 0.000659
+[2018.07.02-12.07.42:293][635]LogLoad: Took 0.046948 seconds to LoadMap(/Temp/UEDPIE_1_Untitled_1)
+[2018.07.02-12.07.42:315][636]LogNet: Client netspeed is 10000
+[2018.07.02-12.07.42:315][636]LogNet: Join request: /Engine/Maps/Entry?SplitscreenCount=1
+[2018.07.02-12.07.42:318][636]LogNet: Join succeeded: 260
+[2018.07.02-12.07.49:723][434]LogSlate: Window 'DrunkFighting Game Preview Client 1 (64-bit/PCD3D_SM5)' being destroyed
+[2018.07.02-12.07.49:801][434]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:57573, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_6, IsServer: YES, PC: None, Owner: None, UniqueId: INVALID
+[2018.07.02-12.07.49:801][434]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:57573, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_6, IsServer: YES, PC: None, Owner: None, UniqueId: INVALID, Channels: 2, Time: 2018.07.02-12.07.49
+[2018.07.02-12.07.49:801][434]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:57573, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_6, IsServer: YES, PC: None, Owner: None, UniqueId: INVALID
+[2018.07.02-12.07.49:802][434]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_6, Driver: GameNetDriver IpNetDriver_7, IsServer: NO, PC: None, Owner: None, UniqueId: INVALID
+[2018.07.02-12.07.49:802][434]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_6, Driver: GameNetDriver IpNetDriver_7, IsServer: NO, PC: None, Owner: None, UniqueId: INVALID, Channels: 2, Time: 2018.07.02-12.07.49
+[2018.07.02-12.07.49:802][434]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_6, Driver: GameNetDriver IpNetDriver_7, IsServer: NO, PC: None, Owner: None, UniqueId: INVALID
+[2018.07.02-12.07.49:805][434]LogExit: GameNetDriver None shut down
+[2018.07.02-12.07.49:807][434]LogExit: GameNetDriver None shut down
+[2018.07.02-12.07.53:118][827]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.07.02-12.09.43:694][866]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.02-12.09.43:748][866]Cmd: OBJ SAVEPACKAGE PACKAGE="/Temp/Untitled_1" FILE="C:/Users/seb/Documents/GitHub/DrunkFighting/Saved/Autosaves/Temp/Untitled_1_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.07.02-12.09.43:793][866]LogSavePackage: Save=44.76ms
+[2018.07.02-12.09.43:793][866]LogSavePackage: Moving 'C:/Users/seb/Documents/GitHub/DrunkFighting/Saved/Untitled_1_Auto2AAC04AA944A76229C968FF97520DEA21.tmp' to 'C:/Users/seb/Documents/GitHub/DrunkFighting/Saved/Autosaves/Temp/Untitled_1_Auto2.umap'
+[2018.07.02-12.09.43:794][866]LogSavePackage: Display: Finished SavePackage C:/Users/seb/Documents/GitHub/DrunkFighting/Saved/Autosaves/Temp/Untitled_1_Auto2.umap
+[2018.07.02-12.09.43:796][866]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.088
+[2018.07.02-12.09.43:796][866]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.088
+[2018.07.02-12.10.40:693][522]LogEditorViewport: Clicking on Actor (LMB): BP_camera_C (BP_camera)
+[2018.07.02-12.11.10:818][930]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.02-12.11.10:901][940]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.07.02-12.11.10:926][940]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.02-12.11.10:926][940]PIE: New page: PIE session: Untitled_1 (2 juil. 2018 16:11:10)
+[2018.07.02-12.11.10:926][940]LogPlayLevel: Creating play world package: /Temp/UEDPIE_1_Untitled_1
+[2018.07.02-12.11.10:930][940]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003773s)
+[2018.07.02-12.11.10:931][940]LogAIModule: Creating AISystem for world Untitled_1
+[2018.07.02-12.11.10:931][940]LogPlayLevel: PIE: World Init took: (0.001115s)
+[2018.07.02-12.11.10:931][940]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_1_Untitled_1.Untitled_1 (0.005079s)
+[2018.07.02-12.11.11:000][940]LogLoad: Game class is 'BP_gameMode_C'
+[2018.07.02-12.11.11:002][940]LogWorld: Bringing World /Temp/UEDPIE_1_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2018.07.02-14.11.11
+[2018.07.02-12.11.11:002][940]LogWorld: Bringing up level for play took: 0.000751
+[2018.07.02-12.11.11:002][940]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.07.02-12.11.11:002][940]LogTemp: Display: ParseSettings for IpNetDriver_8
+[2018.07.02-12.11.11:002][940]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.07.02-12.11.11:002][940]LogInit: WinSock: Socket queue 131072 / 131072
+[2018.07.02-12.11.11:003][940]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.07.02-12.11.11:003][940]LogNet: GameNetDriver IpNetDriver_8 IpNetDriver listening on port 17777
+[2018.07.02-12.11.11:003][940]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.07.02-12.11.11:004][940]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.07.02-12.11.11:005][940]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2018.07.02-12.11.11:005][940]LogPlayerManagement: Error: Failed to Create Player: Maximum number of players (1) already created.  Unable to create more.
+[2018.07.02-12.11.11:006][940]LogPlayerManagement: Error: Failed to Create Player: Maximum number of players (1) already created.  Unable to create more.
+[2018.07.02-12.11.11:007][940]LogPlayerManagement: Error: Failed to Create Player: Maximum number of players (1) already created.  Unable to create more.
+[2018.07.02-12.11.11:007][940]LogGameState: Match State Changed from EnteringMap to InProgress
+[2018.07.02-12.11.11:008][940]LogPlayerManagement: Error: Failed to Create Player: Maximum number of players (1) already created.  Unable to create more.
+[2018.07.02-12.11.11:008][940]LogPlayerManagement: Error: Failed to Create Player: Maximum number of players (1) already created.  Unable to create more.
+[2018.07.02-12.11.11:009][940]LogPlayerManagement: Error: Failed to Create Player: Maximum number of players (1) already created.  Unable to create more.
+[2018.07.02-12.11.11:010][940]LogPlayerManagement: Error: Failed to Create Player: Maximum number of players (1) already created.  Unable to create more.
+[2018.07.02-12.11.11:011][940]LogGameState: Match State Changed from InProgress to WaitingToStart
+[2018.07.02-12.11.11:011][940]PIE: Play in editor start time for /Temp/UEDPIE_1_Untitled_1 0,955
+[2018.07.02-12.11.11:011][940]PIE: New page: PIE session: Untitled_1 (2 juil. 2018 16:11:11)
+[2018.07.02-12.11.11:031][940]LogInit: XAudio2 using 'Haut-parleurs (2- Razer Surround Audio Controller)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.07.02-12.11.11:037][940]LogInit: FAudioDevice initialized.
+[2018.07.02-12.11.11:086][940]LogNet: Browse: 127.0.0.1:17777//Engine/Maps/Entry
+[2018.07.02-12.11.11:086][940]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.07.02-12.11.11:086][940]LogTemp: Display: ParseSettings for IpNetDriver_9
+[2018.07.02-12.11.11:086][940]LogTemp: Display: ParseSettings for PendingNetDriver
+[2018.07.02-12.11.11:086][940]LogInit: WinSock: Socket queue 32768 / 32768
+[2018.07.02-12.11.11:087][940]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.07.02-12.11.11:087][940]LogNet: Game client on port 17777, rate 10000
+[2018.07.02-12.11.11:091][940]PIE: Play in editor start time for /Engine/Maps/Entry 1,036
+[2018.07.02-12.11.11:098][940]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:64658
+[2018.07.02-12.11.11:098][940]LogHandshake: SendConnectChallenge. Timestamp: 0.008334, Cookie: 047230228136208145086155026099023069051202157160148002219064
+[2018.07.02-12.11.11:101][940]LogHandshake: SendChallengeResponse. Timestamp: 0.008334, Cookie: 047230228136208145086155026099023069051202157160148002219064
+[2018.07.02-12.11.11:172][941]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:64658
+[2018.07.02-12.11.11:172][941]LogHandshake: SendChallengeAck. InCookie: 047230228136208145086155026099023069051202157160148002219064
+[2018.07.02-12.11.11:173][941]LogNet: Server accepting post-challenge connection from: 127.0.0.1:64658
+[2018.07.02-12.11.11:173][941]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.07.02-12.11.11:173][941]LogNet: NotifyAcceptedConnection: Name: Untitled_1, TimeStamp: 07/02/18 14:11:11, [UNetConnection] RemoteAddr: 127.0.0.1:64658, Name: IpConnection_9, Driver: GameNetDriver IpNetDriver_8, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.07.02-12.11.11:173][941]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:64658, Name: IpConnection_9, Driver: GameNetDriver IpNetDriver_8, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.07.02-12.11.11:174][941]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_8, Driver: PendingNetDriver IpNetDriver_9, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.07.02-12.11.11:183][942]LogNet: NotifyAcceptingChannel Control 0 server World /Temp/UEDPIE_1_Untitled_1.Untitled_1: Accepted
+[2018.07.02-12.11.11:183][942]LogNet: Remote platform little endian=1
+[2018.07.02-12.11.11:183][942]LogNet: This platform little endian=1
+[2018.07.02-12.11.11:191][943]LogNet: Login request: /Engine/Maps/Entry userId: Invalid
+[2018.07.02-12.11.11:192][943]LogNet: Welcomed by server (Level: /Temp/UEDPIE_1_Untitled_1, Game: /Game/Personnage/BP_gameMode.BP_gameMode_C)
+[2018.07.02-12.11.11:194][943]LogLoad: LoadMap: 127.0.0.1:17777//Temp/UEDPIE_1_Untitled_1?game=/Game/Personnage/BP_gameMode.BP_gameMode_C
+[2018.07.02-12.11.11:240][943]LogAIModule: Creating AISystem for world Untitled_1
+[2018.07.02-12.11.11:240][943]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.07.02-12.11.11:241][943]LogWorld: Bringing World /Temp/UEDPIE_2_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2018.07.02-14.11.11
+[2018.07.02-12.11.11:241][943]LogWorld: Bringing up level for play took: 0.000652
+[2018.07.02-12.11.11:242][943]LogLoad: Took 0.048071 seconds to LoadMap(/Temp/UEDPIE_1_Untitled_1)
+[2018.07.02-12.11.11:260][944]LogNet: Client netspeed is 10000
+[2018.07.02-12.11.11:260][944]LogNet: Join request: /Engine/Maps/Entry?SplitscreenCount=1
+[2018.07.02-12.11.11:263][944]LogNet: Join succeeded: 262
+[2018.07.02-12.11.19:246][828]LogSlate: Window 'DrunkFighting Game Preview Client 1 (64-bit/PCD3D_SM5)' being destroyed
+[2018.07.02-12.11.19:316][828]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:64658, Name: IpConnection_9, Driver: GameNetDriver IpNetDriver_8, IsServer: YES, PC: None, Owner: None, UniqueId: INVALID
+[2018.07.02-12.11.19:316][828]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:64658, Name: IpConnection_9, Driver: GameNetDriver IpNetDriver_8, IsServer: YES, PC: None, Owner: None, UniqueId: INVALID, Channels: 2, Time: 2018.07.02-12.11.19
+[2018.07.02-12.11.19:316][828]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:64658, Name: IpConnection_9, Driver: GameNetDriver IpNetDriver_8, IsServer: YES, PC: None, Owner: None, UniqueId: INVALID
+[2018.07.02-12.11.19:316][828]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_8, Driver: GameNetDriver IpNetDriver_9, IsServer: NO, PC: None, Owner: None, UniqueId: INVALID
+[2018.07.02-12.11.19:316][828]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_8, Driver: GameNetDriver IpNetDriver_9, IsServer: NO, PC: None, Owner: None, UniqueId: INVALID, Channels: 2, Time: 2018.07.02-12.11.19
+[2018.07.02-12.11.19:316][828]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_8, Driver: GameNetDriver IpNetDriver_9, IsServer: NO, PC: None, Owner: None, UniqueId: INVALID
+[2018.07.02-12.11.19:321][828]LogExit: GameNetDriver None shut down
+[2018.07.02-12.11.19:321][828]LogExit: GameNetDriver None shut down
+[2018.07.02-12.11.21:909][132]LogEditorViewport: Clicking on Actor (LMB): BP_camera_C (BP_camera)
+[2018.07.02-12.11.23:829][343]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.02-12.11.29:246][988]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.02-12.11.29:246][988]PIE: New page: PIE session: Untitled_1 (2 juil. 2018 16:11:29)
+[2018.07.02-12.11.29:246][988]LogPlayLevel: Creating play world package: /Temp/UEDPIE_1_Untitled_1
+[2018.07.02-12.11.29:250][988]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003791s)
+[2018.07.02-12.11.29:251][988]LogAIModule: Creating AISystem for world Untitled_1
+[2018.07.02-12.11.29:251][988]LogPlayLevel: PIE: World Init took: (0.001097s)
+[2018.07.02-12.11.29:251][988]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_1_Untitled_1.Untitled_1 (0.005034s)
+[2018.07.02-12.11.29:316][988]LogLoad: Game class is 'BP_gameMode_C'
+[2018.07.02-12.11.29:318][988]LogWorld: Bringing World /Temp/UEDPIE_1_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2018.07.02-14.11.29
+[2018.07.02-12.11.29:318][988]LogWorld: Bringing up level for play took: 0.000750
+[2018.07.02-12.11.29:318][988]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.07.02-12.11.29:318][988]LogTemp: Display: ParseSettings for IpNetDriver_10
+[2018.07.02-12.11.29:318][988]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.07.02-12.11.29:318][988]LogInit: WinSock: Socket queue 131072 / 131072
+[2018.07.02-12.11.29:319][988]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.07.02-12.11.29:319][988]LogNet: GameNetDriver IpNetDriver_10 IpNetDriver listening on port 17777
+[2018.07.02-12.11.29:319][988]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.07.02-12.11.29:320][988]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.07.02-12.11.29:320][988]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2018.07.02-12.11.29:321][988]LogPlayerManagement: Error: Failed to Create Player: Maximum number of players (1) already created.  Unable to create more.
+[2018.07.02-12.11.29:322][988]LogPlayerManagement: Error: Failed to Create Player: Maximum number of players (1) already created.  Unable to create more.
+[2018.07.02-12.11.29:322][988]LogPlayerManagement: Error: Failed to Create Player: Maximum number of players (1) already created.  Unable to create more.
+[2018.07.02-12.11.29:323][988]LogGameState: Match State Changed from EnteringMap to InProgress
+[2018.07.02-12.11.29:323][988]LogPlayerManagement: Error: Failed to Create Player: Maximum number of players (1) already created.  Unable to create more.
+[2018.07.02-12.11.29:324][988]LogPlayerManagement: Error: Failed to Create Player: Maximum number of players (1) already created.  Unable to create more.
+[2018.07.02-12.11.29:324][988]LogPlayerManagement: Error: Failed to Create Player: Maximum number of players (1) already created.  Unable to create more.
+[2018.07.02-12.11.29:325][988]LogPlayerManagement: Error: Failed to Create Player: Maximum number of players (1) already created.  Unable to create more.
+[2018.07.02-12.11.29:325][988]LogGameState: Match State Changed from InProgress to WaitingToStart
+[2018.07.02-12.11.29:325][988]PIE: Play in editor start time for /Temp/UEDPIE_1_Untitled_1 -0,73
+[2018.07.02-12.11.29:326][988]PIE: New page: PIE session: Untitled_1 (2 juil. 2018 16:11:29)
+[2018.07.02-12.11.29:345][988]LogInit: XAudio2 using 'Haut-parleurs (2- Razer Surround Audio Controller)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.07.02-12.11.29:350][988]LogInit: FAudioDevice initialized.
+[2018.07.02-12.11.29:350][988]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.02-12.11.29:379][988]LogNet: Browse: 127.0.0.1:17777//Engine/Maps/Entry
+[2018.07.02-12.11.29:379][988]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.07.02-12.11.29:380][988]LogTemp: Display: ParseSettings for IpNetDriver_11
+[2018.07.02-12.11.29:380][988]LogTemp: Display: ParseSettings for PendingNetDriver
+[2018.07.02-12.11.29:380][988]LogInit: WinSock: Socket queue 32768 / 32768
+[2018.07.02-12.11.29:380][988]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.07.02-12.11.29:380][988]LogNet: Game client on port 17777, rate 10000
+[2018.07.02-12.11.29:381][988]PIE: Play in editor start time for /Engine/Maps/Entry -0,675
+[2018.07.02-12.11.29:387][988]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:64659
+[2018.07.02-12.11.29:387][988]LogHandshake: SendConnectChallenge. Timestamp: 0.008333, Cookie: 146222123114220211182075048249072101227191174175050008020223
+[2018.07.02-12.11.29:389][988]LogHandshake: SendChallengeResponse. Timestamp: 0.008333, Cookie: 146222123114220211182075048249072101227191174175050008020223
+[2018.07.02-12.11.29:437][989]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:64659
+[2018.07.02-12.11.29:437][989]LogHandshake: SendChallengeAck. InCookie: 146222123114220211182075048249072101227191174175050008020223
+[2018.07.02-12.11.29:437][989]LogNet: Server accepting post-challenge connection from: 127.0.0.1:64659
+[2018.07.02-12.11.29:437][989]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.07.02-12.11.29:438][989]LogNet: NotifyAcceptedConnection: Name: Untitled_1, TimeStamp: 07/02/18 14:11:29, [UNetConnection] RemoteAddr: 127.0.0.1:64659, Name: IpConnection_11, Driver: GameNetDriver IpNetDriver_10, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.07.02-12.11.29:438][989]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:64659, Name: IpConnection_11, Driver: GameNetDriver IpNetDriver_10, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.07.02-12.11.29:438][989]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_10, Driver: PendingNetDriver IpNetDriver_11, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.07.02-12.11.29:445][990]LogNet: NotifyAcceptingChannel Control 0 server World /Temp/UEDPIE_1_Untitled_1.Untitled_1: Accepted
+[2018.07.02-12.11.29:446][990]LogNet: Remote platform little endian=1
+[2018.07.02-12.11.29:446][990]LogNet: This platform little endian=1
+[2018.07.02-12.11.29:454][991]LogNet: Login request: /Engine/Maps/Entry userId: Invalid
+[2018.07.02-12.11.29:454][991]LogNet: Welcomed by server (Level: /Temp/UEDPIE_1_Untitled_1, Game: /Game/Personnage/BP_gameMode.BP_gameMode_C)
+[2018.07.02-12.11.29:455][991]LogLoad: LoadMap: 127.0.0.1:17777//Temp/UEDPIE_1_Untitled_1?game=/Game/Personnage/BP_gameMode.BP_gameMode_C
+[2018.07.02-12.11.29:497][991]LogAIModule: Creating AISystem for world Untitled_1
+[2018.07.02-12.11.29:497][991]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.07.02-12.11.29:498][991]LogWorld: Bringing World /Temp/UEDPIE_2_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2018.07.02-14.11.29
+[2018.07.02-12.11.29:498][991]LogWorld: Bringing up level for play took: 0.000568
+[2018.07.02-12.11.29:498][991]LogLoad: Took 0.043671 seconds to LoadMap(/Temp/UEDPIE_1_Untitled_1)
+[2018.07.02-12.11.29:516][992]LogNet: Client netspeed is 10000
+[2018.07.02-12.11.29:516][992]LogNet: Join request: /Engine/Maps/Entry?SplitscreenCount=1
+[2018.07.02-12.11.29:519][992]LogNet: Join succeeded: 264
+[2018.07.02-12.11.32:103][284]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:64659, Name: IpConnection_11, Driver: GameNetDriver IpNetDriver_10, IsServer: YES, PC: None, Owner: None, UniqueId: INVALID
+[2018.07.02-12.11.32:103][284]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:64659, Name: IpConnection_11, Driver: GameNetDriver IpNetDriver_10, IsServer: YES, PC: None, Owner: None, UniqueId: INVALID, Channels: 2, Time: 2018.07.02-12.11.32
+[2018.07.02-12.11.32:103][284]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:64659, Name: IpConnection_11, Driver: GameNetDriver IpNetDriver_10, IsServer: YES, PC: None, Owner: None, UniqueId: INVALID
+[2018.07.02-12.11.32:103][284]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_10, Driver: GameNetDriver IpNetDriver_11, IsServer: NO, PC: None, Owner: None, UniqueId: INVALID
+[2018.07.02-12.11.32:103][284]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_10, Driver: GameNetDriver IpNetDriver_11, IsServer: NO, PC: None, Owner: None, UniqueId: INVALID, Channels: 2, Time: 2018.07.02-12.11.32
+[2018.07.02-12.11.32:103][284]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_10, Driver: GameNetDriver IpNetDriver_11, IsServer: NO, PC: None, Owner: None, UniqueId: INVALID
+[2018.07.02-12.11.32:107][284]LogExit: GameNetDriver None shut down
+[2018.07.02-12.11.32:108][284]LogExit: GameNetDriver None shut down
+[2018.07.02-12.12.02:725][922]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.07.02-12.12.18:009][702]BlueprintLog: New page: Compile BP_gameMode
+[2018.07.02-12.12.18:039][702]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000009f5d4a08, Size=4
+[2018.07.02-12.12.18:039][702]LogUObjectGlobals: Created PersistentFrame Addr=0x000000009f5d4a08, Size=4, BP_gameMode_C_9 Function /Engine/Transient.REINST_BP_gameMode_C_43:ExecuteUbergraph_BP_gameMode
+[2018.07.02-12.12.18:045][702]LogUObjectGlobals: Created PersistentFrame Addr=0x000000009f5d45f0, Size=4, Default__BP_gameMode_C Function /Game/Personnage/BP_gameMode.BP_gameMode_C:ExecuteUbergraph_BP_gameMode
+[2018.07.02-12.12.18:708][740]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Personnage/BP_gameMode" FILE="C:/Users/seb/Documents/GitHub/DrunkFighting/Content/Personnage/BP_gameMode.uasset" SILENT=true
+[2018.07.02-12.12.18:765][740]LogSavePackage: Save=37.10ms
+[2018.07.02-12.12.18:765][740]LogSavePackage: Moving 'C:/Users/seb/Documents/GitHub/DrunkFighting/Saved/BP_gameMode5591A1DC4C8E481FC2C7C8A2514D5369.tmp' to 'C:/Users/seb/Documents/GitHub/DrunkFighting/Content/Personnage/BP_gameMode.uasset'
+[2018.07.02-12.12.18:768][740]LogSavePackage: Display: Finished SavePackage C:/Users/seb/Documents/GitHub/DrunkFighting/Content/Personnage/BP_gameMode.uasset
+[2018.07.02-12.12.23:744][330]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Personnage/BP_gameMode" FILE="C:/Users/seb/Documents/GitHub/DrunkFighting/Content/Personnage/BP_gameMode.uasset" SILENT=true
+[2018.07.02-12.12.23:790][330]LogSavePackage: Save=37.32ms
+[2018.07.02-12.12.23:790][330]LogSavePackage: Moving 'C:/Users/seb/Documents/GitHub/DrunkFighting/Saved/BP_gameMode3D6A9D034110A413AD5F1DAF223DD3CB.tmp' to 'C:/Users/seb/Documents/GitHub/DrunkFighting/Content/Personnage/BP_gameMode.uasset'
+[2018.07.02-12.12.23:794][330]LogSavePackage: Display: Finished SavePackage C:/Users/seb/Documents/GitHub/DrunkFighting/Content/Personnage/BP_gameMode.uasset
+[2018.07.02-12.12.26:183][604]LogTemp: Repeating last play command: Selected Viewport
+[2018.07.02-12.12.26:209][604]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.02-12.12.26:209][604]PIE: New page: PIE session: Untitled_1 (2 juil. 2018 16:12:26)
+[2018.07.02-12.12.26:209][604]LogPlayLevel: Creating play world package: /Temp/UEDPIE_1_Untitled_1
+[2018.07.02-12.12.26:213][604]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004033s)
+[2018.07.02-12.12.26:214][604]LogAIModule: Creating AISystem for world Untitled_1
+[2018.07.02-12.12.26:214][604]LogPlayLevel: PIE: World Init took: (0.000932s)
+[2018.07.02-12.12.26:214][604]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_1_Untitled_1.Untitled_1 (0.005123s)
+[2018.07.02-12.12.26:251][604]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000009f5d4a08, Size=4
+[2018.07.02-12.12.26:254][604]LogLoad: Game class is 'BP_gameMode_C'
+[2018.07.02-12.12.26:255][604]LogWorld: Bringing World /Temp/UEDPIE_1_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2018.07.02-14.12.26
+[2018.07.02-12.12.26:255][604]LogWorld: Bringing up level for play took: 0.000750
+[2018.07.02-12.12.26:255][604]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.07.02-12.12.26:256][604]LogTemp: Display: ParseSettings for IpNetDriver_12
+[2018.07.02-12.12.26:256][604]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.07.02-12.12.26:256][604]LogInit: WinSock: Socket queue 131072 / 131072
+[2018.07.02-12.12.26:256][604]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.07.02-12.12.26:256][604]LogNet: GameNetDriver IpNetDriver_12 IpNetDriver listening on port 17777
+[2018.07.02-12.12.26:256][604]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.07.02-12.12.26:257][604]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.07.02-12.12.26:258][604]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2018.07.02-12.12.26:259][604]LogPlayerManagement: Error: Failed to Create Player: Maximum number of players (1) already created.  Unable to create more.
+[2018.07.02-12.12.26:259][604]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=81.500 Y=-250.000 Z=112.000] for [BP_PersonnageTest_C]
+[2018.07.02-12.12.26:259][604]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	BP_gameMode_C /Temp/UEDPIE_1_Untitled_1.Untitled_1:PersistentLevel.BP_gameMode_C_0
+	Function /Game/Personnage/BP_gameMode.BP_gameMode_C:spawnPlayers:04EC
+[2018.07.02-12.12.26:259][604]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue from function: 'spawnPlayers' from node: Possess in graph: spawnPlayers in object: BP_gameMode with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+[2018.07.02-12.12.26:260][604]LogPlayerManagement: Error: Failed to Create Player: Maximum number of players (1) already created.  Unable to create more.
+[2018.07.02-12.12.26:260][604]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	BP_gameMode_C /Temp/UEDPIE_1_Untitled_1.Untitled_1:PersistentLevel.BP_gameMode_C_0
+	Function /Game/Personnage/BP_gameMode.BP_gameMode_C:spawnPlayers:04EC
+[2018.07.02-12.12.26:261][604]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue from function: 'spawnPlayers' from node: Possess in graph: spawnPlayers in object: BP_gameMode with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+[2018.07.02-12.12.26:261][604]LogPlayerManagement: Error: Failed to Create Player: Maximum number of players (1) already created.  Unable to create more.
+[2018.07.02-12.12.26:261][604]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	BP_gameMode_C /Temp/UEDPIE_1_Untitled_1.Untitled_1:PersistentLevel.BP_gameMode_C_0
+	Function /Game/Personnage/BP_gameMode.BP_gameMode_C:spawnPlayers:04EC
+[2018.07.02-12.12.26:261][604]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue from function: 'spawnPlayers' from node: Possess in graph: spawnPlayers in object: BP_gameMode with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+[2018.07.02-12.12.26:262][604]LogGameState: Match State Changed from EnteringMap to InProgress
+[2018.07.02-12.12.26:262][604]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1.500 Y=0.000 Z=112.001] for [BP_PersonnageTest_C]
+[2018.07.02-12.12.26:262][604]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	BP_gameMode_C /Temp/UEDPIE_1_Untitled_1.Untitled_1:PersistentLevel.BP_gameMode_C_0
+	Function /Game/Personnage/BP_gameMode.BP_gameMode_C:spawnPlayers:04EC
+[2018.07.02-12.12.26:262][604]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue from function: 'spawnPlayers' from node: Possess in graph: spawnPlayers in object: BP_gameMode with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+[2018.07.02-12.12.26:263][604]LogPlayerManagement: Error: Failed to Create Player: Maximum number of players (1) already created.  Unable to create more.
+[2018.07.02-12.12.26:263][604]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=101.500 Y=370.000 Z=112.000] for [BP_PersonnageTest_C]
+[2018.07.02-12.12.26:263][604]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	BP_gameMode_C /Temp/UEDPIE_1_Untitled_1.Untitled_1:PersistentLevel.BP_gameMode_C_0
+	Function /Game/Personnage/BP_gameMode.BP_gameMode_C:spawnPlayers:04EC
+[2018.07.02-12.12.26:263][604]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue from function: 'spawnPlayers' from node: Possess in graph: spawnPlayers in object: BP_gameMode with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+[2018.07.02-12.12.26:263][604]LogPlayerManagement: Error: Failed to Create Player: Maximum number of players (1) already created.  Unable to create more.
+[2018.07.02-12.12.26:264][604]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=81.500 Y=-250.000 Z=112.000] for [BP_PersonnageTest_C]
+[2018.07.02-12.12.26:264][604]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	BP_gameMode_C /Temp/UEDPIE_1_Untitled_1.Untitled_1:PersistentLevel.BP_gameMode_C_0
+	Function /Game/Personnage/BP_gameMode.BP_gameMode_C:spawnPlayers:04EC
+[2018.07.02-12.12.26:264][604]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue from function: 'spawnPlayers' from node: Possess in graph: spawnPlayers in object: BP_gameMode with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+[2018.07.02-12.12.26:264][604]LogPlayerManagement: Error: Failed to Create Player: Maximum number of players (1) already created.  Unable to create more.
+[2018.07.02-12.12.26:265][604]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=91.500 Y=210.000 Z=112.000] for [BP_PersonnageTest_C]
+[2018.07.02-12.12.26:265][604]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	BP_gameMode_C /Temp/UEDPIE_1_Untitled_1.Untitled_1:PersistentLevel.BP_gameMode_C_0
+	Function /Game/Personnage/BP_gameMode.BP_gameMode_C:spawnPlayers:04EC
+[2018.07.02-12.12.26:265][604]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue from function: 'spawnPlayers' from node: Possess in graph: spawnPlayers in object: BP_gameMode with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+[2018.07.02-12.12.26:265][604]LogPlayerManagement: Error: Failed to Create Player: Maximum number of players (1) already created.  Unable to create more.
+[2018.07.02-12.12.26:266][604]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=101.500 Y=370.000 Z=112.000] for [BP_PersonnageTest_C]
+[2018.07.02-12.12.26:266][604]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	BP_gameMode_C /Temp/UEDPIE_1_Untitled_1.Untitled_1:PersistentLevel.BP_gameMode_C_0
+	Function /Game/Personnage/BP_gameMode.BP_gameMode_C:spawnPlayers:04EC
+[2018.07.02-12.12.26:266][604]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue from function: 'spawnPlayers' from node: Possess in graph: spawnPlayers in object: BP_gameMode with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+[2018.07.02-12.12.26:266][604]LogGameState: Match State Changed from InProgress to WaitingToStart
+[2018.07.02-12.12.26:266][604]PIE: Play in editor start time for /Temp/UEDPIE_1_Untitled_1 0,21
+[2018.07.02-12.12.26:266][604]PIE: New page: PIE session: Untitled_1 (2 juil. 2018 16:12:26)
+[2018.07.02-12.12.26:286][604]LogInit: XAudio2 using 'Haut-parleurs (2- Razer Surround Audio Controller)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.07.02-12.12.26:292][604]LogInit: FAudioDevice initialized.
+[2018.07.02-12.12.26:329][604]LogNet: Browse: 127.0.0.1:17777//Engine/Maps/Entry
+[2018.07.02-12.12.26:330][604]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.07.02-12.12.26:330][604]LogTemp: Display: ParseSettings for IpNetDriver_13
+[2018.07.02-12.12.26:330][604]LogTemp: Display: ParseSettings for PendingNetDriver
+[2018.07.02-12.12.26:330][604]LogInit: WinSock: Socket queue 32768 / 32768
+[2018.07.02-12.12.26:332][604]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.07.02-12.12.26:332][604]LogNet: Game client on port 17777, rate 10000
+[2018.07.02-12.12.26:332][604]PIE: Play in editor start time for /Engine/Maps/Entry 0,276
+[2018.07.02-12.12.26:348][604]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:53910
+[2018.07.02-12.12.26:348][604]LogHandshake: SendConnectChallenge. Timestamp: 0.008333, Cookie: 246071027088047171071191049240093099121140068176058238194168
+[2018.07.02-12.12.26:350][604]LogHandshake: SendChallengeResponse. Timestamp: 0.008333, Cookie: 246071027088047171071191049240093099121140068176058238194168
+[2018.07.02-12.12.26:396][605]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:53910
+[2018.07.02-12.12.26:396][605]LogHandshake: SendChallengeAck. InCookie: 246071027088047171071191049240093099121140068176058238194168
+[2018.07.02-12.12.26:396][605]LogNet: Server accepting post-challenge connection from: 127.0.0.1:53910
+[2018.07.02-12.12.26:397][605]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.07.02-12.12.26:397][605]LogNet: NotifyAcceptedConnection: Name: Untitled_1, TimeStamp: 07/02/18 14:12:26, [UNetConnection] RemoteAddr: 127.0.0.1:53910, Name: IpConnection_13, Driver: GameNetDriver IpNetDriver_12, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.07.02-12.12.26:397][605]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:53910, Name: IpConnection_13, Driver: GameNetDriver IpNetDriver_12, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.07.02-12.12.26:398][605]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_12, Driver: PendingNetDriver IpNetDriver_13, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.07.02-12.12.26:408][606]LogNet: NotifyAcceptingChannel Control 0 server World /Temp/UEDPIE_1_Untitled_1.Untitled_1: Accepted
+[2018.07.02-12.12.26:409][606]LogNet: Remote platform little endian=1
+[2018.07.02-12.12.26:409][606]LogNet: This platform little endian=1
+[2018.07.02-12.12.26:416][607]LogNet: Login request: /Engine/Maps/Entry userId: Invalid
+[2018.07.02-12.12.26:417][607]LogNet: Welcomed by server (Level: /Temp/UEDPIE_1_Untitled_1, Game: /Game/Personnage/BP_gameMode.BP_gameMode_C)
+[2018.07.02-12.12.26:417][607]LogLoad: LoadMap: 127.0.0.1:17777//Temp/UEDPIE_1_Untitled_1?game=/Game/Personnage/BP_gameMode.BP_gameMode_C
+[2018.07.02-12.12.26:459][607]LogAIModule: Creating AISystem for world Untitled_1
+[2018.07.02-12.12.26:459][607]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.07.02-12.12.26:460][607]LogWorld: Bringing World /Temp/UEDPIE_2_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2018.07.02-14.12.26
+[2018.07.02-12.12.26:460][607]LogWorld: Bringing up level for play took: 0.000580
+[2018.07.02-12.12.26:461][607]LogLoad: Took 0.043407 seconds to LoadMap(/Temp/UEDPIE_1_Untitled_1)
+[2018.07.02-12.12.26:477][608]LogNet: Client netspeed is 10000
+[2018.07.02-12.12.26:477][608]LogNet: Join request: /Engine/Maps/Entry?SplitscreenCount=1
+[2018.07.02-12.12.26:478][608]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.07.02-12.12.26:479][608]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1.500 Y=0.000 Z=108.000] for [BP_PersonnageTest_C]
+[2018.07.02-12.12.26:480][608]LogGameMode: Warning: SpawnDefaultPawnAtTransform: Couldn't spawn Pawn of type BP_PersonnageTest_C at Rotation: Pitch 0.000000 Yaw 0.000000 Roll 0.000000
+Translation: 0.000000 0.000000 0.000000
+Scale3D: 1.000000 1.000000 1.000000
+
+[2018.07.02-12.12.26:480][608]LogNet: Join succeeded: 266
+[2018.07.02-12.12.29:717][985]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:53910, Name: IpConnection_13, Driver: GameNetDriver IpNetDriver_12, IsServer: YES, PC: None, Owner: None, UniqueId: INVALID
+[2018.07.02-12.12.29:717][985]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:53910, Name: IpConnection_13, Driver: GameNetDriver IpNetDriver_12, IsServer: YES, PC: None, Owner: None, UniqueId: INVALID, Channels: 2, Time: 2018.07.02-12.12.29
+[2018.07.02-12.12.29:717][985]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:53910, Name: IpConnection_13, Driver: GameNetDriver IpNetDriver_12, IsServer: YES, PC: None, Owner: None, UniqueId: INVALID
+[2018.07.02-12.12.29:718][985]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_12, Driver: GameNetDriver IpNetDriver_13, IsServer: NO, PC: None, Owner: None, UniqueId: INVALID
+[2018.07.02-12.12.29:718][985]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_12, Driver: GameNetDriver IpNetDriver_13, IsServer: NO, PC: None, Owner: None, UniqueId: INVALID, Channels: 2, Time: 2018.07.02-12.12.29
+[2018.07.02-12.12.29:718][985]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_12, Driver: GameNetDriver IpNetDriver_13, IsServer: NO, PC: None, Owner: None, UniqueId: INVALID
+[2018.07.02-12.12.29:721][985]LogExit: GameNetDriver None shut down
+[2018.07.02-12.12.29:723][985]LogExit: GameNetDriver None shut down
+[2018.07.02-12.12.36:267][740]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.02-12.12.36:325][747]LogTemp: Repeating last play command: Selected Viewport
+[2018.07.02-12.12.36:350][747]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.02-12.12.36:350][747]PIE: New page: PIE session: Untitled_1 (2 juil. 2018 16:12:36)
+[2018.07.02-12.12.36:350][747]LogPlayLevel: Creating play world package: /Temp/UEDPIE_1_Untitled_1
+[2018.07.02-12.12.36:355][747]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004055s)
+[2018.07.02-12.12.36:355][747]LogAIModule: Creating AISystem for world Untitled_1
+[2018.07.02-12.12.36:355][747]LogPlayLevel: PIE: World Init took: (0.000911s)
+[2018.07.02-12.12.36:356][747]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_1_Untitled_1.Untitled_1 (0.005116s)
+[2018.07.02-12.12.36:393][747]LogLoad: Game class is 'BP_gameMode_C'
+[2018.07.02-12.12.36:395][747]LogWorld: Bringing World /Temp/UEDPIE_1_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2018.07.02-14.12.36
+[2018.07.02-12.12.36:395][747]LogWorld: Bringing up level for play took: 0.000748
+[2018.07.02-12.12.36:395][747]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.07.02-12.12.36:395][747]LogTemp: Display: ParseSettings for IpNetDriver_14
+[2018.07.02-12.12.36:395][747]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.07.02-12.12.36:395][747]LogInit: WinSock: Socket queue 131072 / 131072
+[2018.07.02-12.12.36:396][747]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.07.02-12.12.36:396][747]LogNet: GameNetDriver IpNetDriver_14 IpNetDriver listening on port 17777
+[2018.07.02-12.12.36:396][747]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.07.02-12.12.36:397][747]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.07.02-12.12.36:398][747]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2018.07.02-12.12.36:398][747]LogPlayerManagement: Error: Failed to Create Player: Maximum number of players (1) already created.  Unable to create more.
+[2018.07.02-12.12.36:399][747]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=81.500 Y=-250.000 Z=112.000] for [BP_PersonnageTest_C]
+[2018.07.02-12.12.36:399][747]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	BP_gameMode_C /Temp/UEDPIE_1_Untitled_1.Untitled_1:PersistentLevel.BP_gameMode_C_0
+	Function /Game/Personnage/BP_gameMode.BP_gameMode_C:spawnPlayers:04EC
+[2018.07.02-12.12.36:399][747]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue from function: 'spawnPlayers' from node: Possess in graph: spawnPlayers in object: BP_gameMode with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+[2018.07.02-12.12.36:399][747]LogPlayerManagement: Error: Failed to Create Player: Maximum number of players (1) already created.  Unable to create more.
+[2018.07.02-12.12.36:400][747]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	BP_gameMode_C /Temp/UEDPIE_1_Untitled_1.Untitled_1:PersistentLevel.BP_gameMode_C_0
+	Function /Game/Personnage/BP_gameMode.BP_gameMode_C:spawnPlayers:04EC
+[2018.07.02-12.12.36:400][747]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue from function: 'spawnPlayers' from node: Possess in graph: spawnPlayers in object: BP_gameMode with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+[2018.07.02-12.12.36:401][747]LogPlayerManagement: Error: Failed to Create Player: Maximum number of players (1) already created.  Unable to create more.
+[2018.07.02-12.12.36:401][747]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	BP_gameMode_C /Temp/UEDPIE_1_Untitled_1.Untitled_1:PersistentLevel.BP_gameMode_C_0
+	Function /Game/Personnage/BP_gameMode.BP_gameMode_C:spawnPlayers:04EC
+[2018.07.02-12.12.36:401][747]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue from function: 'spawnPlayers' from node: Possess in graph: spawnPlayers in object: BP_gameMode with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+[2018.07.02-12.12.36:401][747]LogGameState: Match State Changed from EnteringMap to InProgress
+[2018.07.02-12.12.36:402][747]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1.500 Y=0.000 Z=112.001] for [BP_PersonnageTest_C]
+[2018.07.02-12.12.36:402][747]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	BP_gameMode_C /Temp/UEDPIE_1_Untitled_1.Untitled_1:PersistentLevel.BP_gameMode_C_0
+	Function /Game/Personnage/BP_gameMode.BP_gameMode_C:spawnPlayers:04EC
+[2018.07.02-12.12.36:402][747]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue from function: 'spawnPlayers' from node: Possess in graph: spawnPlayers in object: BP_gameMode with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+[2018.07.02-12.12.36:402][747]LogPlayerManagement: Error: Failed to Create Player: Maximum number of players (1) already created.  Unable to create more.
+[2018.07.02-12.12.36:403][747]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=101.500 Y=370.000 Z=112.000] for [BP_PersonnageTest_C]
+[2018.07.02-12.12.36:403][747]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	BP_gameMode_C /Temp/UEDPIE_1_Untitled_1.Untitled_1:PersistentLevel.BP_gameMode_C_0
+	Function /Game/Personnage/BP_gameMode.BP_gameMode_C:spawnPlayers:04EC
+[2018.07.02-12.12.36:403][747]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue from function: 'spawnPlayers' from node: Possess in graph: spawnPlayers in object: BP_gameMode with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+[2018.07.02-12.12.36:403][747]LogPlayerManagement: Error: Failed to Create Player: Maximum number of players (1) already created.  Unable to create more.
+[2018.07.02-12.12.36:404][747]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=81.500 Y=-250.000 Z=112.000] for [BP_PersonnageTest_C]
+[2018.07.02-12.12.36:404][747]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	BP_gameMode_C /Temp/UEDPIE_1_Untitled_1.Untitled_1:PersistentLevel.BP_gameMode_C_0
+	Function /Game/Personnage/BP_gameMode.BP_gameMode_C:spawnPlayers:04EC
+[2018.07.02-12.12.36:404][747]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue from function: 'spawnPlayers' from node: Possess in graph: spawnPlayers in object: BP_gameMode with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+[2018.07.02-12.12.36:404][747]LogPlayerManagement: Error: Failed to Create Player: Maximum number of players (1) already created.  Unable to create more.
+[2018.07.02-12.12.36:405][747]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=91.500 Y=210.000 Z=112.000] for [BP_PersonnageTest_C]
+[2018.07.02-12.12.36:405][747]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	BP_gameMode_C /Temp/UEDPIE_1_Untitled_1.Untitled_1:PersistentLevel.BP_gameMode_C_0
+	Function /Game/Personnage/BP_gameMode.BP_gameMode_C:spawnPlayers:04EC
+[2018.07.02-12.12.36:405][747]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue from function: 'spawnPlayers' from node: Possess in graph: spawnPlayers in object: BP_gameMode with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+[2018.07.02-12.12.36:405][747]LogPlayerManagement: Error: Failed to Create Player: Maximum number of players (1) already created.  Unable to create more.
+[2018.07.02-12.12.36:405][747]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=101.500 Y=370.000 Z=112.000] for [BP_PersonnageTest_C]
+[2018.07.02-12.12.36:406][747]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	BP_gameMode_C /Temp/UEDPIE_1_Untitled_1.Untitled_1:PersistentLevel.BP_gameMode_C_0
+	Function /Game/Personnage/BP_gameMode.BP_gameMode_C:spawnPlayers:04EC
+[2018.07.02-12.12.36:406][747]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue from function: 'spawnPlayers' from node: Possess in graph: spawnPlayers in object: BP_gameMode with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+[2018.07.02-12.12.36:406][747]LogGameState: Match State Changed from InProgress to WaitingToStart
+[2018.07.02-12.12.36:406][747]PIE: Play in editor start time for /Temp/UEDPIE_1_Untitled_1 0,35
+[2018.07.02-12.12.36:406][747]PIE: New page: PIE session: Untitled_1 (2 juil. 2018 16:12:36)
+[2018.07.02-12.12.36:426][747]LogInit: XAudio2 using 'Haut-parleurs (2- Razer Surround Audio Controller)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.07.02-12.12.36:432][747]LogInit: FAudioDevice initialized.
+[2018.07.02-12.12.36:465][747]LogNet: Browse: 127.0.0.1:17777//Engine/Maps/Entry
+[2018.07.02-12.12.36:465][747]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.07.02-12.12.36:465][747]LogTemp: Display: ParseSettings for IpNetDriver_15
+[2018.07.02-12.12.36:465][747]LogTemp: Display: ParseSettings for PendingNetDriver
+[2018.07.02-12.12.36:465][747]LogInit: WinSock: Socket queue 32768 / 32768
+[2018.07.02-12.12.36:466][747]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.07.02-12.12.36:466][747]LogNet: Game client on port 17777, rate 10000
+[2018.07.02-12.12.36:466][747]PIE: Play in editor start time for /Engine/Maps/Entry 0,41
+[2018.07.02-12.12.36:472][747]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:53911
+[2018.07.02-12.12.36:472][747]LogHandshake: SendConnectChallenge. Timestamp: 0.008333, Cookie: 026155010003104076134137242219074156057102132086197213083245
+[2018.07.02-12.12.36:474][747]LogHandshake: SendChallengeResponse. Timestamp: 0.008333, Cookie: 026155010003104076134137242219074156057102132086197213083245
+[2018.07.02-12.12.36:508][748]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:53911
+[2018.07.02-12.12.36:508][748]LogHandshake: SendChallengeAck. InCookie: 026155010003104076134137242219074156057102132086197213083245
+[2018.07.02-12.12.36:508][748]LogNet: Server accepting post-challenge connection from: 127.0.0.1:53911
+[2018.07.02-12.12.36:508][748]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.07.02-12.12.36:508][748]LogNet: NotifyAcceptedConnection: Name: Untitled_1, TimeStamp: 07/02/18 14:12:36, [UNetConnection] RemoteAddr: 127.0.0.1:53911, Name: IpConnection_15, Driver: GameNetDriver IpNetDriver_14, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.07.02-12.12.36:508][748]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:53911, Name: IpConnection_15, Driver: GameNetDriver IpNetDriver_14, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.07.02-12.12.36:509][748]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_14, Driver: PendingNetDriver IpNetDriver_15, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.07.02-12.12.36:516][749]LogNet: NotifyAcceptingChannel Control 0 server World /Temp/UEDPIE_1_Untitled_1.Untitled_1: Accepted
+[2018.07.02-12.12.36:516][749]LogNet: Remote platform little endian=1
+[2018.07.02-12.12.36:516][749]LogNet: This platform little endian=1
+[2018.07.02-12.12.36:525][750]LogNet: Login request: /Engine/Maps/Entry userId: Invalid
+[2018.07.02-12.12.36:525][750]LogNet: Welcomed by server (Level: /Temp/UEDPIE_1_Untitled_1, Game: /Game/Personnage/BP_gameMode.BP_gameMode_C)
+[2018.07.02-12.12.36:526][750]LogLoad: LoadMap: 127.0.0.1:17777//Temp/UEDPIE_1_Untitled_1?game=/Game/Personnage/BP_gameMode.BP_gameMode_C
+[2018.07.02-12.12.36:568][750]LogAIModule: Creating AISystem for world Untitled_1
+[2018.07.02-12.12.36:568][750]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.07.02-12.12.36:569][750]LogWorld: Bringing World /Temp/UEDPIE_2_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2018.07.02-14.12.36
+[2018.07.02-12.12.36:570][750]LogWorld: Bringing up level for play took: 0.000669
+[2018.07.02-12.12.36:570][750]LogLoad: Took 0.044562 seconds to LoadMap(/Temp/UEDPIE_1_Untitled_1)
+[2018.07.02-12.12.36:587][751]LogNet: Client netspeed is 10000
+[2018.07.02-12.12.36:587][751]LogNet: Join request: /Engine/Maps/Entry?SplitscreenCount=1
+[2018.07.02-12.12.36:588][751]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.07.02-12.12.36:589][751]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1.500 Y=0.000 Z=108.000] for [BP_PersonnageTest_C]
+[2018.07.02-12.12.36:589][751]LogGameMode: Warning: SpawnDefaultPawnAtTransform: Couldn't spawn Pawn of type BP_PersonnageTest_C at Rotation: Pitch 0.000000 Yaw 0.000000 Roll 0.000000
+Translation: 0.000000 0.000000 0.000000
+Scale3D: 1.000000 1.000000 1.000000
+
+[2018.07.02-12.12.36:589][751]LogNet: Join succeeded: 268
+[2018.07.02-12.12.40:352][189]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:53911, Name: IpConnection_15, Driver: GameNetDriver IpNetDriver_14, IsServer: YES, PC: None, Owner: None, UniqueId: INVALID
+[2018.07.02-12.12.40:352][189]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:53911, Name: IpConnection_15, Driver: GameNetDriver IpNetDriver_14, IsServer: YES, PC: None, Owner: None, UniqueId: INVALID, Channels: 2, Time: 2018.07.02-12.12.40
+[2018.07.02-12.12.40:352][189]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:53911, Name: IpConnection_15, Driver: GameNetDriver IpNetDriver_14, IsServer: YES, PC: None, Owner: None, UniqueId: INVALID
+[2018.07.02-12.12.40:352][189]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_14, Driver: GameNetDriver IpNetDriver_15, IsServer: NO, PC: None, Owner: None, UniqueId: INVALID
+[2018.07.02-12.12.40:352][189]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_14, Driver: GameNetDriver IpNetDriver_15, IsServer: NO, PC: None, Owner: None, UniqueId: INVALID, Channels: 2, Time: 2018.07.02-12.12.40
+[2018.07.02-12.12.40:352][189]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_14, Driver: GameNetDriver IpNetDriver_15, IsServer: NO, PC: None, Owner: None, UniqueId: INVALID
+[2018.07.02-12.12.40:355][189]LogExit: GameNetDriver None shut down
+[2018.07.02-12.12.40:356][189]LogExit: GameNetDriver None shut down
+[2018.07.02-12.13.42:915][675]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.02-12.20.03:085][905]Cmd: OBJ SAVEPACKAGE PACKAGE="/Temp/Untitled_1" FILE="C:/Users/seb/Documents/GitHub/DrunkFighting/Saved/Autosaves/Temp/Untitled_1_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.07.02-12.20.03:134][905]LogSavePackage: Save=48.71ms
+[2018.07.02-12.20.03:134][905]LogSavePackage: Moving 'C:/Users/seb/Documents/GitHub/DrunkFighting/Saved/Untitled_1_Auto3E3CF813149D86C70ABE296B89CF3710B.tmp' to 'C:/Users/seb/Documents/GitHub/DrunkFighting/Saved/Autosaves/Temp/Untitled_1_Auto3.umap'
+[2018.07.02-12.20.03:136][905]LogSavePackage: Display: Finished SavePackage C:/Users/seb/Documents/GitHub/DrunkFighting/Saved/Autosaves/Temp/Untitled_1_Auto3.umap
+[2018.07.02-12.20.03:138][905]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.096
+[2018.07.02-12.20.03:138][905]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.096
+[2018.07.02-12.30.00:899][690]LogTemp: Repeating last play command: Selected Viewport
+[2018.07.02-12.30.00:926][690]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.02-12.30.00:926][690]PIE: New page: PIE session: Untitled_1 (2 juil. 2018 16:30:00)
+[2018.07.02-12.30.00:927][690]LogPlayLevel: Creating play world package: /Temp/UEDPIE_1_Untitled_1
+[2018.07.02-12.30.00:931][690]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004478s)
+[2018.07.02-12.30.00:932][690]LogAIModule: Creating AISystem for world Untitled_1
+[2018.07.02-12.30.00:932][690]LogPlayLevel: PIE: World Init took: (0.001072s)
+[2018.07.02-12.30.00:932][690]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_1_Untitled_1.Untitled_1 (0.005722s)
+[2018.07.02-12.30.00:973][690]LogLoad: Game class is 'BP_gameMode_C'
+[2018.07.02-12.30.00:974][690]LogWorld: Bringing World /Temp/UEDPIE_1_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2018.07.02-14.30.00
+[2018.07.02-12.30.00:974][690]LogWorld: Bringing up level for play took: 0.000792
+[2018.07.02-12.30.00:975][690]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.07.02-12.30.00:975][690]LogTemp: Display: ParseSettings for IpNetDriver_16
+[2018.07.02-12.30.00:975][690]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.07.02-12.30.00:975][690]LogInit: WinSock: Socket queue 131072 / 131072
+[2018.07.02-12.30.00:976][690]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.07.02-12.30.00:976][690]LogNet: GameNetDriver IpNetDriver_16 IpNetDriver listening on port 17777
+[2018.07.02-12.30.00:976][690]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.07.02-12.30.00:976][690]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.07.02-12.30.00:977][690]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2018.07.02-12.30.00:978][690]LogPlayerManagement: Error: Failed to Create Player: Maximum number of players (1) already created.  Unable to create more.
+[2018.07.02-12.30.00:978][690]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=81.500 Y=-250.000 Z=112.000] for [BP_PersonnageTest_C]
+[2018.07.02-12.30.00:979][690]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	BP_gameMode_C /Temp/UEDPIE_1_Untitled_1.Untitled_1:PersistentLevel.BP_gameMode_C_0
+	Function /Game/Personnage/BP_gameMode.BP_gameMode_C:spawnPlayers:04EC
+[2018.07.02-12.30.00:979][690]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue from function: 'spawnPlayers' from node: Possess in graph: spawnPlayers in object: BP_gameMode with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+[2018.07.02-12.30.00:979][690]LogPlayerManagement: Error: Failed to Create Player: Maximum number of players (1) already created.  Unable to create more.
+[2018.07.02-12.30.00:980][690]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue from function: 'spawnPlayers' from node: Possess in graph: spawnPlayers in object: BP_gameMode with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+[2018.07.02-12.30.00:980][690]LogPlayerManagement: Error: Failed to Create Player: Maximum number of players (1) already created.  Unable to create more.
+[2018.07.02-12.30.00:981][690]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue from function: 'spawnPlayers' from node: Possess in graph: spawnPlayers in object: BP_gameMode with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+[2018.07.02-12.30.00:981][690]LogGameState: Match State Changed from EnteringMap to InProgress
+[2018.07.02-12.30.00:982][690]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1.500 Y=0.000 Z=112.001] for [BP_PersonnageTest_C]
+[2018.07.02-12.30.00:982][690]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue from function: 'spawnPlayers' from node: Possess in graph: spawnPlayers in object: BP_gameMode with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+[2018.07.02-12.30.00:982][690]LogPlayerManagement: Error: Failed to Create Player: Maximum number of players (1) already created.  Unable to create more.
+[2018.07.02-12.30.00:983][690]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=101.500 Y=370.000 Z=112.000] for [BP_PersonnageTest_C]
+[2018.07.02-12.30.00:983][690]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue from function: 'spawnPlayers' from node: Possess in graph: spawnPlayers in object: BP_gameMode with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+[2018.07.02-12.30.00:983][690]LogPlayerManagement: Error: Failed to Create Player: Maximum number of players (1) already created.  Unable to create more.
+[2018.07.02-12.30.00:984][690]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=81.500 Y=-250.000 Z=112.000] for [BP_PersonnageTest_C]
+[2018.07.02-12.30.00:984][690]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue from function: 'spawnPlayers' from node: Possess in graph: spawnPlayers in object: BP_gameMode with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+[2018.07.02-12.30.00:984][690]LogPlayerManagement: Error: Failed to Create Player: Maximum number of players (1) already created.  Unable to create more.
+[2018.07.02-12.30.00:985][690]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=91.500 Y=210.000 Z=112.000] for [BP_PersonnageTest_C]
+[2018.07.02-12.30.00:985][690]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue from function: 'spawnPlayers' from node: Possess in graph: spawnPlayers in object: BP_gameMode with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+[2018.07.02-12.30.00:985][690]LogPlayerManagement: Error: Failed to Create Player: Maximum number of players (1) already created.  Unable to create more.
+[2018.07.02-12.30.00:985][690]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=101.500 Y=370.000 Z=112.000] for [BP_PersonnageTest_C]
+[2018.07.02-12.30.00:986][690]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue from function: 'spawnPlayers' from node: Possess in graph: spawnPlayers in object: BP_gameMode with description: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+[2018.07.02-12.30.00:986][690]LogGameState: Match State Changed from InProgress to WaitingToStart
+[2018.07.02-12.30.00:986][690]PIE: Play in editor start time for /Temp/UEDPIE_1_Untitled_1 0,928
+[2018.07.02-12.30.00:986][690]PIE: New page: PIE session: Untitled_1 (2 juil. 2018 16:30:00)
+[2018.07.02-12.30.01:006][690]LogInit: XAudio2 using 'Haut-parleurs (2- Razer Surround Audio Controller)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.07.02-12.30.01:012][690]LogInit: FAudioDevice initialized.
+[2018.07.02-12.30.01:046][690]LogNet: Browse: 127.0.0.1:17777//Engine/Maps/Entry
+[2018.07.02-12.30.01:047][690]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.07.02-12.30.01:047][690]LogTemp: Display: ParseSettings for IpNetDriver_17
+[2018.07.02-12.30.01:047][690]LogTemp: Display: ParseSettings for PendingNetDriver
+[2018.07.02-12.30.01:047][690]LogInit: WinSock: Socket queue 32768 / 32768
+[2018.07.02-12.30.01:048][690]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.07.02-12.30.01:048][690]LogNet: Game client on port 17777, rate 10000
+[2018.07.02-12.30.01:048][690]PIE: Play in editor start time for /Engine/Maps/Entry 0,99
+[2018.07.02-12.30.01:055][690]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:53919
+[2018.07.02-12.30.01:055][690]LogHandshake: SendConnectChallenge. Timestamp: 0.008334, Cookie: 192208087155168118126098163006107209247213123104022045225055
+[2018.07.02-12.30.01:056][690]LogHandshake: SendChallengeResponse. Timestamp: 0.008334, Cookie: 192208087155168118126098163006107209247213123104022045225055
+[2018.07.02-12.30.01:096][691]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:53919
+[2018.07.02-12.30.01:096][691]LogHandshake: SendChallengeAck. InCookie: 192208087155168118126098163006107209247213123104022045225055
+[2018.07.02-12.30.01:096][691]LogNet: Server accepting post-challenge connection from: 127.0.0.1:53919
+[2018.07.02-12.30.01:096][691]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.07.02-12.30.01:096][691]LogNet: NotifyAcceptedConnection: Name: Untitled_1, TimeStamp: 07/02/18 14:30:01, [UNetConnection] RemoteAddr: 127.0.0.1:53919, Name: IpConnection_17, Driver: GameNetDriver IpNetDriver_16, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.07.02-12.30.01:096][691]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:53919, Name: IpConnection_17, Driver: GameNetDriver IpNetDriver_16, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.07.02-12.30.01:097][691]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_16, Driver: PendingNetDriver IpNetDriver_17, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.07.02-12.30.01:105][692]LogNet: NotifyAcceptingChannel Control 0 server World /Temp/UEDPIE_1_Untitled_1.Untitled_1: Accepted
+[2018.07.02-12.30.01:105][692]LogNet: Remote platform little endian=1
+[2018.07.02-12.30.01:105][692]LogNet: This platform little endian=1
+[2018.07.02-12.30.01:113][693]LogNet: Login request: /Engine/Maps/Entry userId: Invalid
+[2018.07.02-12.30.01:114][693]LogNet: Welcomed by server (Level: /Temp/UEDPIE_1_Untitled_1, Game: /Game/Personnage/BP_gameMode.BP_gameMode_C)
+[2018.07.02-12.30.01:115][693]LogLoad: LoadMap: 127.0.0.1:17777//Temp/UEDPIE_1_Untitled_1?game=/Game/Personnage/BP_gameMode.BP_gameMode_C
+[2018.07.02-12.30.01:162][693]LogAIModule: Creating AISystem for world Untitled_1
+[2018.07.02-12.30.01:162][693]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.07.02-12.30.01:163][693]LogWorld: Bringing World /Temp/UEDPIE_2_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2018.07.02-14.30.01
+[2018.07.02-12.30.01:164][693]LogWorld: Bringing up level for play took: 0.000792
+[2018.07.02-12.30.01:164][693]LogLoad: Took 0.049316 seconds to LoadMap(/Temp/UEDPIE_1_Untitled_1)
+[2018.07.02-12.30.01:182][694]LogNet: Client netspeed is 10000
+[2018.07.02-12.30.01:182][694]LogNet: Join request: /Engine/Maps/Entry?SplitscreenCount=1
+[2018.07.02-12.30.01:183][694]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.07.02-12.30.01:185][694]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1.500 Y=0.000 Z=108.000] for [BP_PersonnageTest_C]
+[2018.07.02-12.30.01:185][694]LogGameMode: Warning: SpawnDefaultPawnAtTransform: Couldn't spawn Pawn of type BP_PersonnageTest_C at Rotation: Pitch 0.000000 Yaw 0.000000 Roll 0.000000
+Translation: 0.000000 0.000000 0.000000
+Scale3D: 1.000000 1.000000 1.000000
+
+[2018.07.02-12.30.01:185][694]LogNet: Join succeeded: 270
+[2018.07.02-12.30.07:250][403]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.02-12.30.08:721][570]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.02-12.30.11:852][926]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:53919, Name: IpConnection_17, Driver: GameNetDriver IpNetDriver_16, IsServer: YES, PC: None, Owner: None, UniqueId: INVALID
+[2018.07.02-12.30.11:852][926]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:53919, Name: IpConnection_17, Driver: GameNetDriver IpNetDriver_16, IsServer: YES, PC: None, Owner: None, UniqueId: INVALID, Channels: 2, Time: 2018.07.02-12.30.11
+[2018.07.02-12.30.11:852][926]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:53919, Name: IpConnection_17, Driver: GameNetDriver IpNetDriver_16, IsServer: YES, PC: None, Owner: None, UniqueId: INVALID
+[2018.07.02-12.30.11:852][926]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_16, Driver: GameNetDriver IpNetDriver_17, IsServer: NO, PC: None, Owner: None, UniqueId: INVALID
+[2018.07.02-12.30.11:852][926]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_16, Driver: GameNetDriver IpNetDriver_17, IsServer: NO, PC: None, Owner: None, UniqueId: INVALID, Channels: 2, Time: 2018.07.02-12.30.11
+[2018.07.02-12.30.11:852][926]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_16, Driver: GameNetDriver IpNetDriver_17, IsServer: NO, PC: None, Owner: None, UniqueId: INVALID
+[2018.07.02-12.30.11:855][926]LogExit: GameNetDriver None shut down
+[2018.07.02-12.30.11:856][926]LogExit: GameNetDriver None shut down
+[2018.07.02-12.30.12:748][ 19]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.02-12.31.33:541][ 35]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.07.02-12.31.33:609][ 35]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.069 s
+[2018.07.02-12.31.33:609][ 35]LogOutputDevice: Error: === Handled ensure: ===
+[2018.07.02-12.31.33:609][ 35]LogOutputDevice: Error: 
+[2018.07.02-12.31.33:609][ 35]LogOutputDevice: Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.19+Compile\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetDebugUtilities.cpp] [Line: 1108]
+[2018.07.02-12.31.33:609][ 35]LogOutputDevice: Error: Error: Invalid (but non-null) property associated with pin; cannot get variable value
+[2018.07.02-12.31.33:610][ 35]LogOutputDevice: Error: Stack: 
+[2018.07.02-12.31.33:610][ 35]LogOutputDevice: Error: [Callstack] 0x00000000DD4AB706 UE4Editor-Core.dll!UnknownFunction []
+[2018.07.02-12.31.33:610][ 35]LogOutputDevice: Error: [Callstack] 0x00000000DD20AE3A UE4Editor-Core.dll!UnknownFunction []
+[2018.07.02-12.31.33:610][ 35]LogOutputDevice: Error: [Callstack] 0x00000000DD21ECD6 UE4Editor-Core.dll!UnknownFunction []
+[2018.07.02-12.31.33:610][ 35]LogOutputDevice: Error: [Callstack] 0x00000000D4EB3DF6 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.07.02-12.31.33:610][ 35]LogOutputDevice: Error: [Callstack] 0x00000000D264B2A8 UE4Editor-BlueprintGraph.dll!UnknownFunction []
+[2018.07.02-12.31.33:610][ 35]LogOutputDevice: Error: [Callstack] 0x00000000D2C9C22A UE4Editor-GraphEditor.dll!UnknownFunction []
+[2018.07.02-12.31.33:610][ 35]LogOutputDevice: Error: [Callstack] 0x00000000D2B277AC UE4Editor-GraphEditor.dll!UnknownFunction []
+[2018.07.02-12.31.33:610][ 35]LogOutputDevice: Error: [Callstack] 0x00000000D2B2AEC9 UE4Editor-GraphEditor.dll!UnknownFunction []
+[2018.07.02-12.31.33:610][ 35]LogOutputDevice: Error: [Callstack] 0x00000000D2C66E65 UE4Editor-GraphEditor.dll!UnknownFunction []
+[2018.07.02-12.31.33:610][ 35]LogOutputDevice: Error: [Callstack] 0x00000000DC116057 UE4Editor-Slate.dll!UnknownFunction []
+[2018.07.02-12.31.33:610][ 35]LogOutputDevice: Error: [Callstack] 0x00000000DC11BB51 UE4Editor-Slate.dll!UnknownFunction []
+[2018.07.02-12.31.33:610][ 35]LogOutputDevice: Error: [Callstack] 0x00000000DC34C253 UE4Editor-Slate.dll!UnknownFunction []
+[2018.07.02-12.31.33:610][ 35]LogOutputDevice: Error: [Callstack] 0x00000000DC170475 UE4Editor-Slate.dll!UnknownFunction []
+[2018.07.02-12.31.33:611][ 35]LogOutputDevice: Error: [Callstack] 0x00000000DC148360 UE4Editor-Slate.dll!UnknownFunction []
+[2018.07.02-12.31.33:611][ 35]LogOutputDevice: Error: [Callstack] 0x00000000DC13B197 UE4Editor-Slate.dll!UnknownFunction []
+[2018.07.02-12.31.33:611][ 35]LogOutputDevice: Error: [Callstack] 0x00000000E0FEE4EE UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.07.02-12.31.33:611][ 35]LogOutputDevice: Error: [Callstack] 0x00000000E0FE1B78 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.07.02-12.31.33:611][ 35]LogOutputDevice: Error: [Callstack] 0x00000000E0FF052C UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.07.02-12.31.33:611][ 35]LogOutputDevice: Error: [Callstack] 0x00000000E0FDD679 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.07.02-12.31.33:611][ 35]LogOutputDevice: Error: [Callstack] 0x0000000077899BBD USER32.dll!UnknownFunction []
+[2018.07.02-12.31.33:611][ 35]LogOutputDevice: Error: [Callstack] 0x00000000778998C2 USER32.dll!UnknownFunction []
+[2018.07.02-12.31.33:611][ 35]LogOutputDevice: Error: [Callstack] 0x00000000E0FF1666 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.07.02-12.31.33:611][ 35]LogOutputDevice: Error: [Callstack] 0x000000003F7D5475 UE4Editor.exe!UnknownFunction []
+[2018.07.02-12.31.33:611][ 35]LogOutputDevice: Error: [Callstack] 0x000000003F7E6BD0 UE4Editor.exe!UnknownFunction []
+[2018.07.02-12.31.33:611][ 35]LogOutputDevice: Error: [Callstack] 0x000000003F7E6C4A UE4Editor.exe!UnknownFunction []
+[2018.07.02-12.31.33:611][ 35]LogOutputDevice: Error: [Callstack] 0x000000003F7F4177 UE4Editor.exe!UnknownFunction []
+[2018.07.02-12.31.33:611][ 35]LogOutputDevice: Error: [Callstack] 0x000000003F7F5B87 UE4Editor.exe!UnknownFunction []
+[2018.07.02-12.31.33:611][ 35]LogOutputDevice: Error: [Callstack] 0x00000000777759CD kernel32.dll!UnknownFunction []
+[2018.07.02-12.31.33:611][ 35]LogOutputDevice: Error: [Callstack] 0x00000000779D383D ntdll.dll!UnknownFunction []
+[2018.07.02-12.31.33:611][ 35]LogOutputDevice: Error: 
+[2018.07.02-12.31.33:620][ 35]LogStats:                SubmitErrorReport -  0.000 s
